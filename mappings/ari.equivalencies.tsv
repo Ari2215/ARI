@@ -1424,11 +1424,8 @@ ARI	0001205	Ulcerative colitis	skos:exactMatch	umls	C0375359	manual-negative	git
 ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	ncit	C85218	manual-negative	github:medinatinajeropablo-dot
 ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	umls	C0042170	manual	github:medinatinajeropablo-dot
 ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	omop	36713763	manual-negative	github:medinatinajeropablo-dot
-ARI	0001205	Ulcerative colitis	skos:exactMatch	icd10cm	556.5	manual-negative	github:medinatinajeropablo-dot
-ARI	0001205	Ulcerative colitis	skos:exactMatch	icd10cm	556	manual-negative	github:medinatinajeropablo-dot
-ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	icd10cm	364.24	manual-negative	github:medinatinajeropablo-dot
-ARI			skos:exactMatch	ncit	C27778	manual-negative	github:medinatinajeropablo-dot
-ARI			skos:exactMatch	ncit	C38766	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27778	manual-negative	github:medinatinajeropablo-dot
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ncit	C38766	manual-negative	github:medinatinajeropablo-dot
 ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	icd10cm	D59.1	manual	github:medinatinajeropablo-dot
 ARI	0001118	Lichen planus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:medinatinajeropablo-dot
 ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	ncit	C70646	manual	github:medinatinajeropablo-dot

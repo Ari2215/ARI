@@ -22,6 +22,21 @@ and its `ARI_ChangeLog` follow.
   `C0042170`.
 - **ICD-9 codes removed** (rows dropped, values taken off `ARI_ICD10`): `571.42` autoimmune
   hepatitis, `697.0` lichen planus, `607.81` lichen sclerosus, `725` polymyalgia rheumatica.
+- **Editor-save repairs surfaced by the main merge:**
+  - `ari.sssom.tsv`: the save rewrote nine of KrishnaTO's confirmations (Uveitis, limited SSc,
+    autoimmune thyroiditis, Balo, benign mucous membrane pemphigoid) as this curator's in the
+    SSSOM export only. Restored to main's rows, matching `ari.equivalencies.tsv`.
+  - Two field-edit removals were published with a blank subject (app defect, ARI#88). Filled
+    in: NCI `C27778` on autoimmune hepatitis and NCI `C38766` on autoimmune thyroiditis.
+  - Reversals keep both rows: KrishnaTO's 2026-07 rejection of NCI `C70646` (limited SSc) and
+    confirmation of NCI `C38766` (autoimmune thyroiditis) are marked superseded.
+    `validate_mappings.py` now skips superseded rows when checking them against the ontology,
+    as it already did for confirmations. Before this, a superseded rejection still counted as
+    live and failed with `flagged-still-stored`.
+  - Rejected ICD-9 candidates dropped from both exports: `556.5` and `556` (ulcerative
+    colitis), `364.24` (Vogt-Koyanagi-Harada).
+  - `ARI_DXCODE`: dropped the SNOMED ids this review flagged that were still served through
+    DXCODE, on ARI:0001031, 0001032, 0001033 and 0001119.
 
 ## claude/mappings-updated-synonyms-0ea6bd
 

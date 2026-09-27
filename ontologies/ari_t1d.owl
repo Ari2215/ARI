@@ -4305,7 +4305,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0040090</ARI_DOID>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192667</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007, 235728001, 84027009</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants, and it is marked by the presence of antibodies to the enzyme tryptophan hydroxylase, which performs a number of functions in human biology,  Autoimmune enteropathy is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as autoimmune polyendocrine syndrome 1.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megaloblastic Anemia | non-disease | downstream haematologic consequence of B12 deficiency, not a name for the gastritis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrocytic Anemia | non-disease | downstream haematologic consequence of B12 deficiency, not a name for the gastritis</ARI_SynonymWithdrawn>
@@ -4444,7 +4444,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000744</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34378</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">441269</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413603009, 718716008</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413603009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In autoimmune hemolytic anemia, red blood cells are destroyed by antibodies. In some cases, the antibodies are active only when the person is warm, in which case it is called warm autoimmune hemolytic anemia. In other cases, the antibodies are active when the person is cold, and it is called cold agglutinin disease, and in others, the antibodies can be active regardless of the person's body temperature. There is also a form of hemolytic anemia called paroxysmal nocturnal hemoglobinuria, in which a genetic mutation causes antibodies to cause the same kind of destruction of red blood cells.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bozzi 2023; https://ashpublications.org/blood/article/142/Supplement%201/5202/501456/Prevalence-and-Incidence-of-Primary-Autoimmune</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -4552,7 +4552,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D019693</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27029</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200762</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408335007, 721711009, 721712002, 721713007, 16098491000119109</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408335007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boberg 1998; https://pubmed.ncbi.nlm.nih.gov/9489916/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/9489916/</ARI_Pubmed>
@@ -12781,7 +12781,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023652</ARI_UMLS>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26817</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619430</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001, 25674000</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen sclerosus causes patches of skin to look white, thickened and crinkly. It most often affects the skin around the vulva or anus.There is circumstantial evidence that lichen sclerosus is autoimmune but no clear evidence to support it.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanitis xerotica obliterans | subtype | the male genital (glans/foreskin) form of lichen sclerosus; a subtype (existing 'Lichen Sclerosus, Genital'), has its own DOID term</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melnick 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7522895/</ARI_DefSource>

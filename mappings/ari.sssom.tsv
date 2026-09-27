@@ -171,29 +171,29 @@ ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:1
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:M31.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch		SNOMEDCT:128473001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch		omop:4028363	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
-ARI:0001208	Uveitis	skos:exactMatch		DOID:0040088	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		DOID:0040088	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		SNOMEDCT:298285004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		omop:4185187	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
-ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		icd10cm:M34.1	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		icd10cm:M34.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch	Not	SNOMEDCT:231947004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch	Not	omop:4335981	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	SNOMEDCT:128461001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	SNOMEDCT:31848007	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	omop:4135937	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	omop:4027230	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
-ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	ncit:C70646	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	ncit:C70646	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	Superseded by the positive judgment of github:medinatinajeropablo-dot on 2026-09-25T04:03:00+00:00.
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	umls:C1527226	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	umls:C0206138	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	mesh:D017675	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001047	Autoimmune retinopathy	skos:exactMatch		SNOMEDCT:724809006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001047	Autoimmune retinopathy	skos:exactMatch		omop:37110540	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		SNOMEDCT:66944004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		omop:4281109	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		DOID:7188	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C38766	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		omop:4281109	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		DOID:7188	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C38766	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	Superseded by the negative judgment of github:medinatinajeropablo-dot on 2026-09-25T04:03:00+00:00.
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		icd10cm:E06.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		umls:C0920350	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		mesh:D013967	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		mesh:D013967	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001049	Autoimmune urticaria	skos:exactMatch		SNOMEDCT:402397006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001049	Autoimmune urticaria	skos:exactMatch		omop:4224623	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		SNOMEDCT:402402005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -205,7 +205,7 @@ ARI:0001051	Autoimmune vasculitis	skos:exactMatch		umls:C1328843	umls	semapv:Man
 ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		omop:1331726	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		SNOMEDCT:230380005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		omop:4046110	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001052	Balo concentric sclerosis	skos:exactMatch		DOID:0060215	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		DOID:0060215	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		mesh:D002549	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	SNOMEDCT:21983002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:4130018	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -222,11 +222,11 @@ ARI:0001053	Behçet's syndrome	skos:exactMatch		umls:C0004943	umls	semapv:Manual
 ARI:0001053	Behçet's syndrome	skos:exactMatch		mesh:D001528	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		SNOMEDCT:34250006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		omop:4142060	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		DOID:11656	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ncit:C34907	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		DOID:11656	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ncit:C34907	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		icd10cm:L12.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		umls:C0030804	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		mesh:D010390	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		mesh:D010390	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		SNOMEDCT:427086003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		omop:4141686	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	SNOMEDCT:721226005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -1445,11 +1445,8 @@ ARI:0001205	Ulcerative colitis	skos:exactMatch	Not	umls:C0375359	umls	semapv:Man
 ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	Not	ncit:C85218	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		umls:C0042170	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	Rejection reversed in PR review.
 ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch	Not	omop:36713763	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001205	Ulcerative colitis	skos:exactMatch	Not	icd10cm:556.5	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001205	Ulcerative colitis	skos:exactMatch	Not	icd10cm:556	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	Not	icd10cm:364.24	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-		skos:exactMatch	Not	ncit:C27778	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-		skos:exactMatch	Not	ncit:C38766	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	ncit:C27778	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ncit:C38766	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		icd10cm:D59.1	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	PR review: replaces NoTermFound.
 ARI:0001118	Lichen planus	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		ncit:C70646	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	PR review: replaces NoTermFound.
