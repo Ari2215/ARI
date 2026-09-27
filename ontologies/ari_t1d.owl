@@ -21138,7 +21138,6 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192667</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007, 235728001, 84027009</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D005757</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C95752</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pernicious Anemia Society | https://pernicious-anaemia-society.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/atrophic-gastritis</ARI_RefLink>
@@ -21148,6 +21147,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Gastritis, Type B - Associated with Helicobacter pylori infection.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Gastritis, Type A - Leads to vitamin B12 deficiency and pernicious anemia.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG</ARI_SurveyCode>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MESH D005757 (broader than the disease)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001031_227">
@@ -21270,6 +21270,8 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Hemolytic Anemia, Cold (Cold Agglutinin Disease) - Mediated by IgM antibodies at cold temperatures.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHA</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98375</ARI_ORPHANET>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D59.1</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: added ICD10 D59.1 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001032_241">
@@ -21364,7 +21366,6 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408335007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2048</ARI_DOID>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016264</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">571.42</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K75.4</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 150865/100k; Male 42754/100k; F:M ratio 3.52868</ARI_PrevalenceDesc>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/9489916/</ARI_Pubmed>
@@ -21390,6 +21391,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Hepatitis, Type 2 - More aggressive, usually affects children.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHP</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2137</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 571.42 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001033_252">
@@ -21523,7 +21525,6 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66944004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7188</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0920350</ARI_UMLS>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007699</ARI_MONDO>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005623</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E06.3</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 1.53693e+06/100k; Male 233615/100k; F:M ratio 6.5789</ARI_PrevalenceDesc>
@@ -21547,6 +21548,7 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Thyroiditis, Hashimoto’s Thyroiditis - Leads to hypothyroidism.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">855</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MONDO 0007699 (a subtype of the disease)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001048_351">
@@ -22260,7 +22262,6 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9201</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023646</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006572</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">697.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L43</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 188409/100k; Male 61066/100k; F:M ratio 3.08533</ARI_PrevalenceDesc>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/34920026/</ARI_Pubmed>
@@ -22281,6 +22282,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen Planus, Erosive - Severe ulcerative form.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen Planus, Cutaneous - Classic skin lesions.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LP</ARI_SurveyCode>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 697.0 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001118_1017">
@@ -22376,19 +22378,13 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Balanitis xerotica obliterans" - the male genital form of lichen sclerosus, a subtype rather than a synonym for the whole.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13477</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152460</ARI_UMLS>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0001725</ARI_MONDO>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007899</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">607.81</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 311002/100k; Male 14481/100k; F:M ratio 21.4766</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melnick 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7522895/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619430</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001, 25674000</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018459</ARI_MESH>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D052798</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3523</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/lichen-sclerosus</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/16564-lichen-sclerosus</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen Sclerosus Support Network Blog | https://lssupportnetwork.org/lichen-sclerosus-blog/</ARI_RefLink>
@@ -22400,6 +22396,10 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen Sclerosus, Genital - Affects the anogenital area.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LS</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33409</ARI_ORPHANET>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L90.0</ARI_ICD10>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26817</ARI_NCI>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023652</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed DOID 13477 (a subtype of the disease); removed MONDO 0001725 (a subtype of the disease); removed NCI C3523 (a subtype of the disease); removed MESH D052798 (a subtype of the disease); removed UMLS C0152460 (a subtype of the disease); removed ICD10 607.81 (an ICD-9 code, not ICD-10); restored ICD10 L90.0 (rejection reversed); added NCI C26817 (replaces NCI C3523); added UMLS C0023652 (replaces UMLS C0152460)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001119_1028">
@@ -22558,6 +22558,8 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dercum’s Disease, Localized - Limited to specific body areas.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LD</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36397</ARI_ORPHANET>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E88.2</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: restored ICD10 E88.2 (rejection reversed)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001125_1082">
@@ -23014,7 +23016,6 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0032533</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019735</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M35.3</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">725</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 413826/100k; Male 251314/100k; F:M ratio 1.64665</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crowson 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623160/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -23032,6 +23033,7 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMR, Classic - Shoulder and hip pain with stiffness.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRH</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93569</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 725 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001161_1552">
@@ -23502,6 +23504,8 @@ To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limited Sclerosis, CREST Syndrome - Calcinosis, Raynaud’s, esophageal dysfunction, sclerodactyly, telangiectasia.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSL</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">220402</ARI_ORPHANET>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C70646</ARI_NCI>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: added NCI C70646 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001199_643">
@@ -23911,6 +23915,8 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vogt-Koyanagi-Harada, Acute - Sudden eye inflammation and neurological symptoms.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VKH</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3437</ARI_ORPHANET>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0042170</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: restored UMLS C0042170 (rejection reversed)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001210_2182">

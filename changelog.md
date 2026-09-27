@@ -1,5 +1,28 @@
 # Changelog
 
+## edit/medinatinajeropablo-dot/mappings-review-1790308984
+
+Applies the line review of ARI#93 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  - `ARI:0001031` Autoimmune gastritis: MeSH `D005757` (broader)
+  - `ARI:0001048` Autoimmune thyroiditis: MONDO `0007699` Hashimoto thyroiditis (subtype). The
+    line comment sat on MONDO `0005623`, which MONDO cross-references to the record's MeSH and
+    UMLS ids and lists "autoimmune thyroiditis" as an exact synonym, so it is kept.
+  - `ARI:0001119` Lichen sclerosus: DOID `13477`, MONDO `0001725`, NCI `C3523`, MeSH `D052798`,
+    UMLS `C0152460` (balanitis xerotica obliterans, the male-only subtype)
+- **Replaced:** Lichen sclerosus NCI `C3523` -> `C26817` and UMLS `C0152460` -> `C0023652`
+  (lichen sclerosus et atrophicus), both confirmed and stored.
+- **"No term" rows replaced with a confirmed id:** Autoimmune hemolytic anemia ICD-10 `D59.1`;
+  Systemic sclerosis with limited cutaneous involvement NCI `C70646` (CREST syndrome).
+- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:** Lichen
+  sclerosus ICD-10 `L90.0`; Lipomatosis dolorosa ICD-10 `E88.2`; Vogt-Koyanagi-Harada UMLS
+  `C0042170`.
+- **ICD-9 codes removed** (rows dropped, values taken off `ARI_ICD10`): `571.42` autoimmune
+  hepatitis, `697.0` lichen planus, `607.81` lichen sclerosus, `725` polymyalgia rheumatica.
+
 ## t1d-registry-ids
 
 - **Gave LADA and Fulminant type 1 diabetes registry ids.** They were the only diseases
