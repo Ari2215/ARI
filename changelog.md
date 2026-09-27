@@ -27,6 +27,11 @@ and its `ARI_ChangeLog` follow.
   `main`'s layout and its #102 / #104 corrections are kept. Four of this PR's rejections were
   already recorded on `main` (Sjögren's DOID `12895`, UMLS `C0022575`, MeSH `D007638`;
   Secondary Raynaud's DOID `10300`); their duplicate rows are dropped here.
+- **Editor-save repairs.** The save rewrote alexlazcano248's eight Polymyositis confirmations
+  in `ari.sssom.tsv` as dileryfuentes's, so the two exports disagreed (16 `cross-file-drift`);
+  restored to match `ari.equivalencies.tsv`. Rejected SNOMED ids that survived in
+  `ARI_DXCODE` are removed: `239796000` on `ARI:0001117`, `238676008` and `72470008` on
+  `ARI:0001186` (3 `flagged-still-stored`).
 
 ## claude/sjogren-mesh-umls
 

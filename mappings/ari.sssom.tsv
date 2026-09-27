@@ -795,15 +795,15 @@ ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with strep
 ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		ORPHA:66624	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		umls:C2931429	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		mesh:C537163	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		SNOMEDCT:31384009	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		SNOMEDCT:31384009	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001162	Polymyositis	skos:exactMatch		omop:80800	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		DOID:0080745	DOID	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		MONDO:0019127	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		ncit:C26925	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		icd10cm:M33.2	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		ORPHA:732	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		umls:C0085655	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		mesh:D017285	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		DOID:0080745	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		MONDO:0019127	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		ncit:C26925	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		icd10cm:M33.2	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		ORPHA:732	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		umls:C0085655	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		mesh:D017285	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		MONDO:0018747	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		ORPHA:46487	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		ORPHA:825	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	

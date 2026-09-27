@@ -12520,7 +12520,7 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410795001</ARI_SNOMED>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26979</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4079731, 4259507, 4253901</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410795001, 239796000</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410795001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile rheumatoid arthritis is a pediatric disorder affecting the joints. Damage occurs when immune cells penetrate the lining of the joints, causing inflammation. Patients typically experience joint pain and swelling, which may occur in a flare/remission pattern. Some subtypes have strong evidence of being autoimmune. The condition is diagnosed through exclusion, when joint inflammation lasts more than 6 weeks in a patient 16 years-old or younger and cannot be positively diagnosed with another condition. 
 
 There are 7 types of juvenile arthritis:
@@ -18672,7 +18672,7 @@ There is no cure, though treatments to manage symptoms are available.  Prognosis
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D86</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012507</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34995</ARI_NCI>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72470008, 238676008, 31541009</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31541009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One way the immune system works is to surround an invader and keep it from harming the body. Those small clumps of immune system cells are called granulomas and they form as part of the body's inflammation response to foreign, potentially harmful, substances. 
 
 In sarcoidosis the inflammation process gets out of control, and granulomas form even though there is no foreign substance, and the number of granulomas increases. When left untreated, the granulomas harden and produce permanent scars, usually in the lungs but they can occur in other organs and tissues.  
