@@ -19044,8 +19044,8 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001189</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83901003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12894</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022575</ARI_UMLS>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D007638</ARI_MESH>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1527336</ARI_UMLS>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012859</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">254443</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83901003</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicca syndrome is marked by dry mouth and dry eyes. If these symptoms are caused by an autoimmune process, it is called Sjogren's disease. See Sjögrens disease for more information.</rdfs:comment>
@@ -19077,6 +19077,8 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Sicca syndrome" and "Keratoconjunctivitis sicca" (broader dryness terms from any cause) and "SJS" (collides with Stevens-Johnson syndrome). Kept Sjögren's syndrome / disease spelling variants.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced DOID 12895 with DOID 12894 - DOID:12895 is keratoconjunctivitis sicca; replaced by DOID:12894 Sjogren's syndrome.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:25:50+00:00 | KrishnaTO | Cross-reference correction: replaced MeSH D007638 with MeSH D012859 - D007638 is Keratoconjunctivitis Sicca; replaced by D012859 Sjogren's Syndrome.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:25:50+00:00 | KrishnaTO | Cross-reference correction: replaced UMLS C0022575 with UMLS C1527336 - C0022575 is Keratoconjunctivitis sicca; replaced by C1527336 Sjogren syndrome.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001189_1883">

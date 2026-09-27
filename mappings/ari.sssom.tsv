@@ -1064,3 +1064,7 @@ ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		MONDO:8000010	MONDO	semap
 ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	DOID:12134	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T21:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0021107	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T21:00:00+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch	Not	mesh:D007638	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:25:50+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch		mesh:D012859	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:25:50+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch	Not	umls:C0022575	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:25:50+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch		umls:C1527336	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:25:50+00:00	
