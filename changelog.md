@@ -1,5 +1,30 @@
 # Changelog
 
+## claude/mappings-updated-synonyms-0ea6bd
+
+- **Predicted mappings redetermined from the current synonyms.** The DOID and SNOMED
+  grounders read names and synonyms from `1_Core_ARI_Diseases.xlsx`, a master-list snapshot
+  that still carried 148 synonyms the synonym review withdrew (PR #84, #101) and lacked 157
+  added since. They now read `ontologies/ari_t1d.owl` through a new
+  `notebook/ari-grounding/ari_diseases.py`: the 213 non-retired diseases, their live
+  `ARI_Synonym` values and their `ARI_SNOMED` codes. Report 8's Synonyms column uses the same
+  source.
+- Reran the whole pipeline (`ground_doid` → `ground_snomed` → `make_match_reports` →
+  `predict_target_matches` → `resolve_target_labels` → `build_disease_target_matrix`);
+  reports 5–8 and the CSV/JSON intermediates are regenerated. The top prediction changed
+  for 93 (disease, database) pairs. Some changes also pick up PR #102's corrected mappings.
+- Against the 713 curated confirmed mappings, the top prediction now reproduces the curated
+  term for 649 (was 641). 28 name a different term (was 38) and 36 produce none (was 34).
+- Withdrawn synonyms no longer drive matches. Examples: Sjögren's disease no longer lands
+  on keratoconjunctivitis sicca, Lichen sclerosus on balanitis xerotica obliterans, or
+  Secondary Raynaud's on primary Raynaud disease. Polyglandular autoimmune syndrome type 2
+  no longer lands on Carpenter syndrome (acrocephalopolysyndactyly).
+- Disease set: ARI:0001212–0001215 (in the ontology, not in the core report) are now
+  grounded. ARI:0001026 "Autoimmune disease" (report-only umbrella, not in the ontology) is
+  no longer grounded.
+- New false candidate (second in the DOID list, behind the curated-anchor term): ARI:0001069 Cold agglutinin disease → DOID:0111275
+  speech-language disorder-1, via the abbreviation "CAS" (Gilda 0.556).
+
 ## claude/fix-wrong-ontology-mappings
 
 - **Fixed seven wrong MONDO/DOID cross-references** (six below, narcolepsy further down), found during the synonym review (PR #101).
