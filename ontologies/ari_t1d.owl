@@ -4302,12 +4302,10 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune gastritis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001031</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">235728001</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84027009</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0040090</ARI_DOID>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192667, 4341626, 432295</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007, 235728001, 84027009</ARI_DXCODE>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192667</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants, and it is marked by the presence of antibodies to the enzyme tryptophan hydroxylase, which performs a number of functions in human biology,  Autoimmune enteropathy is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as autoimmune polyendocrine syndrome 1.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megaloblastic Anemia | non-disease | downstream haematologic consequence of B12 deficiency, not a name for the gastritis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrocytic Anemia | non-disease | downstream haematologic consequence of B12 deficiency, not a name for the gastritis</ARI_SynonymWithdrawn>
@@ -4332,6 +4330,13 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Megaloblastic Anemia" / "Macrocytic Anemia" (B12-deficiency consequences) and "Eosinophilic gastritis" / "Autoimmune enteropathy" (distinct diseases).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Atrophic gastritis" (broader).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 84568007; confirmed OMOP 192667; confirmed DOID 0040090; confirmed MONDO 0031014; confirmed NCI C95752; confirmed MESH D005757; confirmed UMLS C3887639; flagged SNOMED 84027009, 235728001; flagged OMOP 4341626, 432295; flagged MONDO 0006665, 0008228, 0019787; flagged NCI C2871, C7405, C94694; flagged ICD10 D51.0, K29.4; flagged ORPHANET 120, 94075; flagged MESH C538273, D000752; flagged UMLS C0002892, C0017154, C0341305</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: SNOMED 235728001, 84027009; OMOP 4341626, 432295</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0031014; NCI C95752; MESH D005757; UMLS C3887639</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3887639</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0031014</ARI_MONDO>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C95752</ARI_NCI>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MESH D005757 (broader than the disease)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_DigestiveSystem">
@@ -4434,13 +4439,12 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001032</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413603009</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718716008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0002880</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000744</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34378</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">441269, 36713763</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413603009, 718716008</ARI_DXCODE>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">441269</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413603009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In autoimmune hemolytic anemia, red blood cells are destroyed by antibodies. In some cases, the antibodies are active only when the person is warm, in which case it is called warm autoimmune hemolytic anemia. In other cases, the antibodies are active when the person is cold, and it is called cold agglutinin disease, and in others, the antibodies can be active regardless of the person's body temperature. There is also a form of hemolytic anemia called paroxysmal nocturnal hemoglobinuria, in which a genetic mutation causes antibodies to cause the same kind of destruction of red blood cells.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bozzi 2023; https://ashpublications.org/blood/article/142/Supplement%201/5202/501456/Prevalence-and-Incidence-of-Primary-Autoimmune</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -4455,6 +4459,13 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 413603009; confirmed OMOP 441269; confirmed DOID 718; confirmed MONDO 0020108; confirmed NCI C34378; confirmed ORPHANET 98375; confirmed MESH D000744; confirmed UMLS C0002880; flagged SNOMED 718716008; flagged MONDO 0019534; flagged ORPHANET 90036; flagged OMOP 36713763; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0020108; ORPHANET 98375</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: SNOMED 718716008; OMOP 36713763</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0020108</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98375</ARI_ORPHANET>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D59.1</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: added ICD10 D59.1 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001032_241">
@@ -4536,18 +4547,12 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hepatitis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001033</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721711009</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408335007</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16098491000119109</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721713007</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721712002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2048</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0241910</ARI_UMLS>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1332355</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D019693</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27778</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200762, 36715923, 36717496, 36715924, 36687200</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408335007, 721711009, 721712002, 721713007, 16098491000119109</ARI_DXCODE>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27029</ARI_NCI>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200762</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408335007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boberg 1998; https://pubmed.ncbi.nlm.nih.gov/9489916/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/9489916/</ARI_Pubmed>
@@ -4573,6 +4578,14 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-04</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 408335007; confirmed OMOP 200762; confirmed DOID 2048; confirmed MONDO 0016264; confirmed ICD10 K75.4, 571.42; confirmed ORPHANET 2137; confirmed MESH D019693; flagged SNOMED 16098491000119109, 721711009, 721713007, 721712002; flagged OMOP 36715923, 36717496, 36715924, 36687200; flagged MONDO 0005543, 0021176, 0021177; flagged ORPHANET 563576, 563581; flagged UMLS C0241910, C1332355; flagged NCI C27778</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0016264; ICD10 K75.4, 571.42; ORPHANET 2137</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: SNOMED 721711009, 16098491000119109, 721713007, 721712002; OMOP 36715923, 36717496, 36715924, 36687200; UMLS C0241910, C1332355</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:55:13+00:00 | user | Edited: nci</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016264</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K75.4</ARI_ICD10>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2137</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 571.42 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Liver">
@@ -5388,7 +5401,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0920350</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E06.3</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013967</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C38766</ARI_NCI>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27191</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune thyroiditis is a chronic disorder where the immune system creates antibodies that attack the thyroid and cause inflammation. This inflammation may initially cause excess release of thyroid hormones (hyperthyroidism ) but over time, this damage leads to insufficient thyroid hormone production (hypothyroidism), causing fatigue, weight gain, and depression. Genetic and environmental factors may play a role in the development of this disorder. There is no cure, but hormone treatments are available to manage symptoms.  
 
 Several names are used for autoimmune thyroiditis. When it is known to be autoimmune, it is called Hashimoto's when the thyroid gland is enlarged (called a goiter), and (less commonly) Ord's thyroiditis, when the thyroid gland shrinks.</rdfs:comment>
@@ -5417,13 +5430,17 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005623</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:49 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:00 | user | Edited: omim</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:01 | user | Edited: omim</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 66944004; confirmed OMOP 4281109; confirmed DOID 7188; confirmed NCI C38766; confirmed ICD10 E06.3; confirmed UMLS C0920350; confirmed MESH D013967; flagged SNOMED 21983002; flagged OMOP 4130018, 4034815, 135215</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66944004</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4281109</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed OMOP 4281109; confirmed MONDO 0005623, 0007699; confirmed DOID 7188; confirmed ORPHANET 855; confirmed MESH D013967; flagged NCI C38766</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0007699; ORPHANET 855</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:56:59+00:00 | user | Edited: nci</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">855</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MONDO 0005623 (broader than the disease); removed MONDO 0007699 (a subtype of the disease)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001048_351">
@@ -5908,6 +5925,7 @@ There are many types of vasculitis, and most of them are rare. Vasculitis might 
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0004712</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:33 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 230380005; confirmed OMOP 4046110; confirmed DOID 0060215; confirmed MESH D002549</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed DOID 0060215; confirmed MONDO 0016430; confirmed NCI C197875; confirmed ICD10 G37.5; confirmed ORPHANET 228165; confirmed UMLS C0004712</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001052_407">
@@ -6023,6 +6041,9 @@ This disease is not well understood but is believed to be autoimmune in nature s
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310701003</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">436642</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Hughes-Stovin syndrome" / "Hughes Stovin syndrome" - a rare vascular variant of Behcet disease, not a synonym for it.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: ORPHANET 117</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed MONDO 0007191; confirmed ORPHANET 117</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">117</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001053_415">
@@ -6215,6 +6236,9 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34250006</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4142060</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Ocular pemphigoid" - the eye-restricted form, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: ORPHANET 46486</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed DOID 11656; confirmed MONDO 0018746; confirmed NCI C34907; confirmed ORPHANET 46486; confirmed MESH D010390; flagged ORPHANET 99922</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46486</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001054_439">
@@ -10355,6 +10379,15 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 75331009; confirmed OMOP 436956; confirmed DOID 8931; confirmed MONDO 0016030; confirmed NCI C61284; confirmed ICD10 D69.41; confirmed ORPHANET 1959; confirmed MESH C536380; confirmed UMLS C0272126</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: DOID 8931; MONDO 0016030; NCI C61284; ICD10 D69.41; ORPHANET 1959; MESH C536380; UMLS C0272126</ARI_ChangeLog>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8931</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0272126</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016030</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D69.41</ARI_ICD10>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C536380</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C61284</ARI_NCI>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1959</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001091_832">
@@ -12656,6 +12689,10 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 4776004; confirmed OMOP 132703; confirmed DOID 9201; confirmed MONDO 0006572; confirmed NCI C3189; confirmed ICD10 L43, 697.0; confirmed MESH D008010; confirmed UMLS C0023646; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0006572; ICD10 697.0</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006572</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 697.0 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001118_1017">
@@ -12740,12 +12777,10 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001119</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25674000</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13477</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152460</ARI_UMLS>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3523</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619430, 4119189</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001, 25674000</ARI_DXCODE>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023652</ARI_UMLS>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26817</ARI_NCI>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619430</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen sclerosus causes patches of skin to look white, thickened and crinkly. It most often affects the skin around the vulva or anus.There is circumstantial evidence that lichen sclerosus is autoimmune but no clear evidence to support it.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanitis xerotica obliterans | subtype | the male genital (glans/foreskin) form of lichen sclerosus; a subtype (existing 'Lichen Sclerosus, Genital'), has its own DOID term</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melnick 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7522895/</ARI_DefSource>
@@ -12767,6 +12802,14 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Balanitis xerotica obliterans" - the male genital form of lichen sclerosus, a subtype rather than a synonym for the whole.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0001725, 0007899; ORPHANET 33409; MESH D018459, D052798; ICD10 607.81</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: SNOMED 25674000; OMOP 4119189</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 895454001; confirmed OMOP 619430; confirmed DOID 13477; confirmed MONDO 0001725, 0007899; confirmed NCI C3523; confirmed ORPHANET 33409; confirmed MESH D018459, D052798; confirmed UMLS C0152460; confirmed ICD10 607.81; flagged SNOMED 25674000; flagged OMOP 4119189; flagged ICD10 L90.0</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007899</ARI_MONDO>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018459</ARI_MESH>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33409</ARI_ORPHANET>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L90.0</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed DOID 13477 (a subtype of the disease); removed MONDO 0001725 (a subtype of the disease); removed NCI C3523 (a subtype of the disease); removed MESH D052798 (a subtype of the disease); removed UMLS C0152460 (a subtype of the disease); removed ICD10 607.81 (an ICD-9 code, not ICD-10); restored ICD10 L90.0 (rejection reversed); added NCI C26817 (replaces NCI C3523); added UMLS C0023652 (replaces UMLS C0152460)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001119_1028">
@@ -13274,6 +13317,12 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Juxta-Articular adiposis dolorosa" - a clinical subtype of Dercum disease, not a synonym for the whole.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0007070; ORPHANET 36397</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 71404003; confirmed OMOP 4324974; confirmed DOID 3928; confirmed MONDO 0007070; confirmed NCI C84540; confirmed ORPHANET 36397; confirmed MESH D000274; confirmed UMLS C0001529; flagged ICD10 E88.2</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: ICD10 E88.2</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007070</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36397</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: restored ICD10 E88.2 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001125_1082">
@@ -13783,6 +13832,9 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 235753003; confirmed OMOP 4340799; confirmed DOID 0060182; confirmed MONDO 0000702; confirmed NCI C38504; confirmed ICD10 K52.83; confirmed UMLS C0400821; confirmed MESH D046728; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0000702</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0000702</ARI_MONDO>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001128_1150">
@@ -14081,6 +14133,10 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCVD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 398049005; confirmed OMOP 4134867; confirmed DOID 3492; confirmed MONDO 0005854; confirmed NCI C84892; confirmed ICD10 M35.1; confirmed ORPHANET 809; confirmed UMLS C0026272; confirmed MESH D008947</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0005854; ORPHANET 809</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005854</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">809</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001130_1183">
@@ -16610,6 +16666,11 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRH</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 65323003; confirmed OMOP 255348; confirmed DOID 853; confirmed MONDO 0019735; confirmed NCI C85018; confirmed ICD10 M35.3, 725; confirmed ORPHANET 93569; confirmed UMLS C0032533; confirmed MESH D011111</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0019735; ICD10 725; ORPHANET 93569</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019735</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93569</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 725 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001161_1552">
@@ -17710,6 +17771,10 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Relapsing polyneuropathy" - a peripheral-nerve disease, not a synonym for relapsing polychondritis (likely a transcription error).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 72275000; confirmed OMOP 4216873; confirmed DOID 2556; confirmed MONDO 0019125; confirmed NCI C157268; confirmed ICD10 M94.1; confirmed ORPHANET 728; confirmed UMLS C0032453; confirmed MESH D011081</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0019125; ORPHANET 728</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019125</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">728</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001178_1727">
@@ -20330,6 +20395,15 @@ When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMCD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: DOID 349; MONDO 0016586; NCI C9235; ICD10 D47.02; ORPHANET 2467; UMLS C0221013; MESH D034721</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 397016004; confirmed OMOP 4246284; confirmed DOID 349; confirmed MONDO 0016586; confirmed NCI C9235; confirmed ICD10 D47.02; confirmed ORPHANET 2467; confirmed UMLS C0221013; confirmed MESH D034721</ARI_ChangeLog>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">349</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0221013</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016586</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D47.02</ARI_ICD10>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D034721</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C9235</ARI_NCI>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2467</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001197_2018">
@@ -20677,6 +20751,11 @@ To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">298285004</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4185187</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "dcSSc" - diffuse cutaneous systemic sclerosis, the opposite of this entity (limited cutaneous involvement). Kept 'lcSSc' and 'CREST syndrome'.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed DOID 1577; confirmed MONDO 0016358; confirmed ICD10 M34.1; confirmed ORPHANET 220402; confirmed UMLS C5574860; confirmed MESH D045745; no term in NCI</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MESH D045745</ARI_ChangeLog>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D045745</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C70646</ARI_NCI>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: added NCI C70646 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001199_643">
@@ -21477,7 +21556,6 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64766004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8577</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0009324</ARI_UMLS>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0375359</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K51</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003093</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2952</ARI_NCI>
@@ -21506,6 +21584,11 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0005101; ORPHANET 771</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 64766004; confirmed OMOP 81893; confirmed DOID 8577; confirmed MONDO 0005101; confirmed NCI C2952; confirmed ICD10 K51; confirmed ORPHANET 771; confirmed UMLS C0009324; confirmed MESH D003093; flagged UMLS C0375359; flagged ICD10 556.5, 556</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: UMLS C0375359</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005101</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">771</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001205_2112">
@@ -21989,6 +22072,10 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Idiopathic intermediate uveitis" - the pars planitis subtype, narrower than uveitis. Kept 'Autoimmune uveitis' and 'Idiopathic uveitis'.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Idiopathic uveitis" (subtype).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced MONDO 0000554 with MONDO 0020283 - MONDO:0000554 is endocervical adenocarcinoma; replaced by MONDO:0020283 uveitis.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: ICD10 H20.9; MONDO 0020283</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: MONDO 0000554</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed DOID 0040088; confirmed NCI C26909; confirmed ICD10 H20.9; confirmed ORPHANET 98715; confirmed UMLS C0042164; confirmed MESH D014605; confirmed MONDO 0020283; flagged MONDO 0000554</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H20.9</ARI_ICD10>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001208_2167">
@@ -22139,7 +22226,6 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0042170</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H20.82</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D014607</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C85218</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4108968</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193497004</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vogt-Koyanagi-Harada (VKH), is a rare disease that affects multiple systems including the nervous system and skin. The disease results in rapid vision loss as well as loss of hearing and hair. Although the cause of VKH is unknown, researchers believe that it is an immune response to a genetic defect of the Human Leukocyte antigen (HLA). Other researchers believe that there may be a genetic predisposition for VKH and may only be expressed by an environmental trigger.</rdfs:comment>
@@ -22155,6 +22241,12 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VKH</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0018092; ORPHANET 3437</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed SNOMED 193497004; confirmed OMOP 4108968; confirmed DOID 12297; confirmed MONDO 0018092; confirmed ORPHANET 3437; confirmed MESH D014607; confirmed ICD10 H20.82; flagged NCI C85218; flagged UMLS C0042170; flagged ICD10 364.24</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Removed flagged cross-reference: NCI C85218; UMLS C0042170</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018092</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3437</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: restored UMLS C0042170 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001210_2182">

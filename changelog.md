@@ -1,5 +1,42 @@
 # Changelog
 
+## edit/medinatinajeropablo-dot/mappings-review-1790308984
+
+Applies the line review of ARI#93 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  - `ARI:0001031` Autoimmune gastritis: MeSH `D005757` (broader)
+  - `ARI:0001048` Autoimmune thyroiditis: MONDO `0005623` autoimmune thyroid disease (broader)
+    and MONDO `0007699` Hashimoto thyroiditis (subtype). No MONDO id remains on the record.
+  - `ARI:0001119` Lichen sclerosus: DOID `13477`, MONDO `0001725`, NCI `C3523`, MeSH `D052798`,
+    UMLS `C0152460` (balanitis xerotica obliterans, the male-only subtype)
+- **Replaced:** Lichen sclerosus NCI `C3523` -> `C26817` and UMLS `C0152460` -> `C0023652`
+  (lichen sclerosus et atrophicus), both confirmed and stored.
+- **"No term" rows replaced with a confirmed id:** Autoimmune hemolytic anemia ICD-10 `D59.1`;
+  Systemic sclerosis with limited cutaneous involvement NCI `C70646` (CREST syndrome).
+- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:** Lichen
+  sclerosus ICD-10 `L90.0`; Lipomatosis dolorosa ICD-10 `E88.2`; Vogt-Koyanagi-Harada UMLS
+  `C0042170`.
+- **ICD-9 codes removed** (rows dropped, values taken off `ARI_ICD10`): `571.42` autoimmune
+  hepatitis, `697.0` lichen planus, `607.81` lichen sclerosus, `725` polymyalgia rheumatica.
+- **Editor-save repairs surfaced by the main merge:**
+  - `ari.sssom.tsv`: the save rewrote nine of KrishnaTO's confirmations (Uveitis, limited SSc,
+    autoimmune thyroiditis, Balo, benign mucous membrane pemphigoid) as this curator's in the
+    SSSOM export only. Restored to main's rows, matching `ari.equivalencies.tsv`.
+  - Two field-edit removals were published with a blank subject (app defect, ARI#88). Filled
+    in: NCI `C27778` on autoimmune hepatitis and NCI `C38766` on autoimmune thyroiditis.
+  - Reversals keep both rows: KrishnaTO's 2026-07 rejection of NCI `C70646` (limited SSc) and
+    confirmation of NCI `C38766` (autoimmune thyroiditis) are marked superseded.
+    `validate_mappings.py` now skips superseded rows when checking them against the ontology,
+    as it already did for confirmations. Before this, a superseded rejection still counted as
+    live and failed with `flagged-still-stored`.
+  - Rejected ICD-9 candidates dropped from both exports: `556.5` and `556` (ulcerative
+    colitis), `364.24` (Vogt-Koyanagi-Harada).
+  - `ARI_DXCODE`: dropped the SNOMED ids this review flagged that were still served through
+    DXCODE, on ARI:0001031, 0001032, 0001033 and 0001119.
+
 ## claude/mappings-updated-synonyms-0ea6bd
 
 - **Predicted mappings redetermined from the current synonyms.** The DOID and SNOMED
