@@ -291,7 +291,7 @@ ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		SN
 ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		omop:3654620	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		SNOMEDCT:193042000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		omop:437854	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
-ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	Superseded by the negative judgment of github:KrishnaTO on 2026-09-27T21:00:00+00:00.
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		icd10cm:G47.411	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		ORPHA:2073	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		umls:C0751362	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
@@ -460,7 +460,7 @@ ARI:0001073	Crohn's disease	skos:exactMatch		ORPHA:206	ORPHA	semapv:ManualMappin
 ARI:0001073	Crohn's disease	skos:exactMatch		mesh:D003424	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		SNOMEDCT:719218000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		omop:36714118	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		DOID:2797	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		DOID:2797	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	Superseded by the negative judgment of github:KrishnaTO on 2026-09-27T20:00:00+00:00.
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		MONDO:0015264	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		ORPHA:1302	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		DOID:0050169	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
@@ -1051,3 +1051,16 @@ ARI:0001175	Rasmussen syndrome	skos:exactMatch	Not	SNOMEDCT:435341000124104	SNOM
 ARI:0001175	Rasmussen syndrome	skos:exactMatch	Not	omop:763040	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001175	Rasmussen syndrome	skos:exactMatch		ncit:C125384	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
 ARI:0001175	Rasmussen syndrome	skos:exactMatch		mesh:C535291	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001208	Uveitis	skos:exactMatch	Not	MONDO:0000554	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		MONDO:0020283	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch	Not	DOID:12895	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch		DOID:12894	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	DOID:10300	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	DOID:2797	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		DOID:0050157	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001018	Antiphospholipid syndrome	skos:exactMatch	Not	MONDO:0017278	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		MONDO:8000010	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	DOID:12134	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T21:00:00+00:00	
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0021107	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T21:00:00+00:00	

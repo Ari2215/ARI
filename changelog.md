@@ -1,5 +1,39 @@
 # Changelog
 
+## claude/fix-wrong-ontology-mappings
+
+- **Fixed seven wrong MONDO/DOID cross-references** (six below, narcolepsy further down), found during the synonym review (PR #101).
+  Each fix updates the disease record and records the judgment in both mapping exports,
+  with a dated `ARI_ChangeLog` line:
+  - ARI:0001018 Antiphospholipid syndrome: MONDO 0017278 (autoimmune polyendocrinopathy)
+    → 8000010 (antiphospholipid syndrome).
+  - ARI:0001189 Sjögren's disease: DOID 12895 (keratoconjunctivitis sicca) → 12894
+    (Sjogren's syndrome).
+  - ARI:0001208 Uveitis: MONDO 0000554 (endocervical adenocarcinoma) → 0020283 (uveitis).
+  - ARI:0001074 Cryptogenic organizing pneumonia: DOID 2797 (idiopathic interstitial
+    pneumonia, the parent) → 0050157 (cryptogenic organizing pneumonia). The earlier
+    confirmation is kept and annotated as superseded.
+  - ARI:0001002 Acquired hemophilia: removed DOID 12134 (factor VIII deficiency). DOID has
+    no acquired-haemophilia term; this was already recorded as NoTermFound.
+  - ARI:0001176 Secondary Raynaud's phenomenon: removed DOID 10300 (primary Raynaud
+    disease). DOID has no term for the secondary form, so it is now recorded as NoTermFound.
+- Each wrong id is flagged in the mapping exports (`Not` / `manual-negative`) and each new id
+  is confirmed.
+- **Not changed:**
+  - ARI:0001117 JRA → DOID 676. The term's label says "systemic", but its definition and
+    exact synonyms (JRA, JIA) cover the whole disease.
+  - Addison's (0001006) stays on MONDO:0100480 autoimmune primary adrenal insufficiency.
+    MONDO lists "Addison's disease" as an exact synonym of that term and has no separate
+    all-cause Addison's term. The only wider option, MONDO:0015128 primary adrenal
+    insufficiency, also covers CAH and adrenoleukodystrophy.
+- **ARI:0001060 Cataplexy and narcolepsy: MONDO 0016158 → 0021107.** 0016158 is
+  narcolepsy-cataplexy syndrome, which is narcolepsy type 1 only. This entry's definition
+  covers narcolepsy in general, and it lists types 1 and 2 as subtypes, so 0021107
+  (narcolepsy) is the right term. The earlier confirmation of 0016158 is annotated as
+  superseded. The move also makes the entry's synonyms consistent: the type-1 names were
+  withdrawn as subtypes on 2026-09-07, and *narcolepsy*, *paroxysmal sleep* and *narcolepsy
+  with or without cataplexy* are exact synonyms of 0021107.
+
 ## claude/ari-disease-synonyms-acd0f7
 
 - **Second pass of the synonym-vs-subtype review. 66 more synonyms withdrawn across 35

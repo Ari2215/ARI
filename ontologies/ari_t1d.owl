@@ -1860,7 +1860,7 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:29:14+00:00 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:32:42+00:00 | user | Edited: doid</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed MONDO 0019139; confirmed NCI C197822; confirmed ICD10 D68.311; confirmed UMLS C1096116; no term in ORPHANET; no term in DOID</ARI_ChangeLog>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12134</ARI_DOID>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: removed DOID 12134 - DOID:12134 is factor VIII deficiency (congenital haemophilia A); DOID has no acquired-haemophilia term (already recorded as NoTermFound).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Blood">
@@ -3494,10 +3494,11 @@ There's no cure for antiphospholipid syndrome, but medications can reduce the ri
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-10 18:09 | KrishnaTO | Cross-reference review: confirmed ICD10 D68.61</ARI_ChangeLog>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017278</ARI_MONDO>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8000010</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 16:02 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">282196</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 16:03 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced MONDO 0017278 with MONDO 8000010 - MONDO:0017278 is autoimmune polyendocrinopathy; replaced by MONDO:8000010 antiphospholipid syndrome.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001018_170">
@@ -6542,7 +6543,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +16 synonym(s), +2 clinical subtype(s)</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-20 16:32 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016158</ARI_MONDO>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021107</ARI_MONDO>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C196015</ARI_NCI>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G47.411</ARI_ICD10>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2073</ARI_ORPHANET>
@@ -6577,6 +6578,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome - subtype of Cataplexy and narcolepsy (MONDO:0016158)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 8 strings naming narcolepsy subtypes (NT1 / NT2 / HCRT-locus / narcolepsy 1) that are already listed as ARI_ClinicalSubtypes; kept the umbrella synonyms (narcolepsy, Gelineau syndrome, etc.).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Narcolepsy-cataplexy" (subtype).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T21:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced MONDO 0016158 with MONDO 0021107 - MONDO:0016158 is narcolepsy-cataplexy syndrome (narcolepsy type 1 only), but this entry covers narcolepsy in general and lists types 1 and 2 as subtypes; replaced by MONDO:0021107 narcolepsy.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
@@ -8877,7 +8879,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 719218000; confirmed OMOP 36714118; confirmed DOID 2797; confirmed MONDO 0015264; confirmed ORPHANET 1302; no term in OMIM</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:34:19+00:00 | KrishnaTO | Cross-reference review: flagged NCI C35806; flagged ICD10 J84.114; flagged UMLS C0085786; flagged MESH D000080203</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719218000</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2797</ARI_DOID>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050157</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242770</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015264</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J84.116</ARI_ICD10>
@@ -8907,6 +8909,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1302</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: NCI C35806; ICD10 J84.114; UMLS C0085786; MESH D000080203</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew broader category terms ('Interstitial pneumonia', 'idiopathic interstitial pneumonia/pneumonitis', 'noninfectious pneumonia') and two names for IPF ('Idiopathic fibrosing alveolitis', 'Diffuse idiopathic pulmonary fibrosis'), a different interstitial pneumonia. Kept COP / BOOP / organising pneumonia.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced DOID 2797 with DOID 0050157 - DOID:2797 is idiopathic interstitial pneumonia (the parent class); replaced by DOID:0050157 cryptogenic organizing pneumonia.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
@@ -17348,7 +17351,6 @@ The development of psoriasis involves a complex cycle of immune activation and s
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001176</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356198000</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">266261006</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10300</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034734</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I73.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D011928</ARI_MESH>
@@ -17379,6 +17381,7 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew bare "Raynaud's phenomenon" - the sign itself, broader than secondary Raynaud's phenomenon. NB the entity conflates primary and secondary (it carries a 'Primary' subtype) - for a curator.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Raynaud's disease" / "Raynaud disease" (distinct).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: removed DOID 10300 - DOID:10300 is Raynaud disease (primary Raynaud's); DOID has no secondary Raynaud's term, recorded as NoTermFound.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001176_1699">
@@ -19040,7 +19043,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001189</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83901003</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12895</ARI_DOID>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12894</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022575</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D007638</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">254443</ARI_OMOP>
@@ -19073,6 +19076,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SJ</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Sicca syndrome" and "Keratoconjunctivitis sicca" (broader dryness terms from any cause) and "SJS" (collides with Stevens-Johnson syndrome). Kept Sjögren's syndrome / disease spelling variants.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced DOID 12895 with DOID 12894 - DOID:12895 is keratoconjunctivitis sicca; replaced by DOID:12894 Sjogren's syndrome.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001189_1883">
@@ -21893,7 +21897,7 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0000554</ARI_MONDO>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0020283</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:14 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26909</ARI_NCI>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:14 | user | Edited: nci</ARI_ChangeLog>
@@ -21908,6 +21912,7 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4028363</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Idiopathic intermediate uveitis" - the pars planitis subtype, narrower than uveitis. Kept 'Autoimmune uveitis' and 'Idiopathic uveitis'.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Idiopathic uveitis" (subtype).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced MONDO 0000554 with MONDO 0020283 - MONDO:0000554 is endocervical adenocarcinoma; replaced by MONDO:0020283 uveitis.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001208_2167">

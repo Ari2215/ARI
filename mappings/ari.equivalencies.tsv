@@ -1030,3 +1030,16 @@ ARI	0001175	Rasmussen syndrome	skos:exactMatch	SNOMEDCT	435341000124104	manual-n
 ARI	0001175	Rasmussen syndrome	skos:exactMatch	omop	763040	manual-negative	github:Luis-Manuel-Esquivel
 ARI	0001175	Rasmussen syndrome	skos:exactMatch	ncit	C125384	manual	github:Luis-Manuel-Esquivel
 ARI	0001175	Rasmussen syndrome	skos:exactMatch	mesh	C535291	manual	github:Luis-Manuel-Esquivel
+ARI	0001208	Uveitis	skos:exactMatch	MONDO	0000554	manual-negative	github:KrishnaTO
+ARI	0001208	Uveitis	skos:exactMatch	MONDO	0020283	manual	github:KrishnaTO
+ARI	0001189	Sjögren's disease	skos:exactMatch	DOID	12895	manual-negative	github:KrishnaTO
+ARI	0001189	Sjögren's disease	skos:exactMatch	DOID	12894	manual	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	DOID	10300	manual-negative	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	DOID	2797	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	DOID	0050157	manual	github:KrishnaTO
+ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	0017278	manual-negative	github:KrishnaTO
+ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	8000010	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	DOID	12134	manual-negative	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	MONDO	0016158	manual-negative	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	MONDO	0021107	manual	github:KrishnaTO
