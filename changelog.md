@@ -1,5 +1,30 @@
 # Changelog
 
+## claude/fix-wrong-ontology-mappings
+
+- **Fixed six wrong MONDO/DOID cross-references**, found during the synonym review (PR #101).
+  Each fix updates the disease record and records the judgment in both mapping exports,
+  with a dated `ARI_ChangeLog` line:
+  - ARI:0001018 Antiphospholipid syndrome: MONDO 0017278 (autoimmune polyendocrinopathy)
+    → 8000010 (antiphospholipid syndrome).
+  - ARI:0001189 Sjögren's disease: DOID 12895 (keratoconjunctivitis sicca) → 12894
+    (Sjogren's syndrome).
+  - ARI:0001208 Uveitis: MONDO 0000554 (endocervical adenocarcinoma) → 0020283 (uveitis).
+  - ARI:0001074 Cryptogenic organizing pneumonia: DOID 2797 (idiopathic interstitial
+    pneumonia, the parent) → 0050157 (cryptogenic organizing pneumonia). The earlier
+    confirmation is kept and annotated as superseded.
+  - ARI:0001002 Acquired hemophilia: removed DOID 12134 (factor VIII deficiency). DOID has
+    no acquired-haemophilia term; this was already recorded as NoTermFound.
+  - ARI:0001176 Secondary Raynaud's phenomenon: removed DOID 10300 (primary Raynaud
+    disease). DOID has no term for the secondary form, so it is now recorded as NoTermFound.
+- Each wrong id is flagged in the mapping exports (`Not` / `manual-negative`) and each new id
+  is confirmed.
+- **Not changed:**
+  - ARI:0001117 JRA → DOID 676. The term's label says "systemic", but its definition and
+    exact synonyms (JRA, JIA) cover the whole disease.
+  - Addison's (0001006) and narcolepsy (0001060). Their links are narrower than the entries,
+    and fixing that needs a decision about what each entry is meant to cover.
+
 ## claude/remove-ari-0001168-term-6422bf
 
 - **Retired Primary immune deficiency (`ARI:0001168`).** Set `ARI_Obsolete` to `true` and
