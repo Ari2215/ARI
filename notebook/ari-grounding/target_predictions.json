@@ -6,7 +6,7 @@
    "method": "xref via curated anchor",
    "name": "epidermolysis bullosa acquisita",
    "routes": 3,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001001|MONDO": [
@@ -16,7 +16,7 @@
    "method": "xref via curated anchor",
    "name": "acquired epidermolysis bullosa",
    "routes": 1,
-   "support": 14
+   "support": 18
   }
  ],
  "ARI:0001001|ORPHA": [
@@ -26,7 +26,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 18
   }
  ],
  "ARI:0001001|SNOMEDCT": [
@@ -36,7 +36,7 @@
    "method": "xref via curated anchor",
    "name": "Acquired epidermolysis bullosa",
    "routes": 3,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001001|icd10cm": [
@@ -46,7 +46,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001001|mesh": [
@@ -56,7 +56,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001001|ncit": [
@@ -66,7 +66,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001001|omop": [
@@ -76,7 +76,7 @@
    "method": "xref via curated anchor",
    "name": "Acquired epidermolysis bullosa",
    "routes": 3,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001001|umls": [
@@ -86,7 +86,17 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
+  }
+ ],
+ "ARI:0001002|MONDO": [
+  {
+   "evidence": "MONDO:0019139 from curated MONDO:0019139",
+   "id": "0019139",
+   "method": "xref via curated anchor",
+   "name": "acquired hemophilia",
+   "routes": 1,
+   "support": 6
   }
  ],
  "ARI:0001002|SNOMEDCT": [
@@ -99,6 +109,16 @@
    "support": 2
   }
  ],
+ "ARI:0001002|icd10cm": [
+  {
+   "evidence": "MONDO:0019139 xref, curated MONDO:0019139",
+   "id": "D68.311",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 6
+  }
+ ],
  "ARI:0001002|omop": [
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -109,6 +129,16 @@
    "support": 2
   }
  ],
+ "ARI:0001002|umls": [
+  {
+   "evidence": "MONDO:0019139 xref, curated MONDO:0019139",
+   "id": "C1096116",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 6
+  }
+ ],
  "ARI:0001003|DOID": [
   {
    "evidence": "DOID:639 from curated SNOMEDCT:83942000",
@@ -116,7 +146,7 @@
    "method": "xref via curated anchor",
    "name": "acute disseminated encephalomyelitis",
    "routes": 3,
-   "support": 26
+   "support": 30
   },
   {
    "evidence": "DOID:13664 from curated mesh:D004673",
@@ -134,7 +164,7 @@
    "method": "xref via curated anchor",
    "name": "acute disseminated encephalomyelitis",
    "routes": 1,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001003|ORPHA": [
@@ -144,7 +174,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001003|SNOMEDCT": [
@@ -154,7 +184,7 @@
    "method": "xref via curated anchor",
    "name": "Acute disseminated encephalomyelitis",
    "routes": 3,
-   "support": 26
+   "support": 30
   },
   {
    "evidence": "DOID:13664 xref, curated mesh:D004673",
@@ -182,7 +212,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 3,
-   "support": 26
+   "support": 30
   }
  ],
  "ARI:0001003|ncit": [
@@ -192,7 +222,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 28
   }
  ],
  "ARI:0001003|omop": [
@@ -202,7 +232,7 @@
    "method": "xref via curated anchor",
    "name": "Acute disseminated encephalomyelitis",
    "routes": 3,
-   "support": 26
+   "support": 30
   },
   {
    "evidence": "DOID:13664 xref SCTID:31367003, curated mesh:D004673",
@@ -220,7 +250,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 28
   },
   {
    "evidence": "DOID:13664 xref, curated mesh:D004673",
@@ -238,7 +268,7 @@
    "method": "xref via curated anchor",
    "name": "Kawasaki disease",
    "routes": 3,
-   "support": 30
+   "support": 32
   }
  ],
  "ARI:0001004|MONDO": [
@@ -248,7 +278,7 @@
    "method": "xref via curated anchor",
    "name": "Kawasaki disease",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001004|SNOMEDCT": [
@@ -258,7 +288,7 @@
    "method": "xref via curated anchor",
    "name": "Acute febrile mucocutaneous lymph node syndrome",
    "routes": 3,
-   "support": 30
+   "support": 32
   }
  ],
  "ARI:0001004|icd10cm": [
@@ -268,7 +298,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001004|mesh": [
@@ -278,7 +308,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001004|ncit": [
@@ -288,7 +318,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001004|omop": [
@@ -298,7 +328,7 @@
    "method": "xref via curated anchor",
    "name": "Acute febrile mucocutaneous lymph node syndrome",
    "routes": 3,
-   "support": 30
+   "support": 32
   }
  ],
  "ARI:0001004|umls": [
@@ -308,7 +338,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001005|MONDO": [
@@ -318,7 +348,7 @@
    "method": "xref via curated anchor",
    "name": "acute lichenoid pityriasis",
    "routes": 1,
-   "support": 5
+   "support": 7
   }
  ],
  "ARI:0001005|SNOMEDCT": [
@@ -328,7 +358,7 @@
    "method": "xref via curated anchor",
    "name": "Acute lichenoid pityriasis",
    "routes": 2,
-   "support": 7
+   "support": 9
   }
  ],
  "ARI:0001005|omop": [
@@ -338,7 +368,7 @@
    "method": "xref via curated anchor",
    "name": "Acute lichenoid pityriasis",
    "routes": 2,
-   "support": 7
+   "support": 9
   }
  ],
  "ARI:0001005|umls": [
@@ -348,7 +378,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 5
+   "support": 7
   }
  ],
  "ARI:0001006|DOID": [
@@ -376,7 +406,7 @@
    "method": "xref via curated anchor",
    "name": "autoimmune primary adrenal insufficiency",
    "routes": 1,
-   "support": 2
+   "support": 4
   }
  ],
  "ARI:0001006|OMIM": [
@@ -412,7 +442,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 4
   }
  ],
  "ARI:0001006|SNOMEDCT": [
@@ -468,7 +498,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 4
   }
  ],
  "ARI:0001006|omop": [
@@ -504,7 +534,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 4
   }
  ],
  "ARI:0001008|DOID": [
@@ -514,7 +544,7 @@
    "method": "xref via curated anchor",
    "name": "adult-onset Still's disease",
    "routes": 3,
-   "support": 30
+   "support": 32
   }
  ],
  "ARI:0001008|MONDO": [
@@ -524,7 +554,7 @@
    "method": "xref via curated anchor",
    "name": "adult-onset Still disease",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001008|ORPHA": [
@@ -534,7 +564,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001008|SNOMEDCT": [
@@ -544,7 +574,7 @@
    "method": "xref via curated anchor",
    "name": "Adult onset Still's disease",
    "routes": 3,
-   "support": 30
+   "support": 32
   }
  ],
  "ARI:0001008|icd10cm": [
@@ -554,7 +584,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001008|mesh": [
@@ -564,7 +594,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001008|ncit": [
@@ -584,7 +614,7 @@
    "method": "xref via curated anchor",
    "name": "Adult onset Still's disease",
    "routes": 3,
-   "support": 30
+   "support": 32
   }
  ],
  "ARI:0001008|umls": [
@@ -594,7 +624,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 30
   }
  ],
  "ARI:0001009|DOID": [
@@ -938,7 +968,7 @@
    "method": "xref via curated anchor",
    "name": "ankylosing spondylitis",
    "routes": 3,
-   "support": 29
+   "support": 31
   }
  ],
  "ARI:0001012|MONDO": [
@@ -958,7 +988,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 11
+   "support": 13
   }
  ],
  "ARI:0001012|ORPHA": [
@@ -968,7 +998,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 11
+   "support": 13
   }
  ],
  "ARI:0001012|SNOMEDCT": [
@@ -988,7 +1018,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 27
+   "support": 29
   }
  ],
  "ARI:0001012|mesh": [
@@ -998,7 +1028,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 27
+   "support": 29
   }
  ],
  "ARI:0001012|ncit": [
@@ -1008,7 +1038,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 27
+   "support": 29
   }
  ],
  "ARI:0001012|omop": [
@@ -1028,7 +1058,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 27
+   "support": 29
   }
  ],
  "ARI:0001013|MONDO": [
@@ -1088,7 +1118,7 @@
    "method": "xref via curated anchor",
    "name": "Goodpasture syndrome",
    "routes": 3,
-   "support": 23
+   "support": 27
   }
  ],
  "ARI:0001014|MONDO": [
@@ -1098,7 +1128,7 @@
    "method": "xref via curated anchor",
    "name": "anti-glomerular basement membrane disease",
    "routes": 1,
-   "support": 9
+   "support": 13
   }
  ],
  "ARI:0001014|OMIM": [
@@ -1108,7 +1138,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 21
+   "support": 25
   }
  ],
  "ARI:0001014|ORPHA": [
@@ -1118,7 +1148,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 13
   }
  ],
  "ARI:0001014|SNOMEDCT": [
@@ -1136,7 +1166,7 @@
    "method": "xref via curated anchor",
    "name": "Pulmonary renal syndrome",
    "routes": 1,
-   "support": 9
+   "support": 13
   }
  ],
  "ARI:0001014|mesh": [
@@ -1146,7 +1176,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 21
+   "support": 25
   }
  ],
  "ARI:0001014|ncit": [
@@ -1156,7 +1186,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 21
+   "support": 25
   }
  ],
  "ARI:0001014|omop": [
@@ -1174,7 +1204,7 @@
    "method": "xref via curated anchor",
    "name": "Pulmonary renal syndrome",
    "routes": 1,
-   "support": 9
+   "support": 13
   }
  ],
  "ARI:0001014|umls": [
@@ -1184,7 +1214,27 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 21
+   "support": 25
+  }
+ ],
+ "ARI:0001015|MONDO": [
+  {
+   "evidence": "MONDO:0018977 from curated MONDO:0018977",
+   "id": "0018977",
+   "method": "xref via curated anchor",
+   "name": "polyneuropathy associated with IgM monoclonal gammapathy with anti-MAG",
+   "routes": 1,
+   "support": 4
+  }
+ ],
+ "ARI:0001015|umls": [
+  {
+   "evidence": "MONDO:0018977 xref, curated MONDO:0018977",
+   "id": "C1736154",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
   }
  ],
  "ARI:0001017|DOID": [
@@ -1198,6 +1248,14 @@
   }
  ],
  "ARI:0001017|MONDO": [
+  {
+   "evidence": "MONDO:0015492 from curated MONDO:0015492",
+   "id": "0015492",
+   "method": "xref via curated anchor",
+   "name": "anti-neutrophil cytoplasmic antibody-associated vasculitis",
+   "routes": 1,
+   "support": 8
+  },
   {
    "evidence": "MONDO:0012105 from curated SNOMEDCT:195353004",
    "id": "0012105",
@@ -1219,6 +1277,14 @@
  ],
  "ARI:0001017|ORPHA": [
   {
+   "evidence": "MONDO:0015492 xref, curated MONDO:0015492",
+   "id": "156152",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  },
+  {
    "evidence": "MONDO:0012105 xref, curated SNOMEDCT:195353004",
    "id": "900",
    "method": "xref via curated anchor",
@@ -1228,14 +1294,6 @@
   }
  ],
  "ARI:0001017|SNOMEDCT": [
-  {
-   "evidence": "DOID:12132 xref, curated SNOMEDCT:195353004",
-   "id": "195353004",
-   "method": "xref via curated anchor",
-   "name": "Granulomatosis with polyangiitis",
-   "routes": 2,
-   "support": 4
-  },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
    "id": "722191003",
@@ -1256,6 +1314,14 @@
   }
  ],
  "ARI:0001017|mesh": [
+  {
+   "evidence": "MONDO:0015492 xref, curated MONDO:0015492",
+   "id": "D056648",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  },
   {
    "evidence": "DOID:12132 xref, curated SNOMEDCT:195353004",
    "id": "D014890",
@@ -1285,14 +1351,6 @@
  ],
  "ARI:0001017|omop": [
   {
-   "evidence": "DOID:12132 xref SCTID:195353004, curated SNOMEDCT:195353004",
-   "id": "313223",
-   "method": "xref via curated anchor",
-   "name": "Granulomatosis with polyangiitis",
-   "routes": 2,
-   "support": 4
-  },
-  {
    "evidence": "Gilda score 0.778 via (preferred name)",
    "id": "42535714",
    "method": "lexical grounding",
@@ -1302,6 +1360,14 @@
   }
  ],
  "ARI:0001017|umls": [
+  {
+   "evidence": "MONDO:0015492 xref, curated MONDO:0015492",
+   "id": "C2717865",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  },
   {
    "evidence": "DOID:12132 xref, curated SNOMEDCT:195353004",
    "id": "C3495801",
@@ -1413,72 +1479,72 @@
  ],
  "ARI:0001019|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:0080744 from curated DOID:0080744",
    "id": "0080744",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "antisynthetase syndrome",
    "routes": 3,
-   "support": 5
+   "support": 17
   }
  ],
  "ARI:0001019|MONDO": [
   {
-   "evidence": "MONDO:0019344 from lexical match DOID:0080744 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0019344 from curated SNOMEDCT:445187004",
    "id": "0019344",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "antisynthetase syndrome",
    "routes": 1,
-   "support": 2
+   "support": 10
   }
  ],
  "ARI:0001019|ORPHA": [
   {
-   "evidence": "DOID:0080744 xref, lexical match DOID:0080744 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0080744 xref, curated DOID:0080744",
    "id": "81",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001019|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019344 xref, curated SNOMEDCT:445187004",
    "id": "445187004",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Antisynthetase syndrome",
    "routes": 2,
-   "support": 4
+   "support": 12
   }
  ],
  "ARI:0001019|mesh": [
   {
-   "evidence": "DOID:0080744 xref, lexical match DOID:0080744 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0080744 xref, curated DOID:0080744",
    "id": "C537778",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001019|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019344 xref SCTID:445187004, curated SNOMEDCT:445187004",
    "id": "40482477",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Antisynthetase syndrome",
    "routes": 2,
-   "support": 4
+   "support": 12
   }
  ],
  "ARI:0001019|umls": [
   {
-   "evidence": "MONDO:0019344 xref, lexical match DOID:0080744 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0019344 xref, curated SNOMEDCT:445187004",
    "id": "C5959873",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 10
   }
  ],
  "ARI:0001020|MONDO": [
@@ -1827,62 +1893,62 @@
  ],
  "ARI:0001028|MONDO": [
   {
-   "evidence": "MONDO:0020640 from lexical match SNOMEDCT:95643007 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0020640 from curated SNOMEDCT:95643007",
    "id": "0020640",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "autoimmune encephalitis",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001028|ORPHA": [
   {
-   "evidence": "MONDO:0020640 xref, lexical match SNOMEDCT:95643007 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0020640 xref, curated SNOMEDCT:95643007",
    "id": "622014",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001028|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0020640 xref, curated SNOMEDCT:95643007",
    "id": "95643007",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Autoimmune encephalitis",
    "routes": 2,
-   "support": 3
+   "support": 7
   }
  ],
  "ARI:0001028|ncit": [
   {
-   "evidence": "MONDO:0020640 xref, lexical match SNOMEDCT:95643007 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0020640 xref, curated SNOMEDCT:95643007",
    "id": "C122414",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001028|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0020640 xref SCTID:95643007, curated SNOMEDCT:95643007",
    "id": "4318558",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Autoimmune encephalitis",
    "routes": 2,
-   "support": 3
+   "support": 7
   }
  ],
  "ARI:0001028|umls": [
   {
-   "evidence": "MONDO:0020640 xref, lexical match SNOMEDCT:95643007 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0020640 xref, curated SNOMEDCT:95643007",
    "id": "C5671289",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001029|SNOMEDCT": [
@@ -1905,7 +1971,25 @@
    "support": 2
   }
  ],
+ "ARI:0001030|MONDO": [
+  {
+   "evidence": "MONDO:0016499 from curated MONDO:0016499",
+   "id": "0016499",
+   "method": "xref via curated anchor",
+   "name": "autoimmune autonomic ganglionopathy",
+   "routes": 1,
+   "support": 2
+  }
+ ],
  "ARI:0001030|SNOMEDCT": [
+  {
+   "evidence": "MONDO:0016499 xref, curated MONDO:0016499",
+   "id": "430042004",
+   "method": "xref via curated anchor",
+   "name": "Acute pandysautonomia",
+   "routes": 1,
+   "support": 2
+  },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
    "id": "838330008",
@@ -1917,10 +2001,28 @@
  ],
  "ARI:0001030|omop": [
   {
+   "evidence": "MONDO:0016499 xref SCTID:430042004, curated MONDO:0016499",
+   "id": "4331091",
+   "method": "xref via curated anchor",
+   "name": "Acute pandysautonomia",
+   "routes": 1,
+   "support": 2
+  },
+  {
    "evidence": "Gilda score 0.778 via (preferred name)",
    "id": "3654638",
    "method": "lexical grounding",
    "name": "Autoimmune ganglionopathy",
+   "routes": 1,
+   "support": 2
+  }
+ ],
+ "ARI:0001030|umls": [
+  {
+   "evidence": "MONDO:0016499 xref, curated MONDO:0016499",
+   "id": "C2315246",
+   "method": "xref via curated anchor",
+   "name": "",
    "routes": 1,
    "support": 2
   }
@@ -2782,7 +2884,7 @@
    "method": "xref via curated anchor",
    "name": "autoimmune retinopathy",
    "routes": 1,
-   "support": 3
+   "support": 7
   }
  ],
  "ARI:0001047|SNOMEDCT": [
@@ -2792,7 +2894,7 @@
    "method": "xref via curated anchor",
    "name": "Autoimmune retinopathy",
    "routes": 2,
-   "support": 5
+   "support": 9
   }
  ],
  "ARI:0001047|omop": [
@@ -2802,7 +2904,7 @@
    "method": "xref via curated anchor",
    "name": "Autoimmune retinopathy",
    "routes": 2,
-   "support": 5
+   "support": 9
   }
  ],
  "ARI:0001047|umls": [
@@ -2812,7 +2914,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 3
+   "support": 7
   }
  ],
  "ARI:0001048|DOID": [
@@ -3503,90 +3605,90 @@
  ],
  "ARI:0001056|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:0111079 from curated ORPHA:179",
    "id": "0111079",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "birdshot chorioretinopathy",
    "routes": 3,
-   "support": 6
+   "support": 10
   }
  ],
  "ARI:0001056|MONDO": [
   {
-   "evidence": "MONDO:0011599 from lexical match DOID:0111079 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0011599 from curated ORPHA:179",
    "id": "0011599",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "birdshot chorioretinopathy",
    "routes": 1,
-   "support": 2
+   "support": 4
   }
  ],
  "ARI:0001056|OMIM": [
   {
-   "evidence": "DOID:0111079 xref, lexical match DOID:0111079 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0111079 xref, curated ORPHA:179",
    "id": "605808",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001056|ORPHA": [
   {
-   "evidence": "DOID:0111079 xref, lexical match DOID:0111079 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0111079 xref, curated ORPHA:179",
    "id": "179",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001056|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via Birdshot chorioretinitis",
+   "evidence": "DOID:0111079 xref, curated ORPHA:179",
    "id": "231981005",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Birdshot chorioretinitis",
    "routes": 3,
-   "support": 6
+   "support": 10
   }
  ],
  "ARI:0001056|mesh": [
   {
-   "evidence": "MONDO:0011599 xref, lexical match DOID:0111079 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0011599 xref, curated ORPHA:179",
    "id": "C537630",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 4
   },
   {
-   "evidence": "DOID:0111079 xref, lexical match DOID:0111079 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0111079 xref, curated ORPHA:179",
    "id": "D000080365",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 4
   }
  ],
  "ARI:0001056|omop": [
   {
-   "evidence": "Gilda score 0.778 via Birdshot chorioretinitis",
+   "evidence": "DOID:0111079 xref SCTID:231981005, curated ORPHA:179",
    "id": "4334133",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Birdshot chorioretinitis",
    "routes": 3,
-   "support": 6
+   "support": 10
   }
  ],
  "ARI:0001056|umls": [
   {
-   "evidence": "DOID:0111079 xref, lexical match DOID:0111079 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0111079 xref, curated ORPHA:179",
    "id": "C1853959",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001057|DOID": [
@@ -4501,14 +4603,6 @@
  ],
  "ARI:0001065|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via Lyme disease",
-   "id": "23502006",
-   "method": "lexical grounding",
-   "name": "Lyme disease",
-   "routes": 1,
-   "support": 2
-  },
-  {
    "evidence": "MONDO:0019632 xref, lexical match DOID:11729 (Gilda 0.778 via Lyme disease)",
    "id": "48982009",
    "method": "xref via lexical anchor",
@@ -4562,14 +4656,6 @@
   }
  ],
  "ARI:0001065|omop": [
-  {
-   "evidence": "Gilda score 0.778 via Lyme disease",
-   "id": "440638",
-   "method": "lexical grounding",
-   "name": "Lyme disease",
-   "routes": 1,
-   "support": 2
-  },
   {
    "evidence": "DOID:11729 xref SCTID:715507005, lexical match DOID:11729 (Gilda 0.778 via Lyme disease)",
    "id": "37395903",
@@ -5445,14 +5531,6 @@
    "name": "",
    "routes": 1,
    "support": 11
-  },
-  {
-   "evidence": "DOID:0060192 xref, curated mesh:D003424",
-   "id": "C0156147",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 2,
-   "support": 7
   }
  ],
  "ARI:0001074|DOID": [
@@ -5551,14 +5629,6 @@
    "name": "",
    "routes": 1,
    "support": 3
-  },
-  {
-   "evidence": "DOID:2797 xref, curated DOID:2797",
-   "id": "J84.114",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 3
   }
  ],
  "ARI:0001074|mesh": [
@@ -5569,14 +5639,6 @@
    "name": "",
    "routes": 1,
    "support": 7
-  },
-  {
-   "evidence": "DOID:2797 xref, curated DOID:2797",
-   "id": "D000080203",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 3
   },
   {
    "evidence": "MONDO:0002429 xref, curated DOID:2797",
@@ -5599,14 +5661,6 @@
   {
    "evidence": "MONDO:0002429 xref, curated DOID:2797",
    "id": "C35714",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 3
-  },
-  {
-   "evidence": "DOID:2797 xref, curated DOID:2797",
-   "id": "C35806",
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
@@ -5647,14 +5701,6 @@
    "name": "",
    "routes": 1,
    "support": 7
-  },
-  {
-   "evidence": "DOID:2797 xref, curated DOID:2797",
-   "id": "C0085786",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 3
   },
   {
    "evidence": "MONDO:0002429 xref, curated DOID:2797",
@@ -6627,7 +6673,45 @@
    "support": 1
   }
  ],
+ "ARI:0001090|MONDO": [
+  {
+   "evidence": "MONDO:0007407 from curated MONDO:0007407",
+   "id": "0007407",
+   "method": "xref via curated anchor",
+   "name": "Cryoglobulinemic vasculitis",
+   "routes": 1,
+   "support": 4
+  }
+ ],
+ "ARI:0001090|OMIM": [
+  {
+   "evidence": "MONDO:0007407 xref, curated MONDO:0007407",
+   "id": "123550",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
+  }
+ ],
+ "ARI:0001090|ORPHA": [
+  {
+   "evidence": "MONDO:0007407 xref, curated MONDO:0007407",
+   "id": "91138",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
+  }
+ ],
  "ARI:0001090|SNOMEDCT": [
+  {
+   "evidence": "MONDO:0007407 xref, curated MONDO:0007407",
+   "id": "190815001",
+   "method": "xref via curated anchor",
+   "name": "Cryoglobulinemic vasculitis",
+   "routes": 1,
+   "support": 4
+  },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
    "id": "239947001",
@@ -6637,7 +6721,25 @@
    "support": 2
   }
  ],
+ "ARI:0001090|mesh": [
+  {
+   "evidence": "MONDO:0007407 xref, curated MONDO:0007407",
+   "id": "C565141",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
+  }
+ ],
  "ARI:0001090|omop": [
+  {
+   "evidence": "MONDO:0007407 xref SCTID:190815001, curated MONDO:0007407",
+   "id": "4096220",
+   "method": "xref via curated anchor",
+   "name": "Cryoglobulinemic vasculitis",
+   "routes": 1,
+   "support": 4
+  },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
    "id": "4347067",
@@ -6645,6 +6747,16 @@
    "name": "Essential mixed cryoglobulinemia",
    "routes": 1,
    "support": 2
+  }
+ ],
+ "ARI:0001090|umls": [
+  {
+   "evidence": "MONDO:0007407 xref, curated MONDO:0007407",
+   "id": "C1852456",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
   }
  ],
  "ARI:0001091|DOID": [
@@ -7233,6 +7345,26 @@
    "support": 5
   }
  ],
+ "ARI:0001098|MONDO": [
+  {
+   "evidence": "MONDO:0850054 from curated MONDO:0850054",
+   "id": "0850054",
+   "method": "xref via curated anchor",
+   "name": "hemophilia B leyden",
+   "routes": 1,
+   "support": 4
+  }
+ ],
+ "ARI:0001098|ORPHA": [
+  {
+   "evidence": "MONDO:0850054 xref, curated MONDO:0850054",
+   "id": "617930",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
+  }
+ ],
  "ARI:0001098|SNOMEDCT": [
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -7251,6 +7383,16 @@
    "name": "Hemophilia B Leyden",
    "routes": 1,
    "support": 2
+  }
+ ],
+ "ARI:0001098|umls": [
+  {
+   "evidence": "MONDO:0850054 xref, curated MONDO:0850054",
+   "id": "C5848256",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
   }
  ],
  "ARI:0001099|DOID": [
@@ -7904,7 +8046,7 @@
    "method": "xref via curated anchor",
    "name": "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
    "routes": 2,
-   "support": 4
+   "support": 22
   }
  ],
  "ARI:0001106|MONDO": [
@@ -7914,7 +8056,7 @@
    "method": "xref via curated anchor",
    "name": "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001106|OMIM": [
@@ -7924,7 +8066,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 22
   }
  ],
  "ARI:0001106|ORPHA": [
@@ -7934,7 +8076,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 22
   }
  ],
  "ARI:0001106|mesh": [
@@ -7944,7 +8086,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 22
   }
  ],
  "ARI:0001106|ncit": [
@@ -7954,7 +8096,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001106|umls": [
@@ -7964,7 +8106,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001107|DOID": [
@@ -7979,33 +8121,41 @@
  ],
  "ARI:0001107|MONDO": [
   {
+   "evidence": "MONDO:0008558 from curated umls:C0398650",
+   "id": "0008558",
+   "method": "xref via curated anchor",
+   "name": "autoimmune thrombocytopenic purpura",
+   "routes": 1,
+   "support": 3
+  },
+  {
    "evidence": "MONDO:0019098 from curated umls:C0242584",
    "id": "0019098",
    "method": "xref via curated anchor",
    "name": "autoimmune thrombocytopenia",
    "routes": 1,
    "support": 2
-  },
-  {
-   "evidence": "MONDO:0008558 from lexical match DOID:8924 (Gilda 0.772 via Autoimmune thrombocytopenic purpura)",
-   "id": "0008558",
-   "method": "xref via lexical anchor",
-   "name": "autoimmune thrombocytopenic purpura",
-   "routes": 1,
-   "support": 1
   }
  ],
  "ARI:0001107|OMIM": [
   {
-   "evidence": "DOID:8924 xref, lexical match DOID:8924 (Gilda 0.772 via Autoimmune thrombocytopenic purpura)",
+   "evidence": "DOID:8924 xref, curated umls:C0398650",
    "id": "188030",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 2
+   "support": 6
   }
  ],
  "ARI:0001107|ORPHA": [
+  {
+   "evidence": "MONDO:0008558 xref, curated umls:C0398650",
+   "id": "3002",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 3
+  },
   {
    "evidence": "MONDO:0019098 xref, curated umls:C0242584",
    "id": "71203",
@@ -8013,14 +8163,6 @@
    "name": "",
    "routes": 1,
    "support": 2
-  },
-  {
-   "evidence": "MONDO:0008558 xref, lexical match DOID:8924 (Gilda 0.772 via Autoimmune thrombocytopenic purpura)",
-   "id": "3002",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 1,
-   "support": 1
   }
  ],
  "ARI:0001107|SNOMEDCT": [
@@ -8035,15 +8177,23 @@
  ],
  "ARI:0001107|mesh": [
   {
-   "evidence": "DOID:8924 xref, lexical match DOID:8924 (Gilda 0.772 via Autoimmune thrombocytopenic purpura)",
+   "evidence": "DOID:8924 xref, curated umls:C0398650",
    "id": "D016553",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 3
   }
  ],
  "ARI:0001107|ncit": [
+  {
+   "evidence": "DOID:8924 xref, curated umls:C0398650",
+   "id": "C3446",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 6
+  },
   {
    "evidence": "DOID:1587 xref, curated SNOMEDCT:2897005",
    "id": "C3991",
@@ -8051,14 +8201,6 @@
    "name": "",
    "routes": 1,
    "support": 3
-  },
-  {
-   "evidence": "DOID:8924 xref, lexical match DOID:8924 (Gilda 0.772 via Autoimmune thrombocytopenic purpura)",
-   "id": "C3446",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 2,
-   "support": 2
   }
  ],
  "ARI:0001107|omop": [
@@ -8073,6 +8215,14 @@
  ],
  "ARI:0001107|umls": [
   {
+   "evidence": "DOID:8924 xref, curated umls:C0398650",
+   "id": "C0398650",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 6
+  },
+  {
    "evidence": "DOID:1587 xref, curated SNOMEDCT:2897005",
    "id": "C0272286",
    "method": "xref via curated anchor",
@@ -8086,14 +8236,6 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:8924 xref, lexical match DOID:8924 (Gilda 0.772 via Autoimmune thrombocytopenic purpura)",
-   "id": "C0398650",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 2,
    "support": 2
   }
  ],
@@ -9583,72 +9725,72 @@
  ],
  "ARI:0001131|DOID": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:10439 from curated DOID:10439",
    "id": "10439",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Mooren's ulcer",
    "routes": 3,
-   "support": 6
+   "support": 24
   }
  ],
  "ARI:0001131|MONDO": [
   {
-   "evidence": "MONDO:0001032 from lexical match DOID:10439 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0001032 from curated ORPHA:519408",
    "id": "0001032",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Mooren ulcer",
    "routes": 1,
-   "support": 2
+   "support": 12
   }
  ],
  "ARI:0001131|ORPHA": [
   {
-   "evidence": "MONDO:0001032 xref, lexical match DOID:10439 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0001032 xref, curated ORPHA:519408",
    "id": "519408",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 12
   }
  ],
  "ARI:0001131|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:10439 xref, curated DOID:10439",
    "id": "22440001",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Mooren's ulcer",
    "routes": 3,
-   "support": 6
+   "support": 24
   }
  ],
  "ARI:0001131|icd10cm": [
   {
-   "evidence": "DOID:10439 xref, lexical match DOID:10439 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:10439 xref, curated DOID:10439",
    "id": "H16.05",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 10
   }
  ],
  "ARI:0001131|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:10439 xref SCTID:22440001, curated DOID:10439",
    "id": "435271",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Mooren's ulcer",
    "routes": 3,
-   "support": 6
+   "support": 24
   }
  ],
  "ARI:0001131|umls": [
   {
-   "evidence": "DOID:10439 xref, lexical match DOID:10439 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:10439 xref, curated DOID:10439",
    "id": "C0155072",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 22
   }
  ],
  "ARI:0001132|DOID": [
@@ -10015,108 +10157,108 @@
  ],
  "ARI:0001135|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:2377 from curated DOID:2377",
    "id": "2377",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "multiple sclerosis",
    "routes": 3,
-   "support": 5
+   "support": 17
   }
  ],
  "ARI:0001135|MONDO": [
   {
-   "evidence": "MONDO:0005301 from lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0005301 from curated DOID:2377",
    "id": "0005301",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "multiple sclerosis",
    "routes": 1,
-   "support": 2
+   "support": 10
   }
  ],
  "ARI:0001135|OMIM": [
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "612594",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   },
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "612595",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   },
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "612596",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001135|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0005301 xref, curated DOID:2377",
    "id": "24700007",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Multiple sclerosis",
    "routes": 2,
-   "support": 4
+   "support": 12
   }
  ],
  "ARI:0001135|icd10cm": [
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "G35",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001135|mesh": [
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "D009103",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001135|ncit": [
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "C3243",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001135|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0005301 xref SCTID:24700007, curated DOID:2377",
    "id": "374919",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Multiple sclerosis",
    "routes": 2,
-   "support": 4
+   "support": 12
   }
  ],
  "ARI:0001135|umls": [
   {
-   "evidence": "DOID:2377 xref, lexical match DOID:2377 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:2377 xref, curated DOID:2377",
    "id": "C0026769",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001136|DOID": [
@@ -10297,92 +10439,92 @@
  ],
  "ARI:0001139|DOID": [
   {
-   "evidence": "Gilda score 0.762 via (preferred name)",
+   "evidence": "DOID:633 from curated SNOMEDCT:26889001",
    "id": "633",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "myositis",
    "routes": 3,
-   "support": 5
+   "support": 27
   }
  ],
  "ARI:0001139|MONDO": [
   {
-   "evidence": "MONDO:0021167 from lexical match DOID:633 (Gilda 0.762 via (preferred name))",
+   "evidence": "MONDO:0021167 from curated DOID:633",
    "id": "0021167",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "myositis disease",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001139|OMIM": [
   {
-   "evidence": "DOID:633 xref, lexical match DOID:633 (Gilda 0.762 via (preferred name))",
+   "evidence": "DOID:633 xref, curated SNOMEDCT:26889001",
    "id": "160750",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001139|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:633 xref, curated SNOMEDCT:26889001",
    "id": "26889001",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Myositis",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001139|icd10cm": [
   {
-   "evidence": "DOID:633 xref, lexical match DOID:633 (Gilda 0.762 via (preferred name))",
+   "evidence": "DOID:633 xref, curated SNOMEDCT:26889001",
    "id": "M60",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001139|mesh": [
   {
-   "evidence": "DOID:633 xref, lexical match DOID:633 (Gilda 0.762 via (preferred name))",
+   "evidence": "DOID:633 xref, curated SNOMEDCT:26889001",
    "id": "D009220",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 25
   }
  ],
  "ARI:0001139|ncit": [
   {
-   "evidence": "DOID:633 xref, lexical match DOID:633 (Gilda 0.762 via (preferred name))",
+   "evidence": "DOID:633 xref, curated SNOMEDCT:26889001",
    "id": "C27578",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 25
   }
  ],
  "ARI:0001139|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:633 xref SCTID:26889001, curated SNOMEDCT:26889001",
    "id": "73001",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Myositis",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001139|umls": [
   {
-   "evidence": "DOID:633 xref, lexical match DOID:633 (Gilda 0.762 via (preferred name))",
+   "evidence": "DOID:633 xref, curated SNOMEDCT:26889001",
    "id": "C0027121",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 25
   }
  ],
  "ARI:0001140|SNOMEDCT": [
@@ -10477,132 +10619,142 @@
  ],
  "ARI:0001142|DOID": [
   {
-   "evidence": "Gilda score 0.772 via Brachial plexus neuritis",
+   "evidence": "DOID:3689 from curated SNOMEDCT:26609002",
    "id": "3689",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "brachial plexus neuritis",
    "routes": 3,
-   "support": 5
+   "support": 25
   },
   {
-   "evidence": "MONDO:0008076 xref, lexical match SNOMEDCT:26609002 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:10383 from curated icd10cm:G54.5",
    "id": "10383",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 1,
-   "support": 1
+   "method": "xref via curated anchor",
+   "name": "amyotrophic neuralgia",
+   "routes": 2,
+   "support": 7
   }
  ],
  "ARI:0001142|MONDO": [
   {
-   "evidence": "MONDO:0006682 from lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
-   "id": "0006682",
-   "method": "xref via lexical anchor",
-   "name": "brachial plexus neuritis",
+   "evidence": "MONDO:0017362 from curated MONDO:0017362",
+   "id": "0017362",
+   "method": "xref via curated anchor",
+   "name": "neuralgic amyotrophy",
    "routes": 1,
-   "support": 1
-  },
-  {
-   "evidence": "MONDO:0008076 from lexical match SNOMEDCT:26609002 (Gilda 0.778 via (preferred name))",
-   "id": "0008076",
-   "method": "xref via lexical anchor",
-   "name": "amyotrophic neuralgia",
-   "routes": 1,
-   "support": 1
+   "support": 6
   }
  ],
  "ARI:0001142|OMIM": [
   {
-   "evidence": "MONDO:0008076 xref, lexical match SNOMEDCT:26609002 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:10383 xref, curated icd10cm:G54.5",
    "id": "162100",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 7
+  }
+ ],
+ "ARI:0001142|ORPHA": [
+  {
+   "evidence": "MONDO:0017362 xref, curated MONDO:0017362",
+   "id": "2901",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 6
   }
  ],
  "ARI:0001142|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:3689 xref, curated SNOMEDCT:26609002",
    "id": "26609002",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Neuralgic amyotrophy",
    "routes": 3,
-   "support": 5
+   "support": 19
   },
   {
-   "evidence": "MONDO:0006682 xref, lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
+   "evidence": "MONDO:0006682 xref, curated DOID:3689",
    "id": "72893007",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Brachial neuritis",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001142|icd10cm": [
   {
-   "evidence": "DOID:3689 xref, lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
+   "evidence": "DOID:10383 xref, curated icd10cm:G54.5",
    "id": "G54.5",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
-   "routes": 1,
-   "support": 2
+   "routes": 3,
+   "support": 24
   }
  ],
  "ARI:0001142|mesh": [
   {
-   "evidence": "DOID:3689 xref, lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
+   "evidence": "DOID:10383 xref, curated icd10cm:G54.5",
    "id": "D020968",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
-   "routes": 2,
-   "support": 3
+   "routes": 3,
+   "support": 27
   }
  ],
  "ARI:0001142|ncit": [
   {
-   "evidence": "DOID:3689 xref, lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
+   "evidence": "DOID:3689 xref, curated SNOMEDCT:26609002",
    "id": "C84600",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001142|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:3689 xref SCTID:26609002, curated SNOMEDCT:26609002",
    "id": "377271",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Neuralgic amyotrophy",
    "routes": 3,
-   "support": 5
+   "support": 19
   },
   {
-   "evidence": "MONDO:0006682 xref SCTID:72893007, lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
+   "evidence": "MONDO:0006682 xref SCTID:72893007, curated DOID:3689",
    "id": "375631",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Brachial neuritis",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001142|umls": [
   {
-   "evidence": "DOID:3689 xref, lexical match DOID:3689 (Gilda 0.772 via Brachial plexus neuritis)",
+   "evidence": "DOID:3689 xref, curated SNOMEDCT:26609002",
    "id": "C0221759",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   },
   {
-   "evidence": "MONDO:0008076 xref, lexical match SNOMEDCT:26609002 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:10383 xref, curated icd10cm:G54.5",
+   "id": "C1510479",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 10
+  },
+  {
+   "evidence": "MONDO:0008076 xref, curated SNOMEDCT:26609002",
    "id": "C1834304",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 3
   }
  ],
  "ARI:0001143|DOID": [
@@ -10697,52 +10849,52 @@
  ],
  "ARI:0001144|MONDO": [
   {
-   "evidence": "MONDO:0019399 from lexical match SNOMEDCT:305719002 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019399 from curated SNOMEDCT:305719002",
    "id": "0019399",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Isaac syndrome",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001144|ORPHA": [
   {
-   "evidence": "MONDO:0019399 xref, lexical match SNOMEDCT:305719002 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019399 xref, curated SNOMEDCT:305719002",
    "id": "84142",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001144|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019399 xref, curated SNOMEDCT:305719002",
    "id": "305719002",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Neuromyotonia",
    "routes": 2,
-   "support": 3
+   "support": 11
   }
  ],
  "ARI:0001144|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019399 xref SCTID:305719002, curated SNOMEDCT:305719002",
    "id": "4125693",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Neuromyotonia",
    "routes": 2,
-   "support": 3
+   "support": 11
   }
  ],
  "ARI:0001144|umls": [
   {
-   "evidence": "MONDO:0019399 xref, lexical match SNOMEDCT:305719002 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019399 xref, curated SNOMEDCT:305719002",
    "id": "C0242287",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001146|DOID": [
@@ -11333,6 +11485,26 @@
    "support": 1
   }
  ],
+ "ARI:0001153|MONDO": [
+  {
+   "evidence": "MONDO:0019020 from curated MONDO:0019020",
+   "id": "0019020",
+   "method": "xref via curated anchor",
+   "name": "PANDAS",
+   "routes": 1,
+   "support": 8
+  }
+ ],
+ "ARI:0001153|ORPHA": [
+  {
+   "evidence": "MONDO:0019020 xref, curated MONDO:0019020",
+   "id": "66624",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  }
+ ],
  "ARI:0001153|SNOMEDCT": [
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -11343,6 +11515,16 @@
    "support": 2
   }
  ],
+ "ARI:0001153|mesh": [
+  {
+   "evidence": "MONDO:0019020 xref, curated MONDO:0019020",
+   "id": "C537163",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  }
+ ],
  "ARI:0001153|omop": [
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -11351,6 +11533,16 @@
    "name": "Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection",
    "routes": 1,
    "support": 2
+  }
+ ],
+ "ARI:0001153|umls": [
+  {
+   "evidence": "MONDO:0019020 xref, curated MONDO:0019020",
+   "id": "C2931429",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
   }
  ],
  "ARI:0001154|DOID": [
@@ -11605,105 +11797,113 @@
  ],
  "ARI:0001157|DOID": [
   {
-   "evidence": "Gilda score 0.772 via Autoimmune polyendocrine syndrome type 1",
+   "evidence": "DOID:0050167 from curated DOID:0050167",
    "id": "0050167",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "autoimmune polyendocrine syndrome type 1",
    "routes": 3,
-   "support": 5
+   "support": 19
   }
  ],
  "ARI:0001157|MONDO": [
   {
-   "evidence": "MONDO:0009411 from lexical match DOID:0050167 (Gilda 0.772 via Autoimmune polyendocrine syndrome type 1)",
+   "evidence": "MONDO:0009411 from curated SNOMEDCT:11244009",
    "id": "0009411",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "autoimmune polyendocrine syndrome type 1",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001157|OMIM": [
   {
-   "evidence": "DOID:0050167 xref, lexical match DOID:0050167 (Gilda 0.772 via Autoimmune polyendocrine syndrome type 1)",
+   "evidence": "DOID:0050167 xref, curated DOID:0050167",
    "id": "240300",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 17
   }
  ],
  "ARI:0001157|ORPHA": [
   {
-   "evidence": "MONDO:0009411 xref, lexical match DOID:0050167 (Gilda 0.772 via Autoimmune polyendocrine syndrome type 1)",
+   "evidence": "MONDO:0009411 xref, curated SNOMEDCT:11244009",
    "id": "3453",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001157|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.556 via Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy",
+   "evidence": "MONDO:0009411 xref, curated SNOMEDCT:11244009",
    "id": "11244009",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Polyglandular autoimmune syndrome, type 1",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001157|ncit": [
   {
-   "evidence": "MONDO:0009411 xref, lexical match DOID:0050167 (Gilda 0.772 via Autoimmune polyendocrine syndrome type 1)",
+   "evidence": "MONDO:0009411 xref, curated SNOMEDCT:11244009",
    "id": "C129727",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001157|omop": [
   {
-   "evidence": "Gilda score 0.556 via Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy",
+   "evidence": "MONDO:0009411 xref SCTID:11244009, curated SNOMEDCT:11244009",
    "id": "4008545",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Polyglandular autoimmune syndrome, type 1",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001157|umls": [
   {
-   "evidence": "MONDO:0009411 xref, lexical match DOID:0050167 (Gilda 0.772 via Autoimmune polyendocrine syndrome type 1)",
+   "evidence": "MONDO:0009411 xref, curated SNOMEDCT:11244009",
    "id": "C0085859",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001158|DOID": [
   {
-   "evidence": "Gilda score 0.778 via Carpenter syndrome",
-   "id": "0060234",
-   "method": "lexical grounding",
-   "name": "Carpenter syndrome",
-   "routes": 3,
+   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "id": "0050168",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
    "support": 6
   }
  ],
  "ARI:0001158|MONDO": [
   {
-   "evidence": "MONDO:0019012 from lexical match DOID:0060234 (Gilda 0.778 via Carpenter syndrome)",
-   "id": "0019012",
-   "method": "xref via lexical anchor",
-   "name": "Carpenter syndrome",
+   "evidence": "MONDO:0010012 from curated SNOMEDCT:83728000",
+   "id": "0010012",
+   "method": "xref via curated anchor",
+   "name": "autoimmune polyendocrinopathy type 2",
    "routes": 1,
-   "support": 2
+   "support": 6
   }
  ],
  "ARI:0001158|OMIM": [
+  {
+   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "id": "269200",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 6
+  },
   {
    "evidence": "DOID:0060234 xref, lexical match DOID:0060234 (Gilda 0.778 via Carpenter syndrome)",
    "id": "PS201000",
@@ -11715,15 +11915,23 @@
  ],
  "ARI:0001158|ORPHA": [
   {
-   "evidence": "DOID:0060234 xref, lexical match DOID:0060234 (Gilda 0.778 via Carpenter syndrome)",
-   "id": "65759",
-   "method": "xref via lexical anchor",
+   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "id": "3143",
+   "method": "xref via curated anchor",
    "name": "",
-   "routes": 2,
-   "support": 4
+   "routes": 1,
+   "support": 6
   }
  ],
  "ARI:0001158|SNOMEDCT": [
+  {
+   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "id": "83728000",
+   "method": "xref via curated anchor",
+   "name": "Polyglandular autoimmune syndrome, type 2",
+   "routes": 1,
+   "support": 6
+  },
   {
    "evidence": "Gilda score 0.556 via Carpenter syndrome",
    "id": "403767009",
@@ -11733,27 +11941,25 @@
    "support": 6
   }
  ],
- "ARI:0001158|mesh": [
-  {
-   "evidence": "DOID:0060234 xref, lexical match DOID:0060234 (Gilda 0.778 via Carpenter syndrome)",
-   "id": "C563187",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  }
- ],
  "ARI:0001158|ncit": [
   {
-   "evidence": "DOID:0060234 xref, lexical match DOID:0060234 (Gilda 0.778 via Carpenter syndrome)",
-   "id": "C98873",
-   "method": "xref via lexical anchor",
+   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "id": "C129728",
+   "method": "xref via curated anchor",
    "name": "",
-   "routes": 2,
-   "support": 4
+   "routes": 1,
+   "support": 6
   }
  ],
  "ARI:0001158|omop": [
+  {
+   "evidence": "MONDO:0010012 xref SCTID:83728000, curated SNOMEDCT:83728000",
+   "id": "4308266",
+   "method": "xref via curated anchor",
+   "name": "Polyglandular autoimmune syndrome, type 2",
+   "routes": 1,
+   "support": 6
+  },
   {
    "evidence": "Gilda score 0.556 via Carpenter syndrome",
    "id": "4301299",
@@ -11765,112 +11971,112 @@
  ],
  "ARI:0001158|umls": [
   {
-   "evidence": "DOID:0060234 xref, lexical match DOID:0060234 (Gilda 0.778 via Carpenter syndrome)",
-   "id": "C1275078",
-   "method": "xref via lexical anchor",
+   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "id": "C0085860",
+   "method": "xref via curated anchor",
    "name": "",
-   "routes": 2,
-   "support": 4
+   "routes": 1,
+   "support": 6
   }
  ],
  "ARI:0001159|MONDO": [
   {
-   "evidence": "MONDO:0016422 from lexical match SNOMEDCT:449731009 (Gilda 0.778 via Autoimmune polyendocrine syndrome type 3)",
+   "evidence": "MONDO:0016422 from curated SNOMEDCT:449731009",
    "id": "0016422",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "autoimmune polyendocrinopathy type 3",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001159|ORPHA": [
   {
-   "evidence": "MONDO:0016422 xref, lexical match SNOMEDCT:449731009 (Gilda 0.778 via Autoimmune polyendocrine syndrome type 3)",
+   "evidence": "MONDO:0016422 xref, curated SNOMEDCT:449731009",
    "id": "227982",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001159|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via Autoimmune polyendocrine syndrome type 3",
+   "evidence": "MONDO:0016422 xref, curated SNOMEDCT:449731009",
    "id": "449731009",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Autoimmune polyendocrine syndrome type 3",
    "routes": 2,
-   "support": 3
+   "support": 11
   }
  ],
  "ARI:0001159|omop": [
   {
-   "evidence": "Gilda score 0.778 via Autoimmune polyendocrine syndrome type 3",
+   "evidence": "MONDO:0016422 xref SCTID:449731009, curated SNOMEDCT:449731009",
    "id": "42709859",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Autoimmune polyendocrine syndrome type 3",
    "routes": 2,
-   "support": 3
+   "support": 11
   }
  ],
  "ARI:0001159|umls": [
   {
-   "evidence": "MONDO:0016422 xref, lexical match SNOMEDCT:449731009 (Gilda 0.778 via Autoimmune polyendocrine syndrome type 3)",
+   "evidence": "MONDO:0016422 xref, curated SNOMEDCT:449731009",
    "id": "C1535942",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001160|MONDO": [
   {
-   "evidence": "MONDO:0016423 from lexical match SNOMEDCT:449730005 (Gilda 0.778 via Autoimmune polyendocrine syndrome type 4)",
+   "evidence": "MONDO:0016423 from curated SNOMEDCT:449730005",
    "id": "0016423",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "autoimmune polyendocrinopathy type 4",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001160|ORPHA": [
   {
-   "evidence": "MONDO:0016423 xref, lexical match SNOMEDCT:449730005 (Gilda 0.778 via Autoimmune polyendocrine syndrome type 4)",
+   "evidence": "MONDO:0016423 xref, curated SNOMEDCT:449730005",
    "id": "227990",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001160|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via Autoimmune polyendocrine syndrome type 4",
+   "evidence": "MONDO:0016423 xref, curated SNOMEDCT:449730005",
    "id": "449730005",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Autoimmune polyendocrine syndrome type 4",
    "routes": 2,
-   "support": 3
+   "support": 11
   }
  ],
  "ARI:0001160|omop": [
   {
-   "evidence": "Gilda score 0.778 via Autoimmune polyendocrine syndrome type 4",
+   "evidence": "MONDO:0016423 xref SCTID:449730005, curated SNOMEDCT:449730005",
    "id": "42709858",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Autoimmune polyendocrine syndrome type 4",
    "routes": 2,
-   "support": 3
+   "support": 11
   }
  ],
  "ARI:0001160|umls": [
   {
-   "evidence": "MONDO:0016423 xref, lexical match SNOMEDCT:449730005 (Gilda 0.778 via Autoimmune polyendocrine syndrome type 4)",
+   "evidence": "MONDO:0016423 xref, curated SNOMEDCT:449730005",
    "id": "C3266026",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001161|DOID": [
@@ -11955,92 +12161,92 @@
  ],
  "ARI:0001162|DOID": [
   {
-   "evidence": "Gilda score 0.762 via (preferred name)",
+   "evidence": "DOID:0080745 from curated DOID:0080745",
    "id": "0080745",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "polymyositis",
    "routes": 3,
-   "support": 5
+   "support": 25
   }
  ],
  "ARI:0001162|MONDO": [
   {
-   "evidence": "MONDO:0019127 from lexical match DOID:0080745 (Gilda 0.762 via (preferred name))",
+   "evidence": "MONDO:0019127 from curated SNOMEDCT:31384009",
    "id": "0019127",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "polymyositis",
    "routes": 1,
-   "support": 2
+   "support": 18
   }
  ],
  "ARI:0001162|ORPHA": [
   {
-   "evidence": "MONDO:0019127 xref, lexical match DOID:0080745 (Gilda 0.762 via (preferred name))",
+   "evidence": "MONDO:0019127 xref, curated SNOMEDCT:31384009",
    "id": "732",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 18
   }
  ],
  "ARI:0001162|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019127 xref, curated SNOMEDCT:31384009",
    "id": "31384009",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Polymyositis",
    "routes": 2,
-   "support": 4
+   "support": 20
   }
  ],
  "ARI:0001162|icd10cm": [
   {
-   "evidence": "MONDO:0019127 xref, lexical match DOID:0080745 (Gilda 0.762 via (preferred name))",
+   "evidence": "MONDO:0019127 xref, curated SNOMEDCT:31384009",
    "id": "M33.2",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 18
   }
  ],
  "ARI:0001162|mesh": [
   {
-   "evidence": "DOID:0080745 xref, lexical match DOID:0080745 (Gilda 0.762 via (preferred name))",
+   "evidence": "DOID:0080745 xref, curated DOID:0080745",
    "id": "D017285",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001162|ncit": [
   {
-   "evidence": "MONDO:0019127 xref, lexical match DOID:0080745 (Gilda 0.762 via (preferred name))",
+   "evidence": "MONDO:0019127 xref, curated SNOMEDCT:31384009",
    "id": "C26925",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 18
   }
  ],
  "ARI:0001162|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019127 xref SCTID:31384009, curated SNOMEDCT:31384009",
    "id": "80800",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Polymyositis",
    "routes": 2,
-   "support": 4
+   "support": 20
   }
  ],
  "ARI:0001162|umls": [
   {
-   "evidence": "MONDO:0019127 xref, lexical match DOID:0080745 (Gilda 0.762 via (preferred name))",
+   "evidence": "MONDO:0019127 xref, curated SNOMEDCT:31384009",
    "id": "C0085655",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 18
   }
  ],
  "ARI:0001163|DOID": [
@@ -12225,142 +12431,118 @@
  ],
  "ARI:0001166|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:12236 from curated SNOMEDCT:31712002",
    "id": "12236",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "primary biliary cholangitis",
    "routes": 3,
-   "support": 6
+   "support": 36
   }
  ],
  "ARI:0001166|MONDO": [
   {
-   "evidence": "MONDO:0005388 from lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0005388 from curated SNOMEDCT:31712002",
    "id": "0005388",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "primary biliary cholangitis",
    "routes": 1,
-   "support": 2
+   "support": 18
   }
  ],
  "ARI:0001166|OMIM": [
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "PS109720",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 16
   }
  ],
  "ARI:0001166|ORPHA": [
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "186",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 34
   }
  ],
  "ARI:0001166|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "31712002",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Primary biliary cholangitis",
    "routes": 3,
-   "support": 6
+   "support": 36
   },
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "1761006",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Biliary cirrhosis",
    "routes": 1,
-   "support": 2
+   "support": 16
   }
  ],
  "ARI:0001166|icd10cm": [
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "K74.3",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
-  },
-  {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
-   "id": "K74.5",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
+   "support": 34
   }
  ],
  "ARI:0001166|mesh": [
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "D008105",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 34
   }
  ],
  "ARI:0001166|ncit": [
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "C27167",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
-  },
-  {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
-   "id": "C51225",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
+   "support": 34
   }
  ],
  "ARI:0001166|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:12236 xref SCTID:31712002, curated SNOMEDCT:31712002",
    "id": "4135822",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Primary biliary cholangitis",
    "routes": 3,
-   "support": 6
+   "support": 36
   },
   {
-   "evidence": "DOID:12236 xref SCTID:1761006, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref SCTID:1761006, curated SNOMEDCT:31712002",
    "id": "192675",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Biliary cirrhosis",
    "routes": 1,
-   "support": 2
+   "support": 16
   }
  ],
  "ARI:0001166|umls": [
   {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:12236 xref, curated SNOMEDCT:31712002",
    "id": "C0008312",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
-  },
-  {
-   "evidence": "DOID:12236 xref, lexical match DOID:12236 (Gilda 0.772 via (preferred name))",
-   "id": "C0023892",
-   "method": "xref via lexical anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
+   "support": 34
   }
  ],
  "ARI:0001167|DOID": [
@@ -13485,72 +13667,72 @@
  ],
  "ARI:0001180|MONDO": [
   {
-   "evidence": "MONDO:0019390 from lexical match SNOMEDCT:702575003 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019390 from curated SNOMEDCT:702575003",
    "id": "0019390",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Susac syndrome",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001180|ORPHA": [
   {
-   "evidence": "MONDO:0019390 xref, lexical match SNOMEDCT:702575003 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019390 xref, curated SNOMEDCT:702575003",
    "id": "838",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001180|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019390 xref, curated SNOMEDCT:702575003",
    "id": "702575003",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Retinocochleocerebral vasculopathy",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001180|mesh": [
   {
-   "evidence": "MONDO:0019390 xref, lexical match SNOMEDCT:702575003 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019390 xref, curated SNOMEDCT:702575003",
    "id": "D055955",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001180|ncit": [
   {
-   "evidence": "MONDO:0019390 xref, lexical match SNOMEDCT:702575003 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019390 xref, curated SNOMEDCT:702575003",
    "id": "C116363",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001180|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019390 xref SCTID:702575003, curated SNOMEDCT:702575003",
    "id": "45765600",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Retinocochleocerebral vasculopathy",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001180|umls": [
   {
-   "evidence": "MONDO:0019390 xref, lexical match SNOMEDCT:702575003 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019390 xref, curated SNOMEDCT:702575003",
    "id": "C2717757",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001181|SNOMEDCT": [
@@ -13963,72 +14145,72 @@
  ],
  "ARI:0001187|DOID": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:4371 from curated SNOMEDCT:402415001",
    "id": "4371",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Schnitzler syndrome",
    "routes": 3,
-   "support": 6
+   "support": 26
   }
  ],
  "ARI:0001187|MONDO": [
   {
-   "evidence": "MONDO:0018304 from lexical match DOID:4371 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0018304 from curated SNOMEDCT:402415001",
    "id": "0018304",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Schnitzler syndrome",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001187|ORPHA": [
   {
-   "evidence": "MONDO:0018304 xref, lexical match DOID:4371 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0018304 xref, curated SNOMEDCT:402415001",
    "id": "37748",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001187|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:4371 xref, curated SNOMEDCT:402415001",
    "id": "402415001",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Schnitzler syndrome",
    "routes": 3,
-   "support": 6
+   "support": 26
   }
  ],
  "ARI:0001187|mesh": [
   {
-   "evidence": "DOID:4371 xref, lexical match DOID:4371 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:4371 xref, curated SNOMEDCT:402415001",
    "id": "D019873",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 24
   }
  ],
  "ARI:0001187|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:4371 xref SCTID:402415001, curated SNOMEDCT:402415001",
    "id": "4297647",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Schnitzler syndrome",
    "routes": 3,
-   "support": 6
+   "support": 26
   }
  ],
  "ARI:0001187|umls": [
   {
-   "evidence": "DOID:4371 xref, lexical match DOID:4371 (Gilda 0.778 via (preferred name))",
+   "evidence": "DOID:4371 xref, curated SNOMEDCT:402415001",
    "id": "C0524988",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 4
+   "support": 24
   }
  ],
  "ARI:0001188|DOID": [
@@ -14249,142 +14431,142 @@
  ],
  "ARI:0001190|DOID": [
   {
-   "evidence": "Gilda score 0.772 via Lupus nephritis",
+   "evidence": "DOID:0080162 from curated DOID:0080162",
    "id": "0080162",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "lupus nephritis",
    "routes": 3,
-   "support": 5
+   "support": 21
   }
  ],
  "ARI:0001190|MONDO": [
   {
-   "evidence": "MONDO:0005556 from lexical match DOID:0080162 (Gilda 0.772 via Lupus nephritis)",
+   "evidence": "MONDO:0005556 from curated SNOMEDCT:68815009",
    "id": "0005556",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "lupus nephritis",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001190|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0005556 xref, curated SNOMEDCT:68815009",
    "id": "68815009",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "SLE glomerulonephritis syndrome",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001190|mesh": [
   {
-   "evidence": "DOID:0080162 xref, lexical match DOID:0080162 (Gilda 0.772 via Lupus nephritis)",
+   "evidence": "DOID:0080162 xref, curated DOID:0080162",
    "id": "D008181",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 19
   }
  ],
  "ARI:0001190|ncit": [
   {
-   "evidence": "MONDO:0005556 xref, lexical match DOID:0080162 (Gilda 0.772 via Lupus nephritis)",
+   "evidence": "MONDO:0005556 xref, curated SNOMEDCT:68815009",
    "id": "C34789",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001190|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0005556 xref SCTID:68815009, curated SNOMEDCT:68815009",
    "id": "4285717",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "SLE glomerulonephritis syndrome",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001190|umls": [
   {
-   "evidence": "MONDO:0005556 xref, lexical match DOID:0080162 (Gilda 0.772 via Lupus nephritis)",
+   "evidence": "MONDO:0005556 xref, curated SNOMEDCT:68815009",
    "id": "C0024143",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001191|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:0070701 from curated SNOMEDCT:709489006",
    "id": "0070701",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "small fiber neuropathy",
    "routes": 2,
-   "support": 4
+   "support": 14
   }
  ],
  "ARI:0001191|MONDO": [
   {
-   "evidence": "MONDO:0800207 from lexical match SNOMEDCT:709489006 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0800207 from curated SNOMEDCT:709489006",
    "id": "0800207",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "neuropathy, small fiber",
    "routes": 1,
-   "support": 1
+   "support": 7
   }
  ],
  "ARI:0001191|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:0070701 xref, curated SNOMEDCT:709489006",
    "id": "709489006",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Small fiber neuropathy",
    "routes": 3,
-   "support": 5
+   "support": 21
   }
  ],
  "ARI:0001191|mesh": [
   {
-   "evidence": "DOID:0070701 xref, lexical match DOID:0070701 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0070701 xref, curated SNOMEDCT:709489006",
    "id": "D000071075",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 12
   }
  ],
  "ARI:0001191|ncit": [
   {
-   "evidence": "DOID:0070701 xref, lexical match DOID:0070701 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0070701 xref, curated SNOMEDCT:709489006",
    "id": "C125389",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 12
   }
  ],
  "ARI:0001191|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "DOID:0070701 xref SCTID:709489006, curated SNOMEDCT:709489006",
    "id": "46271378",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Small fiber neuropathy",
    "routes": 3,
-   "support": 5
+   "support": 21
   }
  ],
  "ARI:0001191|umls": [
   {
-   "evidence": "DOID:0070701 xref, lexical match DOID:0070701 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:0070701 xref, curated SNOMEDCT:709489006",
    "id": "C3276706",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 19
   }
  ],
  "ARI:0001192|SNOMEDCT": [
@@ -14509,72 +14691,72 @@
  ],
  "ARI:0001194|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:4562 from curated DOID:4562",
    "id": "4562",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "subacute bacterial endocarditis",
    "routes": 3,
-   "support": 5
+   "support": 25
   }
  ],
  "ARI:0001194|MONDO": [
   {
-   "evidence": "MONDO:0006981 from lexical match DOID:4562 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0006981 from curated SNOMEDCT:73774007",
    "id": "0006981",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "subacute bacterial endocarditis",
    "routes": 1,
-   "support": 2
+   "support": 14
   }
  ],
  "ARI:0001194|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0006981 xref, curated SNOMEDCT:73774007",
    "id": "73774007",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Subacute bacterial endocarditis",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001194|mesh": [
   {
-   "evidence": "DOID:4562 xref, lexical match DOID:4562 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:4562 xref, curated DOID:4562",
    "id": "D004698",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001194|ncit": [
   {
-   "evidence": "DOID:4562 xref, lexical match DOID:4562 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:4562 xref, curated DOID:4562",
    "id": "C34583",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001194|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0006981 xref SCTID:73774007, curated SNOMEDCT:73774007",
    "id": "4249899",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Subacute bacterial endocarditis",
    "routes": 2,
-   "support": 4
+   "support": 16
   }
  ],
  "ARI:0001194|umls": [
   {
-   "evidence": "DOID:4562 xref, lexical match DOID:4562 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:4562 xref, curated DOID:4562",
    "id": "C0014122",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001195|DOID": [
@@ -15319,243 +15501,285 @@
  ],
  "ARI:0001201|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:13375 from curated DOID:13375",
    "id": "13375",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "temporal arteritis",
    "routes": 3,
-   "support": 5
+   "support": 25
   }
  ],
  "ARI:0001201|MONDO": [
   {
-   "evidence": "MONDO:0008538 from lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0008538 from curated SNOMEDCT:400130008",
    "id": "0008538",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "temporal arteritis",
    "routes": 1,
-   "support": 2
+   "support": 12
   }
  ],
  "ARI:0001201|OMIM": [
   {
-   "evidence": "DOID:13375 xref, lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:13375 xref, curated DOID:13375",
    "id": "187360",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001201|ORPHA": [
   {
-   "evidence": "DOID:13375 xref, lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:13375 xref, curated DOID:13375",
    "id": "397",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001201|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0008538 xref, curated SNOMEDCT:400130008",
    "id": "400130008",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Temporal arteritis",
    "routes": 2,
-   "support": 4
+   "support": 14
   }
  ],
  "ARI:0001201|mesh": [
   {
-   "evidence": "DOID:13375 xref, lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:13375 xref, curated DOID:13375",
    "id": "D013700",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001201|ncit": [
   {
-   "evidence": "DOID:13375 xref, lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:13375 xref, curated DOID:13375",
    "id": "C35065",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 23
   }
  ],
  "ARI:0001201|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0008538 xref SCTID:400130008, curated SNOMEDCT:400130008",
    "id": "4290976",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Temporal arteritis",
    "routes": 2,
-   "support": 4
+   "support": 14
   }
  ],
  "ARI:0001201|umls": [
   {
-   "evidence": "MONDO:0008538 xref, lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0008538 xref, curated SNOMEDCT:400130008",
    "id": "C1956391",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 12
   },
   {
-   "evidence": "DOID:13375 xref, lexical match DOID:13375 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:13375 xref, curated DOID:13375",
    "id": "C0039483",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001203|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:1278 from curated DOID:1278",
    "id": "1278",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "tolosa-hunt syndrome",
    "routes": 3,
-   "support": 5
+   "support": 27
   }
  ],
  "ARI:0001203|MONDO": [
   {
-   "evidence": "MONDO:0018983 from lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0018983 from curated SNOMEDCT:95794005",
    "id": "0018983",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Tolosa-Hunt syndrome",
    "routes": 1,
-   "support": 2
+   "support": 16
   }
  ],
  "ARI:0001203|ORPHA": [
   {
-   "evidence": "MONDO:0018983 xref, lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0018983 xref, curated SNOMEDCT:95794005",
    "id": "64686",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 2
+   "support": 16
   }
  ],
  "ARI:0001203|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0018983 xref, curated SNOMEDCT:95794005",
    "id": "95794005",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Tolosa-Hunt syndrome",
    "routes": 2,
-   "support": 4
+   "support": 18
   },
   {
-   "evidence": "DOID:1278 xref, lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:1278 xref, curated DOID:1278",
    "id": "75111000",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Painful ophthalmoplegia",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001203|mesh": [
   {
-   "evidence": "DOID:1278 xref, lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:1278 xref, curated DOID:1278",
    "id": "D020333",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 25
   }
  ],
  "ARI:0001203|ncit": [
   {
-   "evidence": "DOID:1278 xref, lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:1278 xref, curated DOID:1278",
    "id": "C85193",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 25
   }
  ],
  "ARI:0001203|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0018983 xref SCTID:95794005, curated SNOMEDCT:95794005",
    "id": "4317989",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Tolosa-Hunt syndrome",
    "routes": 2,
-   "support": 4
+   "support": 18
   },
   {
-   "evidence": "DOID:1278 xref SCTID:75111000, lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:1278 xref SCTID:75111000, curated DOID:1278",
    "id": "4327346",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "Painful ophthalmoplegia",
    "routes": 1,
-   "support": 1
+   "support": 9
   }
  ],
  "ARI:0001203|umls": [
   {
-   "evidence": "DOID:1278 xref, lexical match DOID:1278 (Gilda 0.772 via (preferred name))",
+   "evidence": "DOID:1278 xref, curated DOID:1278",
    "id": "C0040381",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 3
+   "support": 25
   }
  ],
  "ARI:0001204|DOID": [
   {
-   "evidence": "Gilda score 0.772 via (preferred name)",
+   "evidence": "DOID:0080743 from curated DOID:0080743",
    "id": "0080743",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "transverse myelitis",
    "routes": 3,
-   "support": 5
+   "support": 15
   }
  ],
  "ARI:0001204|MONDO": [
   {
-   "evidence": "MONDO:0021553 from lexical match DOID:0080743 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0021553 from curated SNOMEDCT:16631009",
    "id": "0021553",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "transverse myelitis",
+   "routes": 1,
+   "support": 10
+  },
+  {
+   "evidence": "MONDO:0015342 from curated mesh:D009188",
+   "id": "0015342",
+   "method": "xref via curated anchor",
+   "name": "acute transverse myelitis",
    "routes": 1,
    "support": 2
   }
  ],
  "ARI:0001204|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.556 via (preferred name)",
+   "evidence": "MONDO:0021553 xref, curated SNOMEDCT:16631009",
    "id": "16631009",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Transverse myelopathy syndrome",
    "routes": 2,
-   "support": 4
+   "support": 12
+  },
+  {
+   "evidence": "MONDO:0015342 xref, curated mesh:D009188",
+   "id": "47000000",
+   "method": "xref via curated anchor",
+   "name": "Acute transverse myelitis",
+   "routes": 1,
+   "support": 2
+  }
+ ],
+ "ARI:0001204|mesh": [
+  {
+   "evidence": "MONDO:0015342 xref, curated mesh:D009188",
+   "id": "D009188",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001204|omop": [
   {
-   "evidence": "Gilda score 0.556 via (preferred name)",
+   "evidence": "MONDO:0021553 xref SCTID:16631009, curated SNOMEDCT:16631009",
    "id": "443904",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Transverse myelopathy syndrome",
    "routes": 2,
-   "support": 4
+   "support": 12
+  },
+  {
+   "evidence": "MONDO:0015342 xref SCTID:47000000, curated mesh:D009188",
+   "id": "139803",
+   "method": "xref via curated anchor",
+   "name": "Acute transverse myelitis",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001204|umls": [
   {
-   "evidence": "MONDO:0021553 xref, lexical match DOID:0080743 (Gilda 0.772 via (preferred name))",
+   "evidence": "MONDO:0021553 xref, curated SNOMEDCT:16631009",
    "id": "C0026976",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 10
+  },
+  {
+   "evidence": "MONDO:0015342 xref, curated mesh:D009188",
+   "id": "C0270627",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
    "support": 2
@@ -15667,62 +15891,62 @@
  ],
  "ARI:0001206|MONDO": [
   {
-   "evidence": "MONDO:0019527 from lexical match SNOMEDCT:239918008 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019527 from curated SNOMEDCT:239918008",
    "id": "0019527",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "undifferentiated connective tissue syndrome",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001206|ORPHA": [
   {
-   "evidence": "MONDO:0019527 xref, lexical match SNOMEDCT:239918008 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019527 xref, curated SNOMEDCT:239918008",
    "id": "90002",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001206|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019527 xref, curated SNOMEDCT:239918008",
    "id": "239918008",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Undifferentiated connective tissue disease",
    "routes": 2,
-   "support": 3
+   "support": 13
   }
  ],
  "ARI:0001206|ncit": [
   {
-   "evidence": "MONDO:0019527 xref, lexical match SNOMEDCT:239918008 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019527 xref, curated SNOMEDCT:239918008",
    "id": "C116776",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001206|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019527 xref SCTID:239918008, curated SNOMEDCT:239918008",
    "id": "4344165",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Undifferentiated connective tissue disease",
    "routes": 2,
-   "support": 3
+   "support": 13
   }
  ],
  "ARI:0001206|umls": [
   {
-   "evidence": "MONDO:0019527 xref, lexical match SNOMEDCT:239918008 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019527 xref, curated SNOMEDCT:239918008",
    "id": "C0409999",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 11
   }
  ],
  "ARI:0001208|DOID": [
@@ -16019,72 +16243,142 @@
  ],
  "ARI:0001211|MONDO": [
   {
-   "evidence": "MONDO:0019532 from lexical match SNOMEDCT:3978000 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019532 from curated icd10cm:D59.11",
    "id": "0019532",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "autoimmune hemolytic anemia, warm type",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001211|ORPHA": [
   {
-   "evidence": "MONDO:0019532 xref, lexical match SNOMEDCT:3978000 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019532 xref, curated icd10cm:D59.11",
    "id": "90033",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001211|SNOMEDCT": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019532 xref, curated icd10cm:D59.11",
    "id": "3978000",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Warm autoimmune hemolytic anemia",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001211|icd10cm": [
   {
-   "evidence": "MONDO:0019532 xref, lexical match SNOMEDCT:3978000 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019532 xref, curated icd10cm:D59.11",
    "id": "D59.11",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001211|ncit": [
   {
-   "evidence": "MONDO:0019532 xref, lexical match SNOMEDCT:3978000 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019532 xref, curated icd10cm:D59.11",
    "id": "C162611",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
   }
  ],
  "ARI:0001211|omop": [
   {
-   "evidence": "Gilda score 0.778 via (preferred name)",
+   "evidence": "MONDO:0019532 xref SCTID:3978000, curated icd10cm:D59.11",
    "id": "4219853",
-   "method": "lexical grounding",
+   "method": "xref via curated anchor",
    "name": "Warm autoimmune hemolytic anemia",
    "routes": 2,
-   "support": 3
+   "support": 15
   }
  ],
  "ARI:0001211|umls": [
   {
-   "evidence": "MONDO:0019532 xref, lexical match SNOMEDCT:3978000 (Gilda 0.778 via (preferred name))",
+   "evidence": "MONDO:0019532 xref, curated icd10cm:D59.11",
    "id": "C0272118",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 13
+  }
+ ],
+ "ARI:0001213|MONDO": [
+  {
+   "evidence": "MONDO:0008718 from curated SNOMEDCT:763803004",
+   "id": "0008718",
+   "method": "xref via curated anchor",
+   "name": "Morvan syndrome",
+   "routes": 1,
+   "support": 8
+  }
+ ],
+ "ARI:0001213|ORPHA": [
+  {
+   "evidence": "MONDO:0008718 xref, curated SNOMEDCT:763803004",
+   "id": "83467",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  }
+ ],
+ "ARI:0001213|SNOMEDCT": [
+  {
+   "evidence": "MONDO:0008718 xref, curated SNOMEDCT:763803004",
+   "id": "763803004",
+   "method": "xref via curated anchor",
+   "name": "Morvan syndrome",
+   "routes": 1,
+   "support": 8
+  }
+ ],
+ "ARI:0001213|omop": [
+  {
+   "evidence": "MONDO:0008718 xref SCTID:763803004, curated SNOMEDCT:763803004",
+   "id": "35622356",
+   "method": "xref via curated anchor",
+   "name": "Morvan syndrome",
+   "routes": 1,
+   "support": 8
+  }
+ ],
+ "ARI:0001213|umls": [
+  {
+   "evidence": "MONDO:0008718 xref, curated SNOMEDCT:763803004",
+   "id": "C3854373",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 8
+  }
+ ],
+ "ARI:0001214|DOID": [
+  {
+   "evidence": "DOID:0080846 from curated mesh:D000071698",
+   "id": "0080846",
+   "method": "xref via curated anchor",
+   "name": "latent autoimmune diabetes in adults",
+   "routes": 1,
+   "support": 2
+  }
+ ],
+ "ARI:0001214|mesh": [
+  {
+   "evidence": "DOID:0080846 xref, curated mesh:D000071698",
+   "id": "D000071698",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
   }
  ]
 }

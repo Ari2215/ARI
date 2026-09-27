@@ -10,8 +10,8 @@ from gilda.term import Term
 from gilda.process import normalize
 import openpyxl
 
-BASE = "/sessions/zen-keen-curie/mnt/ARI"
-DOID_RECORDS = "/sessions/zen-keen-curie/mnt/ARI/notebook/ari-grounding/doid_records.json"
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DOID_RECORDS = f"{BASE}/notebook/ari-grounding/doid_records.json"
 CORE = f"{BASE}/data/4-reports/1_Core_ARI_Diseases.xlsx"
 OUT = f"{BASE}/notebook/ari-grounding"
 os.makedirs(OUT, exist_ok=True)

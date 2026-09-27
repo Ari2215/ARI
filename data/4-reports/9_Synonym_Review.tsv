@@ -1,0 +1,709 @@
+ari_id	disease	synonym	verdict	reason	review_date	evidence	note
+ARI:0001001	Acquired epidermolysis bullosa	Autoimmune epidermolysis bullosa	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001001	Acquired epidermolysis bullosa	Epidermolysis bullosa acquisita	synonym			DOID:4313 exact: epidermolysis bullosa acquisita	
+ARI:0001001	Acquired epidermolysis bullosa	EBA	synonym			MONDO:0018747 exact: EBA	
+ARI:0001002	Acquired hemophilia	Acquired haemophilia	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001003	Acute disseminated encephalomyelitis	ADEM	synonym			DOID:639 exact: ADEM	
+ARI:0001003	Acute disseminated encephalomyelitis	Nonvasculitic autoimmune inflammatory meningoencephalitis	withdrawn	distinct	2026-09-07	first pass (PR #84)	NAIM/SREAT-spectrum steroid-responsive encephalopathy, a different entity from ADEM
+ARI:0001003	Acute disseminated encephalomyelitis	Hurst's disease	withdrawn	subtype	2026-09-07	first pass (PR #84)	"eponym for acute haemorrhagic leukoencephalitis, the hyperacute haemorrhagic variant of ADEM (subtype ""Hyperacute/Fulminant ADEM"")"
+ARI:0001003	Acute disseminated encephalomyelitis	Weston-Hurst syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	"eponym for acute haemorrhagic leukoencephalitis, the hyperacute haemorrhagic variant of ADEM (subtype ""Hyperacute/Fulminant ADEM"")"
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	Kawasaki syndrome	synonym			MONDO:0012727 exact: Kawasaki syndrome	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	Mucocutaneous lymph node syndrome	synonym			DOID:13378 exact: mucocutaneous lymph node syndrome	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	Lymph node syndrome	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	truncated fragment of 'mucocutaneous lymph node syndrome'; on its own it names no specific disease
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	Kawasaki's disease	synonym			DOID:13378 exact: Kawasaki's disease	
+ARI:0001005	Acute lichenoid pityriasis	Mucha-Habermann disease	synonym			MONDO:0024250 related: Mucha Habermann disease	
+ARI:0001005	Acute lichenoid pityriasis	PLEVA	synonym			MONDO:0024250 related: PLEVA	
+ARI:0001005	Acute lichenoid pityriasis	Acuta guttale parapsoriasis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001005	Acute lichenoid pityriasis	Pityriasis lichenoides et varioliformis acuta	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001006	Addison's disease	Autoimmune adrenalitis	synonym (curator note)			MONDO:0100480 exact: autoimmune adrenalitis	Exact synonym of the mapped MONDO:0100480, but the entry's own subtypes list 'Autoimmune Addison's Disease' as one subtype, so under the entry's concept this string is that subtype. Same mapping-vs-concept conflict.
+ARI:0001006	Addison's disease	Primary adrenal insufficiency	synonym (curator note)			MONDO:0100480 ancestor: MONDO:0015128 primary adrenal insufficiency	Synonym of Addison's disease in its classic all-cause sense, which is how the entry's label and subtypes define it. But ARI_MONDO points to MONDO:0100480 'autoimmune primary adrenal insufficiency', which makes this string broader. Fix the mapping or narrow the concept.
+ARI:0001006	Addison's disease	Adrenal Insufficiency	withdrawn	broader	2026-09-07	first pass (PR #84)	umbrella term including secondary/tertiary and non-autoimmune adrenal insufficiency
+ARI:0001006	Addison's disease	Adrenal cortical hypofunction	withdrawn	broader	2026-09-07	first pass (PR #84)	parent class of Addison's disease in the Disease Ontology; covers non-autoimmune causes
+ARI:0001008	Adult onset Still's disease	Adult Still's disease	synonym			MONDO:0019355 related: adult Still's disease	
+ARI:0001011	Angiofollicular lymph node hyperplasia	Castleman's disease	synonym			MONDO:0015564 exact: Castleman's disease	
+ARI:0001011	Angiofollicular lymph node hyperplasia	Castleman Disease	synonym			DOID:0111157 exact: Castleman disease	
+ARI:0001012	Ankylosing spondylitis	Spondyloarthritis	withdrawn	broader	2026-09-07	first pass (PR #84)	disease family (includes psoriatic, reactive, enteropathic and peripheral spondyloarthritis)
+ARI:0001012	Ankylosing spondylitis	Axial spondyloarthritis	withdrawn	broader	2026-09-07	first pass (PR #84)	parent concept; ankylosing spondylitis is the radiographic subtype of axial spondyloarthritis
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	Morvan syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	a specific CASPR2-antibody phenotype (encephalopathy + peripheral nerve hyperexcitability + dysautonomia); already an ARI_ClinicalSubtype
+ARI:0001014	Anti-glomerular basement membrane disease	Goodpasture's syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001014	Anti-glomerular basement membrane disease	Goodpasture disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001014	Anti-glomerular basement membrane disease	Anti-GBM disease	synonym			DOID:9808 exact: anti-GBM disease	
+ARI:0001014	Anti-glomerular basement membrane disease	Goodpasture's disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001014	Anti-glomerular basement membrane disease	Anti-glomerular basement membrane tubulointerstitial nephritis	synonym (curator note)			no MONDO/DOID match - clinical judgement	Not a standard term. Anti-tubular basement membrane nephritis is a separate entity. Check the source.
+ARI:0001014	Anti-glomerular basement membrane disease	Anti-glomerular basement membrane nephritis	synonym (curator note)			no MONDO/DOID match - clinical judgement	Usually the renal-limited form of anti-GBM disease. Commonly used interchangeably.
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	ANCA-associated vasculitis	synonym			MONDO:0015492 exact: ANCA-associated vasculitis	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	Anti-neutrophil cytoplasmic antibody-associated vasculitis	synonym			MONDO:0015492 exact: anti-neutrophil cytoplasmic antibody-associated vasculitis	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	ANCA vasculitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	Churg Strauss syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	eosinophilic granulomatosis with polyangiitis (EGPA); already an ARI_ClinicalSubtype
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	Wegener's Granulomatosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	granulomatosis with polyangiitis (GPA); already an ARI_ClinicalSubtype
+ARI:0001018	Antiphospholipid syndrome	Lupus anticoagulant syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001018	Antiphospholipid syndrome	Anticardiolipin antibody syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001018	Antiphospholipid syndrome	aCL syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001018	Antiphospholipid syndrome	Hughes syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001019	Antisynthetase syndrome	Anti-Jo1 syndrome	synonym			MONDO:0019344 exact: anti-Jo1 syndrome	
+ARI:0001021	Aplastic anemia	Aplastic Anemias	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001021	Aplastic anemia	Aplastic anemia, unspecified	synonym (curator note)			no MONDO/DOID match - clinical judgement	ICD-10 D61.9 label, not a clinical synonym.
+ARI:0001021	Aplastic anemia	Aplastic Anaemia	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001021	Aplastic anemia	Anemia, Aplastic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001021	Aplastic anemia	Aplastic Anaemias	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001021	Aplastic anemia	Anaemia, Aplastic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001023	Autoimmune angioedema	Acquired angiodema	withdrawn	broader	2026-09-27	no MONDO/DOID mapping - clinical judgement	acquired angioedema (acquired C1-inhibitor deficiency) also covers the lymphoproliferative type I form, not only the autoimmune type II form
+ARI:0001027	Autoimmune disorder of inner ear	Ménière's disease	withdrawn	distinct	2026-09-07	first pass (PR #84)	separate clinical entity (idiopathic endolymphatic hydrops); autoimmune inner-ear disease is a different diagnosis
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	Anti-NMDA receptor encephalitis	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	Anti-N-methyl-D-aspartate receptor encephalitis	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	Anti-NMDA Encephalitis	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	Limbic encephalitis with N-methyl-D-aspartate receptor antibodies	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001031	Autoimmune gastritis	Autoimmune atrophic gastritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001031	Autoimmune gastritis	Atrophic gastritis	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	also covers H. pylori-associated multifocal atrophic gastritis; autoimmune gastritis is the corpus-restricted autoimmune form
+ARI:0001031	Autoimmune gastritis	Megaloblastic Anemia	withdrawn	non-disease	2026-09-07	first pass (PR #84)	downstream haematologic consequence of B12 deficiency, not a name for the gastritis
+ARI:0001031	Autoimmune gastritis	Macrocytic Anemia	withdrawn	non-disease	2026-09-07	first pass (PR #84)	downstream haematologic consequence of B12 deficiency, not a name for the gastritis
+ARI:0001031	Autoimmune gastritis	Eosinophilic gastritis	withdrawn	distinct	2026-09-07	first pass (PR #84)	separate disease in the eosinophilic gastrointestinal disease spectrum
+ARI:0001031	Autoimmune gastritis	Autoimmune enteropathy	withdrawn	distinct	2026-09-07	first pass (PR #84)	separate small-bowel disease with anti-enterocyte antibodies
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	ASIA syndrome	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	Canale-Smith syndrome	synonym			DOID:6688 exact: Canale-Smith syndrome	
+ARI:0001039	Autoimmune necrotizing myopathy	Immune-mediated necrotizing myopathy (IMNM)	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001040	Autoimmune neutropenia	Autoimmune neutropenia of infancy	withdrawn	subtype	2026-09-07	first pass (PR #84)	"the benign primary form of infancy/childhood; covered by ARI_ClinicalSubtype ""Autoimmune Neutropenia, Primary"""
+ARI:0001040	Autoimmune neutropenia	Primary autoimmune neutropenia	withdrawn	subtype	2026-09-07	first pass (PR #84)	"primary/idiopathic form; already an ARI_ClinicalSubtype (""Autoimmune Neutropenia, Primary"")"
+ARI:0001041	Autoimmune oophoritis	Premature ovarian failure due to autoimmune oophoritis	synonym (curator note)			no MONDO/DOID mapping - clinical judgement	Names the clinical consequence. Acceptable as a descriptive synonym.
+ARI:0001043	Autoimmune pancreatitis	Tumefactive pancreatitis	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	mass-forming pancreatitis also includes non-autoimmune focal chronic and groove pancreatitis
+ARI:0001043	Autoimmune pancreatitis	Lymphoplasmocytic sclerosing pancreatitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	histopathological name for type 1 (IgG4-related) AIP; already an ARI_ClinicalSubtype
+ARI:0001043	Autoimmune pancreatitis	Nonalcoholic destructive pancreatitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	idiopathic duct-centric pancreatitis = type 2 AIP; already an ARI_ClinicalSubtype
+ARI:0001044	Autoimmune progesterone dermatitis	APD	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001048	Autoimmune thyroiditis	Hashimoto thyroiditis	synonym			DOID:7188 exact: Hashimoto thyroiditis	
+ARI:0001048	Autoimmune thyroiditis	Hashimoto's disease	synonym			DOID:7188 exact: Hashimoto's Disease	
+ARI:0001048	Autoimmune thyroiditis	Hashimoto's thyroiditis	synonym			DOID:7188 exact: Hashimoto's thyroiditis	
+ARI:0001048	Autoimmune thyroiditis	Chronic lymphocytic thyroiditis	synonym			DOID:7188 exact: Chronic Lymphocytic Thyroiditis	
+ARI:0001049	Autoimmune urticaria	Chronic idiopathic urticaria	withdrawn	broader	2026-09-07	first pass (PR #84)	chronic spontaneous/idiopathic urticaria is the parent category; autoimmune urticaria is a subset with functional autoantibodies
+ARI:0001049	Autoimmune urticaria	Physical urticaria	withdrawn	distinct	2026-09-07	first pass (PR #84)	the inducible/physical urticarias (dermographism, cold, cholinergic, pressure) are a mechanistically separate category, not autoimmune urticaria
+ARI:0001049	Autoimmune urticaria	Chronic urticaria	withdrawn	broader	2026-09-07	first pass (PR #84)	umbrella term (DOID:0080747) with chronic spontaneous and chronic inducible urticaria as children
+ARI:0001052	Balo concentric sclerosis	Leukoencephalitis periaxialis concentric	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001052	Balo concentric sclerosis	Concentric sclerosis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001052	Balo concentric sclerosis	Tumefactive multiple sclerosis	synonym			DOID:0060215 exact: Tumefactive multiple sclerosis	
+ARI:0001052	Balo concentric sclerosis	Encephalitis periaxialis concentrica	synonym			MONDO:0016430 related: encephalitis periaxialis concentrica	
+ARI:0001053	Behçet's syndrome	Morbus Adamandiades-Behçet	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001053	Behçet's syndrome	Behçet's disease	synonym			MONDO:0007191 related: Behçet's disease	
+ARI:0001053	Behçet's syndrome	Behcet's syndrome	synonym			DOID:13241 exact: Behcet's syndrome	
+ARI:0001053	Behçet's syndrome	Hughes-Stovin syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	rare vascular variant of Behcet disease (pulmonary artery aneurysms with venous thrombosis); has its own nosologic status but is described as within the Behcet spectrum
+ARI:0001053	Behçet's syndrome	Hughes Stovin syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	rare vascular variant of Behcet disease (pulmonary artery aneurysms with venous thrombosis); has its own nosologic status but is described as within the Behcet spectrum
+ARI:0001054	Benign mucous membrane pemphigoid	Cicatricial pemphigoid	synonym			DOID:11656 exact: cicatricial pemphigoid	
+ARI:0001054	Benign mucous membrane pemphigoid	Scarring pemphigoid	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001054	Benign mucous membrane pemphigoid	Mucous membrane pemphigoid	synonym			MONDO:0018746 exact: mucous membrane pemphigoid	
+ARI:0001054	Benign mucous membrane pemphigoid	Ocular pemphigoid	withdrawn	subtype	2026-09-07	first pass (PR #84)	"the eye-restricted form (ocular cicatricial pemphigoid); covered by existing subtype ""Benign Mucous Membrane Pemphigoid, Ocular"""
+ARI:0001055	Bickerstaff's brainstem encephalitis	Bickerstaff encephalitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001055	Bickerstaff's brainstem encephalitis	Bickerstaff's encephalitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001056	Birdshot chorioretinopathy	Birdshot chorioretinitis	synonym			DOID:0111079 exact: birdshot chorioretinitis	
+ARI:0001056	Birdshot chorioretinopathy	Birdshot retinopathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	narcolepsy	synonym (curator note)			MONDO:0016158 ancestor: MONDO:0021107 narcolepsy	Broader than the mapped MONDO:0016158 narcolepsy-cataplexy syndrome, but the entry lists NT1 and NT2 as subtypes, so the entry's concept is narcolepsy in general. The 2026-09-07 pass withdrew the NT1 names as subtypes. Decide which concept is intended and fix ARI_MONDO.
+ARI:0001060	Cataplexy and narcolepsy	Narcolepsy-cataplexy	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	narcolepsy type 1; matches the 2026-09-07 withdrawal of 'narcolepsy-cataplexy syndrome' and 'narcolepsy with cataplexy' on this entry
+ARI:0001060	Cataplexy and narcolepsy	paroxysmal sleep	synonym (curator note)			MONDO:0016158 ancestor: MONDO:0021107 narcolepsy	Same mapping-vs-concept conflict as 'narcolepsy'.
+ARI:0001060	Cataplexy and narcolepsy	Gelineau's syndrome	synonym (curator note)			MONDO:0016158 exact: Gelineau's syndrome	Exact synonym of MONDO narcolepsy-cataplexy (NT1). Kept because historical usage covers narcolepsy in general; tied to the same conflict.
+ARI:0001060	Cataplexy and narcolepsy	Gelineau disease	synonym			MONDO:0016158 exact: Gelineau disease	
+ARI:0001060	Cataplexy and narcolepsy	Gelineau syndrome	synonym			MONDO:0016158 exact: Gelineau syndrome	
+ARI:0001060	Cataplexy and narcolepsy	Narcoleptic Syndrome	synonym			MONDO:0016158 related: narcoleptic syndrome	
+ARI:0001060	Cataplexy and narcolepsy	Syndrome, Gelineau's	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Syndromes, Gelineau's	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Syndrome, Narcoleptic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	narcolepsy with or without cataplexy	synonym (curator note)			MONDO:0016158 ancestor: MONDO:0021107 narcolepsy	Same mapping-vs-concept conflict as 'narcolepsy'.
+ARI:0001060	Cataplexy and narcolepsy	Gelineaus Syndrome	synonym			MONDO:0016158 exact: Gelineau's syndrome	
+ARI:0001060	Cataplexy and narcolepsy	Gelineau's Syndromes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Narcoleptic Syndromes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Syndrome, Gelineau	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Sleep, Paroxysmal	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Syndromes, Narcoleptic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001060	Cataplexy and narcolepsy	Gelineau Syndrome	synonym			MONDO:0016158 exact: Gelineau syndrome	
+ARI:0001060	Cataplexy and narcolepsy	Gelineau's Syndrome	synonym			MONDO:0016158 exact: Gelineau's syndrome	
+ARI:0001060	Cataplexy and narcolepsy	Narcolepsy type 1	withdrawn	subtype	2026-09-07	first pass (PR #84)	"NT1 (narcolepsy with cataplexy / hypocretin deficiency); already an ARI_ClinicalSubtype ""Narcolepsy Type 1"""
+ARI:0001060	Cataplexy and narcolepsy	Narcolepsy, without cataplexy	withdrawn	subtype	2026-09-07	first pass (PR #84)	"NT2; already an ARI_ClinicalSubtype ""Narcolepsy Type 2"""
+ARI:0001060	Cataplexy and narcolepsy	narcolepsy with cataplexy	withdrawn	subtype	2026-09-07	first pass (PR #84)	"= NT1; already an ARI_ClinicalSubtype ""Narcolepsy Type 1"""
+ARI:0001060	Cataplexy and narcolepsy	narcolepsy-cataplexy syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	maps to the NT1 concept (MONDO:0016158) and is already an ARI_ClinicalSubtype
+ARI:0001060	Cataplexy and narcolepsy	Hypocretin/orexin deficiency syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	"defines NT1 specifically (low CSF hypocretin-1); already covered by ARI_ClinicalSubtype ""Narcolepsy Type 1"""
+ARI:0001060	Cataplexy and narcolepsy	narcolepsy caused by mutation in HCRT	withdrawn	subtype	2026-09-07	first pass (PR #84)	"narcolepsy 7 (HCRT gene); already an ARI_ClinicalSubtype ""narcolepsy 7"""
+ARI:0001060	Cataplexy and narcolepsy	HCRT narcolepsy	withdrawn	subtype	2026-09-07	first pass (PR #84)	"narcolepsy 7 (HCRT gene); already an ARI_ClinicalSubtype ""narcolepsy 7"""
+ARI:0001060	Cataplexy and narcolepsy	narcolepsy 1	withdrawn	subtype	2026-09-07	first pass (PR #84)	"the classic HLA-associated locus; already an ARI_ClinicalSubtype ""narcolepsy 1"""
+ARI:0001061	Celiac disease	Gluten-sensitive enteropathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Coeliac disease	synonym			DOID:10608 exact: coeliac disease	
+ARI:0001061	Celiac disease	Celiac sprue	synonym			DOID:10608 exact: celiac sprue	
+ARI:0001061	Celiac disease	Nontropical sprue	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Gluten-induced enteropathy	synonym			MONDO:0005130 exact: gluten-induced enteropathy	
+ARI:0001061	Celiac disease	Sprue, Nontropical	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	coeliac sprue	synonym			MONDO:0005130 exact: coeliac sprue	
+ARI:0001061	Celiac disease	Enteropathy, Gluten-Sensitive	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Sprue, Celiac	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Enteropathies, Gluten-Sensitive	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	idiopathic steatorrhea	synonym			DOID:10608 exact: idiopathic steatorrhea	
+ARI:0001061	Celiac disease	Disease, Celiac	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Sprue	synonym (curator note)			no MONDO/DOID match - clinical judgement	Broader: bare 'sprue' also covers tropical sprue. Not withdrawn, because validate_mappings.py comma-splits values, so 'Sprue, Celiac' and 'Sprue, Nontropical' keep 'Sprue' present as a token and a withdrawal marker fails `withdrawn-synonym-still-present`.
+ARI:0001061	Celiac disease	gluten intolerance	synonym			MONDO:0005130 exact: gluten intolerance	
+ARI:0001061	Celiac disease	Gluten-Sensitive Enteropathies	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Gluten Enteropathies	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Enteropathies, Gluten	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	non tropical sprue	synonym			MONDO:0005130 exact: non tropical sprue	
+ARI:0001061	Celiac disease	Gluten Enteropathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	Enteropathy, Gluten	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Nontropical sprue	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Coeliac sprue	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Coeliac disease	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Gluten intolerance	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Celiac disease	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Celiac sprue	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Idiopathic steatorrhea	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Gluten-sensitive enteropathy	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001061	Celiac disease	NON RARE IN EUROPE: Gluten-induced enteropathy	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001062	Chronic Fatigue Syndrome	Systemic exertion intolerance disease	synonym			MONDO:0005404 exact: systemic exertion intolerance disease	
+ARI:0001062	Chronic Fatigue Syndrome	Myalgic encephalomyelitis	synonym			DOID:8544 exact: Myalgic encephalomyelitis	
+ARI:0001062	Chronic Fatigue Syndrome	myalgic encephalomeyelitis/chronic fatigue syndrome	synonym			MONDO:0005404 exact: myalgic encephalomeyelitis/chronic fatigue syndrome	
+ARI:0001062	Chronic Fatigue Syndrome	Chronic Fatigue-Fibromyalgia Syndrome	withdrawn	distinct	2026-09-27	no MONDO/DOID match - clinical judgement	MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis
+ARI:0001062	Chronic Fatigue Syndrome	Fatigue Syndrome, Postviral	synonym (curator note)			no MONDO/DOID match - clinical judgement	MeSH entry term. Postviral fatigue syndrome is the post-infectious subset of ME/CFS. Same applies to the other 'Postviral' permutations.
+ARI:0001062	Chronic Fatigue Syndrome	Infectious Mononucleosis-Like Syndrome, Chronic	synonym (curator note)			no MONDO/DOID match - clinical judgement	MeSH entry term. Overlaps chronic active EBV infection, which is a distinct disease.
+ARI:0001062	Chronic Fatigue Syndrome	Fatigue Syndrome, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Postviral Fatigue Syndromes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Chronic Fatigue Syndromes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Myalgic encephalitis	synonym			DOID:8544 exact: Myalgic encephalitis	
+ARI:0001062	Chronic Fatigue Syndrome	Fatigue-Fibromyalgia Syndrome, Chronic	withdrawn	distinct	2026-09-27	no MONDO/DOID match - clinical judgement	MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis
+ARI:0001062	Chronic Fatigue Syndrome	Royal Free Disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Chronic Fatigue and Immune Dysfunction Syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Chronic Fatigue-Fibromyalgia Syndromes	withdrawn	distinct	2026-09-27	no MONDO/DOID match - clinical judgement	MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis
+ARI:0001062	Chronic Fatigue Syndrome	Syndrome, Postviral Fatigue	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	chronic fatigue immune dysfunction syndrome	synonym			MONDO:0005404 exact: chronic fatigue immune dysfunction syndrome	
+ARI:0001062	Chronic Fatigue Syndrome	Postviral fatigue syndrome	synonym			DOID:8544 exact: Postviral fatigue syndrome	
+ARI:0001062	Chronic Fatigue Syndrome	Fatigue Disorder, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Fatigue Syndromes, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Fatigue-Fibromyalgia Syndromes, Chronic	withdrawn	distinct	2026-09-27	no MONDO/DOID match - clinical judgement	MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis
+ARI:0001062	Chronic Fatigue Syndrome	Chronic Fatigue Disorder	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Myalgic encephalomyelitis/chronic fatigue syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	CFS	synonym			DOID:8544 exact: CFS	
+ARI:0001062	Chronic Fatigue Syndrome	Chronic Fatigue Disorders	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	Encephalomyelitis, Myalgic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001062	Chronic Fatigue Syndrome	NON RARE IN EUROPE: Myalgic encephalomyelitis	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001062	Chronic Fatigue Syndrome	NON RARE IN EUROPE: Chronic fatigue syndrome	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001062	Chronic Fatigue Syndrome	NON RARE IN EUROPE: Chronic fatigue immune dysfunction syndrome	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	the combined central and peripheral demyelination (CCPD) form of CIDP
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic inflammatory demyelinating polyneuropathy	synonym			MONDO:0006702 exact: chronic inflammatory demyelinating polyneuropathy	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic inflammatory demyelinating polyneuritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic relapsing polyneuropathy	synonym			MONDO:0006702 exact: chronic relapsing polyneuropathy	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Inflammatory Polyradiculoneuropathies, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Inflammatory Polyradiculopathy, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Polyradiculopathies, Chronic Inflammatory	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Polyradiculoneuropathies, Chronic Inflammatory	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic Inflammatory Polyradiculoneuropathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic Inflammatory Polyradiculopathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Polyneuropathy, Inflammatory Demyelinating, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic Inflammatory Polyradiculopathies	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Polyradiculoneuropathy, Chronic Inflammatory Demyelinating	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Inflammatory Polyradiculopathies, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Chronic Inflammatory Polyradiculoneuropathies	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	CIDP	synonym			MONDO:0006702 exact: CIDP	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Polyradiculopathy, Chronic Inflammatory	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Inflammatory Polyradiculoneuropathy, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	Polyradiculoneuropathy, Chronic Inflammatory	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001064	Chronic interstitial cystitis	IC	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001064	Chronic interstitial cystitis	Painful bladder syndrome	synonym			MONDO:0018301 exact: painful bladder syndrome	
+ARI:0001064	Chronic interstitial cystitis	PBS	synonym (curator note)			no MONDO/DOID match - clinical judgement	Painful bladder syndrome. Current nomenclature treats IC/BPS as one entity, so kept.
+ARI:0001064	Chronic interstitial cystitis	Bladder pain syndrome	synonym			MONDO:0018301 exact: bladder pain syndrome	
+ARI:0001064	Chronic interstitial cystitis	IC/BPS	synonym			MONDO:0018301 exact: IC/BPS	
+ARI:0001064	Chronic interstitial cystitis	IC/PBS	synonym			MONDO:0018301 exact: IC/PBS	
+ARI:0001064	Chronic interstitial cystitis	Interstitial Cystitides	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001064	Chronic interstitial cystitis	interstitial cystitis	synonym			MONDO:0018301 exact: interstitial cystitis	
+ARI:0001064	Chronic interstitial cystitis	interstitial cystitis/painful bladder syndrome	synonym			MONDO:0018301 exact: interstitial cystitis/painful bladder syndrome	
+ARI:0001064	Chronic interstitial cystitis	Cystitides, Interstitial	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001064	Chronic interstitial cystitis	interstitial cystitis/bladder pain syndrome	synonym			MONDO:0018301 exact: interstitial cystitis/bladder pain syndrome	
+ARI:0001064	Chronic interstitial cystitis	Cystitis, Interstitial	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001064	Chronic interstitial cystitis	interstitial cystitis, chronic	synonym			MONDO:0018301 exact: interstitial cystitis, chronic	
+ARI:0001064	Chronic interstitial cystitis	ulcerative cystitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	"the classic (Hunner-lesion) form of interstitial cystitis; covered by existing subtype ""Chronic Interstitial Cystitis, Hunner's Lesions"""
+ARI:0001065	Chronic Lyme disease	Lyme Disease, Chronic	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001065	Chronic Lyme disease	PTLDS	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001065	Chronic Lyme disease	Syndrome, Post-Lyme Disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001065	Chronic Lyme disease	post-Lyme disease syndrome	synonym			MONDO:0700280 exact: post-Lyme disease syndrome	
+ARI:0001065	Chronic Lyme disease	post-Lyme disease	synonym			MONDO:0700280 exact: post-Lyme disease	
+ARI:0001065	Chronic Lyme disease	disorder due to consequences of Lyme disease	synonym			MONDO:0700280 exact: disorder due to consequences of Lyme disease	
+ARI:0001065	Chronic Lyme disease	Post-Lyme Disease Syndromes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001065	Chronic Lyme disease	Syndromes, Post-Lyme Disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001065	Chronic Lyme disease	post-treatment Lyme disease syndrome	synonym			MONDO:0700280 exact: post-treatment Lyme disease syndrome	
+ARI:0001065	Chronic Lyme disease	Lyme Borreliosis	withdrawn	distinct	2026-09-07	first pass (PR #84)	the active tick-borne Borrelia infection; a different disease from the post-treatment/chronic syndrome this entity represents
+ARI:0001065	Chronic Lyme disease	Lyme disease	withdrawn	broader	2026-09-07	first pass (PR #84)	the infection itself (DOID:11729); chronic/post-treatment Lyme is a sequela of it, not a synonym
+ARI:0001065	Chronic Lyme disease	Lyme Arthritis	withdrawn	distinct	2026-09-07	first pass (PR #84)	a late manifestation of the Borrelia infection, not the post-treatment syndrome
+ARI:0001065	Chronic Lyme disease	Erythema Migrans with Polyarthritis	withdrawn	distinct	2026-09-07	first pass (PR #84)	describes early/disseminated active Lyme disease (the rash plus arthritis), not the chronic syndrome
+ARI:0001066	Chronic multifocal osteomyelitis	Chronic nonbacterial osteomyelitis/Chronic recurrent multifocal osteomyelitis	synonym (curator note)			no MONDO/DOID match - clinical judgement	CNO is the umbrella and CRMO its multifocal form. The combined string is conventional.
+ARI:0001066	Chronic multifocal osteomyelitis	CNO/CRMO	synonym			MONDO:0009813 exact: CNO/CRMO	
+ARI:0001066	Chronic multifocal osteomyelitis	non-bacterial osteomyelitis	synonym			MONDO:0009813 exact: non-bacterial osteomyelitis	
+ARI:0001066	Chronic multifocal osteomyelitis	chronic recurrent multifocal osteomyelitis	synonym			DOID:0060645 exact: chronic recurrent multifocal osteomyelitis	
+ARI:0001066	Chronic multifocal osteomyelitis	CRMO	synonym			DOID:0060645 exact: CRMO	
+ARI:0001066	Chronic multifocal osteomyelitis	NBO	synonym			MONDO:0009813 exact: NBO	
+ARI:0001066	Chronic multifocal osteomyelitis	chronic recurrent multifocal osteomyelitis (disease)	synonym			DOID:0060645 exact: chronic recurrent multifocal osteomyelitis	
+ARI:0001067	Chronic post-COVID-19 syndrome	Long COVID	synonym			DOID:0080848 exact: long COVID	
+ARI:0001067	Chronic post-COVID-19 syndrome	Post-acute COVID-19	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	Post-Acute Sequelae of COVID-19	synonym			MONDO:0100233 exact: post-acute sequelae of COVID-19	
+ARI:0001067	Chronic post-COVID-19 syndrome	COVID Long-Hauler	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	Post-COVID Conditions	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	post-COVID syndrome	synonym			DOID:0080848 exact: post-COVID syndrome	
+ARI:0001067	Chronic post-COVID-19 syndrome	Post COVID-19 Syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	Post-Acute COVID-19 Syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	Long-Haul COVID	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	chronic COVID-19	synonym			DOID:0080848 exact: chronic COVID-19	
+ARI:0001067	Chronic post-COVID-19 syndrome	Long COVID-19 Syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	sequelae of COVID-19	synonym			MONDO:0100233 exact: sequelae of COVID-19	
+ARI:0001067	Chronic post-COVID-19 syndrome	PASC	synonym			DOID:0080848 exact: PASC	
+ARI:0001067	Chronic post-COVID-19 syndrome	Post-Acute COVID-19 Sequelae	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	long haul COVID-19	synonym			MONDO:0100233 exact: long haul COVID-19	
+ARI:0001067	Chronic post-COVID-19 syndrome	Postacute sequelae of SARS-CoV-2 infection (PASC)	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	long COVID-19	synonym			MONDO:0100233 exact: long COVID-19	
+ARI:0001067	Chronic post-COVID-19 syndrome	PASC Post Acute Sequelae of COVID-19	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001067	Chronic post-COVID-19 syndrome	post-acute sequelae of SARS-CoV-2 infection	synonym			DOID:0080848 exact: post-acute sequelae of SARS-CoV-2 infection	
+ARI:0001068	Cogan's syndrome	Diffuse interstitial keratitis	withdrawn	non-disease	2026-09-27	no MONDO/DOID match - clinical judgement	the ocular finding of Cogan syndrome; the same keratitis is caused by congenital syphilis
+ARI:0001068	Cogan's syndrome	Cogan syndrome	synonym			DOID:0060216 exact: Cogan syndrome	
+ARI:0001068	Cogan's syndrome	Syndrome, Cogan's	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001068	Cogan's syndrome	diffuse interstitual keratitis	synonym			DOID:0060216 exact: diffuse interstitual keratitis	
+ARI:0001068	Cogan's syndrome	Syndrome, Cogan	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001069	Cold agglutinin disease	CAD	synonym			MONDO:0018922 exact: CAD	
+ARI:0001069	Cold agglutinin disease	Cold autoimmune hemolytic anemia	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	Cold antibody disease	withdrawn	broader	2026-09-27	MONDO:0018922 related: cold antibody disease	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	hemolytic cold antibody	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	Cold antibody hemolytic anemia	withdrawn	broader	2026-09-27	MONDO:0018922 related: cold antibody hemolytic anemia	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	CAS	synonym			MONDO:0018922 exact: CAS	
+ARI:0001069	Cold agglutinin disease	cAIHA	withdrawn	broader	2026-09-27	MONDO:0018922 ancestor: MONDO:0016450 autoimmune hemolytic anemia, cold type	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	cAHA	withdrawn	broader	2026-09-27	MONDO:0018922 ancestor: MONDO:0016450 autoimmune hemolytic anemia, cold type	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	cold agglutinin syndrome	synonym			MONDO:0018922 exact: cold agglutinin syndrome	
+ARI:0001069	Cold agglutinin disease	cold AIHA	withdrawn	broader	2026-09-27	MONDO:0018922 ancestor: MONDO:0016450 autoimmune hemolytic anemia, cold type	cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria
+ARI:0001069	Cold agglutinin disease	chronic cold agglutinin disease	synonym			MONDO:0018922 exact: chronic cold agglutinin disease	
+ARI:0001069	Cold agglutinin disease	Anemia	withdrawn	broader	2026-09-07	first pass (PR #84)	bare 'anemia' is the broad category, not a name for cold agglutinin disease
+ARI:0001069	Cold agglutinin disease	autoimmune hemolytic anemia	withdrawn	broader	2026-09-07	first pass (PR #84)	AIHA is the parent; cold agglutinin disease is its cold-antibody subtype (warm AIHA is the other main type)
+ARI:0001069	Cold agglutinin disease	autoimmune hemolytic anemia, cold type	withdrawn	broader	2026-09-07	first pass (PR #84)	cold-type AIHA (MONDO:0016450) also covers paroxysmal cold haemoglobinuria and mixed-type; broader than cold agglutinin disease proper
+ARI:0001069	Cold agglutinin disease	autoimmune hemolytic anaemia	withdrawn	broader	2026-09-07	first pass (PR #84)	AIHA is the parent category, not a synonym of cold agglutinin disease
+ARI:0001069	Cold agglutinin disease	autoimmune haemolytic anemia	withdrawn	broader	2026-09-07	first pass (PR #84)	AIHA is the parent category, not a synonym of cold agglutinin disease
+ARI:0001069	Cold agglutinin disease	Autoimmune haemolytic anaemia	withdrawn	broader	2026-09-07	first pass (PR #84)	AIHA is the parent category, not a synonym of cold agglutinin disease
+ARI:0001069	Cold agglutinin disease	AIHA	withdrawn	broader	2026-09-07	first pass (PR #84)	abbreviation for autoimmune haemolytic anaemia, the parent category
+ARI:0001069	Cold agglutinin disease	AHA	withdrawn	broader	2026-09-07	first pass (PR #84)	abbreviation for autoimmune haemolytic anaemia, the parent category
+ARI:0001069	Cold agglutinin disease	Anaemia, Autoimmune Haemolytic	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Anemia, Autoimmune Hemolytic	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Anemia, Hemolytic, Autoimmune	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Anemia, Hemolytic, Acquired Autoimmune	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Hemolytic Anemia, Autoimmune	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Haemolytic Anaemia, Autoimmune	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Autoimmune Hemolytic Anemias	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted/plural AIHA, the parent category
+ARI:0001069	Cold agglutinin disease	Autoimmune Haemolytic Anaemias	withdrawn	broader	2026-09-07	first pass (PR #84)	permuted/plural AIHA, the parent category
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	LRBA deficiency	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	Syndromic autoimmune enteropathy due to LPS responsive beige-like anchor protein	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	CID due to LRBA deficiency	synonym			MONDO:0013863 exact: CID due to LRBA deficiency	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	Immunodeficiency, Common Variable, 8, with Autoimmunity	synonym			MONDO:0013863 exact: immunodeficiency, common variable, 8, with autoimmunity	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	CVID8	synonym			MONDO:0013863 related: CVID8	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	common variable immunodeficiency-8 (CVID8) with autoimmunity	synonym			DOID:0081151 exact: common variable immunodeficiency-8 (CVID8) with autoimmunity	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	Syndromic autoimmune enteropathy due to LRBA deficiency	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	common variable immunodeficiency 8	synonym			DOID:0081151 exact: common variable immunodeficiency 8	
+ARI:0001071	Complex regional pain syndrome	Reflex sympathetic dystrophy	withdrawn	subtype	2026-09-27	DOID:3223 descendant: DOID:1811 reflex sympathetic dystrophy	historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'
+ARI:0001071	Complex regional pain syndrome	Pain Syndromes, Regional Complex	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001071	Complex regional pain syndrome	algoneurodystrophy	synonym			DOID:3223 descendant: DOID:14022 algoneurodystrophy	
+ARI:0001071	Complex regional pain syndrome	Complex regional pain syndromes	synonym			DOID:3223 exact: Complex regional pain syndromes	
+ARI:0001071	Complex regional pain syndrome	CRPS (Complex Regional Pain Syndromes)	synonym			MONDO:0019369 exact: CRPS	
+ARI:0001071	Complex regional pain syndrome	CRPS	synonym			MONDO:0019369 exact: CRPS	
+ARI:0001071	Complex regional pain syndrome	Sudeck's atrophy	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'
+ARI:0001071	Complex regional pain syndrome	Algodystrophy	withdrawn	subtype	2026-09-27	MONDO:0019369 descendant: MONDO:0011441 complex regional pain syndrome type 1	historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'
+ARI:0001071	Complex regional pain syndrome	reflex neurovascular dystrophy	withdrawn	subtype	2026-09-27	MONDO:0019369 descendant: MONDO:0011441 complex regional pain syndrome type 1	historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'
+ARI:0001071	Complex regional pain syndrome	reflex sympathetic dystrophy syndrome	withdrawn	subtype	2026-09-27	MONDO:0019369 descendant: MONDO:0011441 complex regional pain syndrome type 1	historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'
+ARI:0001071	Complex regional pain syndrome	Amplified musculoskeletal pain syndrome	withdrawn	distinct	2026-09-07	first pass (PR #84)	AMPS is a separate (largely paediatric) chronic-pain construct; the ARI definition itself lists 'CRPS and AMPS' as two conditions
+ARI:0001071	Complex regional pain syndrome	Causalgia	withdrawn	subtype	2026-09-07	first pass (PR #84)	the historical name for CRPS type 2 (pain with a defined nerve lesion); already an ARI_ClinicalSubtype 'CRPS Type 2'
+ARI:0001071	Complex regional pain syndrome	Complex regional pain syndrome I	withdrawn	subtype	2026-09-07	first pass (PR #84)	CRPS type 1; already an ARI_ClinicalSubtype 'CRPS Type 1'
+ARI:0001071	Complex regional pain syndrome	complex regional pain syndrome type 1	withdrawn	subtype	2026-09-07	first pass (PR #84)	CRPS type 1; already an ARI_ClinicalSubtype 'CRPS Type 1'
+ARI:0001071	Complex regional pain syndrome	CRPS I	withdrawn	subtype	2026-09-07	first pass (PR #84)	CRPS type 1; already an ARI_ClinicalSubtype 'CRPS Type 1'
+ARI:0001072	COPA syndrome	autoimmune interstitial lung, joint, and kidney disease	synonym			DOID:0081242 exact: autoimmune interstitial lung, joint, and kidney disease	
+ARI:0001072	COPA syndrome	Autoimmune interstitial lung disease-arthritis syndrome	synonym			DOID:0081242 exact: Autoimmune interstitial lung disease-arthritis syndrome	
+ARI:0001072	COPA syndrome	systemic autoinflammation and autoimmunity with immune dysregulation 1	synonym			DOID:0081242 exact: systemic autoinflammation and autoimmunity with immune dysregulation 1	
+ARI:0001072	COPA syndrome	autoinflammation and autoimmunity, Systemic with immune dysregulation	synonym			DOID:0081242 exact: autoinflammation and autoimmunity, Systemic with immune dysregulation	
+ARI:0001073	Crohn's disease	Crohn's granulomatous	synonym (curator note)			no MONDO/DOID match - clinical judgement	Truncated form of 'granulomatous colitis'.
+ARI:0001073	Crohn's disease	Granulomatous Colitis	synonym			DOID:8778 exact: Granulomatous Colitis	
+ARI:0001073	Crohn's disease	inflammatory bowel disease caused by mutation in NOD2	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	inflammatory bowel disease 1, Crohn disease	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	pediatric Crohn's disease	synonym			DOID:8778 exact: Pediatric Crohn's disease	
+ARI:0001073	Crohn's disease	inflammatory bowel disease 1	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	regional enteritis	synonym			MONDO:0005011 exact: regional enteritis	
+ARI:0001073	Crohn's disease	inflammatory bowel disease (Crohn disease) 1	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	NOD2 inflammatory bowel disease	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	Crohn's disease of colon	synonym			DOID:8778 exact: Crohn's disease of colon	
+ARI:0001073	Crohn's disease	Crohn's disease of large bowel	synonym			DOID:8778 exact: Crohn's disease of large bowel	
+ARI:0001073	Crohn's disease	inflammatory bowel disease type 1	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	paediatric Crohn's disease	synonym			MONDO:0005011 exact: paediatric Crohn's disease	
+ARI:0001073	Crohn's disease	Crohn disease	synonym			DOID:8778 exact: Crohn disease	
+ARI:0001073	Crohn's disease	Crohn's Enteritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001073	Crohn's disease	Crohns Disease	synonym			DOID:8778 exact: Crohn's disease	
+ARI:0001073	Crohn's disease	Inflammatory Bowel Disease 1	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07
+ARI:0001073	Crohn's disease	Gastroduodenal Crohn's disease	withdrawn	subtype	2026-09-07	first pass (PR #84)	the upper-GI (L4) location form; already an ARI_ClinicalSubtype 'Crohn’s Disease, Gastroduodenal' and a DOID child
+ARI:0001073	Crohn's disease	Crohn's colitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the colonic (L2) location form; already an ARI_ClinicalSubtype 'Crohn’s Disease, Colonic' and a MONDO/DOID child
+ARI:0001073	Crohn's disease	Ileocolitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the ileocolonic (L3) location form; a DOID child of Crohn's disease
+ARI:0001073	Crohn's disease	Illeitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	misspelling of 'ileitis', the ileal (L1) location form; a DOID child of Crohn's disease
+ARI:0001073	Crohn's disease	Crohn disease-associated growth failure	withdrawn	non-disease	2026-09-07	first pass (PR #84)	a paediatric complication of Crohn's disease, not a name for it
+ARI:0001073	Crohn's disease	NON RARE IN EUROPE: Crohn disease	withdrawn	non-disease	2026-09-07	first pass (PR #84)	Orphanet epidemiological-classification label that leaked in as a synonym
+ARI:0001074	Cryptogenic organizing pneumonia	Bronchiolitis obliterans with organizing pneumonia	synonym (curator note)			no MONDO/DOID match - clinical judgement	Historic name for COP (idiopathic BOOP). ARI_DOID points to DOID:2797 idiopathic interstitial pneumonia, the parent.
+ARI:0001074	Cryptogenic organizing pneumonia	organising pneumonia	synonym			MONDO:0015264 exact: organising pneumonia	
+ARI:0001074	Cryptogenic organizing pneumonia	cryptogenic organizing pneumonitis	synonym			DOID:2797 descendant: DOID:0050157 cryptogenic organizing pneumonia	
+ARI:0001074	Cryptogenic organizing pneumonia	COP	synonym			MONDO:0015264 exact: COP	
+ARI:0001074	Cryptogenic organizing pneumonia	Organizing Pneumonia	synonym			MONDO:0015264 exact: Organizing Pneumonia	
+ARI:0001074	Cryptogenic organizing pneumonia	bronchiolitis obliterans organizing pneumonia	synonym			DOID:2797 descendant: DOID:0050157 cryptogenic organizing pneumonia	
+ARI:0001074	Cryptogenic organizing pneumonia	BOOP	synonym (curator note)			DOID:2797 descendant: DOID:0050157 cryptogenic organizing pneumonia	As above.
+ARI:0001074	Cryptogenic organizing pneumonia	Interstitial pneumonia	withdrawn	broader	2026-09-07	first pass (PR #84)	the whole interstitial-pneumonia category; cryptogenic organizing pneumonia is one member
+ARI:0001074	Cryptogenic organizing pneumonia	idiopathic interstitial pneumonia	withdrawn	broader	2026-09-07	first pass (PR #84)	the idiopathic interstitial pneumonia (IIP) group; COP is one of its members
+ARI:0001074	Cryptogenic organizing pneumonia	idiopathic interstitial pneumonitis	withdrawn	broader	2026-09-07	first pass (PR #84)	variant spelling of the IIP group name
+ARI:0001074	Cryptogenic organizing pneumonia	noninfectious pneumonia	withdrawn	broader	2026-09-07	first pass (PR #84)	a very broad category, not a synonym for cryptogenic organizing pneumonia
+ARI:0001074	Cryptogenic organizing pneumonia	Idiopathic fibrosing alveolitis	withdrawn	distinct	2026-09-07	first pass (PR #84)	an old name for idiopathic pulmonary fibrosis (IPF), a different idiopathic interstitial pneumonia
+ARI:0001074	Cryptogenic organizing pneumonia	Diffuse idiopathic pulmonary fibrosis	withdrawn	distinct	2026-09-07	first pass (PR #84)	idiopathic pulmonary fibrosis (IPF), a different idiopathic interstitial pneumonia
+ARI:0001076	Cutaneous lupus erythematosus	Lupus Erythematosus, Cutaneous	synonym			MONDO:0005282 related: lupus erythematosus, cutaneous	
+ARI:0001076	Cutaneous lupus erythematosus	Discoid lupus erythematosus	withdrawn	subtype	2026-09-07	first pass (PR #84)	discoid LE = chronic cutaneous lupus, a subtype of cutaneous lupus erythematosus; already an ARI_ClinicalSubtype 'Cutaneous Lupus, Discoid' and a MONDO child
+ARI:0001076	Cutaneous lupus erythematosus	Discoid lupus	withdrawn	subtype	2026-09-07	first pass (PR #84)	discoid LE = chronic cutaneous lupus, a subtype; already an ARI_ClinicalSubtype 'Cutaneous Lupus, Discoid'
+ARI:0001076	Cutaneous lupus erythematosus	Discoid lupus erythematosus of oral mucosa	withdrawn	subtype	2026-09-07	first pass (PR #84)	the oral-mucosa form of discoid LE, a narrow subtype of cutaneous lupus erythematosus
+ARI:0001078	Dermatitis herpetiformis	DH	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001078	Dermatitis herpetiformis	Duhring's disease	synonym			DOID:8505 exact: Duhring's disease	
+ARI:0001078	Dermatitis herpetiformis	Gluten rash	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001078	Dermatitis herpetiformis	Duhring-Brocq disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001080	Type 1 diabetes mellitus	T1D	synonym			MONDO:0005147 exact: T1D	
+ARI:0001080	Type 1 diabetes mellitus	Type 1 diabetes	synonym			MONDO:0005147 exact: type 1 diabetes	
+ARI:0001080	Type 1 diabetes mellitus	Insulin-dependent diabetes mellitus	synonym			DOID:9744 exact: insulin-dependent diabetes mellitus	
+ARI:0001080	Type 1 diabetes mellitus	IDDM	synonym			DOID:9744 exact: IDDM	
+ARI:0001080	Type 1 diabetes mellitus	Juvenile-onset diabetes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001080	Type 1 diabetes mellitus	Diabetes mellitus type 1	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001080	Type 1 diabetes mellitus	Juvenile diabetes	synonym			MONDO:0005147 exact: juvenile diabetes	
+ARI:0001080	Type 1 diabetes mellitus	Type 1 diabetes mellitus	synonym			DOID:9744 exact: type 1 diabetes mellitus	
+ARI:0001080	Type 1 diabetes mellitus	Insulin dependent Diabetes	synonym			MONDO:0005147 exact: insulin dependent diabetes	
+ARI:0001081	Eaton-Lambert syndrome	Lambert-Eaton syndrome	synonym			DOID:0050214 exact: Lambert-Eaton syndrome	
+ARI:0001081	Eaton-Lambert syndrome	Lambert-Eaton myasthenic syndrome	synonym			DOID:0050214 exact: Lambert-Eaton myasthenic syndrome	
+ARI:0001081	Eaton-Lambert syndrome	LEMS	synonym			DOID:0050214 exact: LEMS	
+ARI:0001084	Endometriosis	Adenomyosis	withdrawn	distinct	2026-09-07	first pass (PR #84)	adenomyosis (endometrial tissue within the myometrium) is a separate diagnosis from endometriosis (endometrial tissue outside the uterus)
+ARI:0001084	Endometriosis	Adenomysis uteri	withdrawn	distinct	2026-09-07	first pass (PR #84)	misspelling of 'adenomyosis uteri' - adenomyosis, a separate diagnosis from endometriosis
+ARI:0001084	Endometriosis	Adenomyometritis	withdrawn	distinct	2026-09-07	first pass (PR #84)	an old term for adenomyosis, a separate diagnosis from endometriosis
+ARI:0001084	Endometriosis	Endometriosis Uterina	withdrawn	distinct	2026-09-07	first pass (PR #84)	'endometriosis interna' = adenomyosis in historical usage; a separate diagnosis from endometriosis
+ARI:0001085	Enthesitis	Enthesitis-related juvenile arthritis	withdrawn	distinct	2026-09-27	no MONDO/DOID mapping - clinical judgement	an ILAR category of juvenile idiopathic arthritis in which enthesitis is one feature
+ARI:0001085	Enthesitis	Enthesitis-related arthritis	withdrawn	distinct	2026-09-27	no MONDO/DOID mapping - clinical judgement	an ILAR category of juvenile idiopathic arthritis in which enthesitis is one feature
+ARI:0001086	Eosinophilic esophagitis	Eosinophilic Oesophagitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001089	Erythema nodosum	EN	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001089	Erythema nodosum	Idiopathic erythema nodosum	withdrawn	subtype	2026-09-07	first pass (PR #84)	the idiopathic form; already an ARI_ClinicalSubtype 'Erythema Nodosum, Idiopathic'
+ARI:0001089	Erythema nodosum	Erythema nodosum of unknown etiology	withdrawn	subtype	2026-09-07	first pass (PR #84)	the idiopathic form; already an ARI_ClinicalSubtype 'Erythema Nodosum, Idiopathic'
+ARI:0001090	Essential mixed cryoglobulinemia	Autoimmune cryoglobulinemia	synonym (curator note)			no MONDO/DOID match - clinical judgement	Loose term. Most mixed cryoglobulinaemia is HCV-driven, so 'essential' is the non-infectious subset.
+ARI:0001090	Essential mixed cryoglobulinemia	Cryoglobulinemic Vasculitis	synonym			MONDO:0007407 exact: Cryoglobulinemic vasculitis	
+ARI:0001092	Fasciitis with eosinophilia syndrome	Shulman's syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001092	Fasciitis with eosinophilia syndrome	Eosinophilic fasciitis	synonym			MONDO:0009175 exact: eosinophilic fasciitis	
+ARI:0001092	Fasciitis with eosinophilia syndrome	Shulman syndrome	synonym			MONDO:0009175 exact: Shulman syndrome	
+ARI:0001092	Fasciitis with eosinophilia syndrome	Pansclerotic morphea with deep fascial involvement	withdrawn	distinct	2026-09-27	no MONDO/DOID match - clinical judgement	pansclerotic morphea is a severe morphea subtype, separate from eosinophilic fasciitis
+ARI:0001093	Felty syndrome	FS	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001093	Felty syndrome	Felty's syndrome	synonym			DOID:11042 exact: Felty's syndrome	
+ARI:0001093	Felty syndrome	Super rheumatoid disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001094	Female infertility due to antisperm antibodies	Infertility due to antisperm antibodies	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001095	Fibromyalgia	Fibromyalgia Syndrome	synonym			MONDO:0005546 exact: fibromyalgia syndrome	
+ARI:0001096	Graves' disease	Toxic diffuse goiter	synonym (curator note)			MONDO:0005364 ancestor: MONDO:0001104 toxic diffuse goiter	MONDO models toxic diffuse goiter as a parent of Graves' disease, but clinically the two are used interchangeably.
+ARI:0001096	Graves' disease	Exophthalmic goiter	synonym			DOID:12361 exact: exophthalmic goiter	
+ARI:0001096	Graves' disease	Autoimmune hyperthyroidism	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001096	Graves' disease	Parry disease	synonym			MONDO:0005364 related: parry disease	
+ARI:0001096	Graves' disease	Graves' hyperthyroidism	synonym			MONDO:0005364 related: Graves' hyperthyroidism	
+ARI:0001096	Graves' disease	Basedow disease	synonym			MONDO:0005364 related: Basedow disease	
+ARI:0001096	Graves' disease	Thyrotoxicosis due to Graves' disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001096	Graves' disease	Thyrotoxicosis	withdrawn	broader	2026-09-07	first pass (PR #84)	thyrotoxicosis is excess thyroid hormone from any cause (toxic nodular goitre, thyroiditis, factitious, etc.); Graves' disease is one cause
+ARI:0001097	Guillain-Barré syndrome	Guillain-Barre Syndrome	synonym			DOID:12842 exact: Guillain-Barre syndrome	
+ARI:0001097	Guillain-Barré syndrome	GBS	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001097	Guillain-Barré syndrome	Miller-Fisher syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	the ophthalmoplegia/ataxia/areflexia variant of GBS; already an ARI_ClinicalSubtype 'GBS, Miller Fisher Syndrome'
+ARI:0001097	Guillain-Barré syndrome	MFS	withdrawn	subtype	2026-09-07	first pass (PR #84)	abbreviation for Miller-Fisher syndrome, a GBS variant; already an ARI_ClinicalSubtype
+ARI:0001097	Guillain-Barré syndrome	Fisher syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	= Miller-Fisher syndrome, a GBS variant; already an ARI_ClinicalSubtype
+ARI:0001098	Hemophilia B Leyden	Autoimmune hemophilia B	withdrawn	distinct	2026-09-07	first pass (PR #84)	acquired haemophilia B (factor IX autoantibodies) is a different disease; haemophilia B Leyden is a genetic F9 promoter variant, not autoimmune
+ARI:0001099	Herpes gestationis	PG	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001099	Herpes gestationis	Pemphigoid gestationis	synonym			DOID:14482 exact: pemphigoid gestationis	
+ARI:0001099	Herpes gestationis	Gestational pemphigoid	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001100	Hidradenitis suppurativa	Acne inversa	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001100	Hidradenitis suppurativa	Suppurative hidradenitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001101	Hypersensitivity angiitis	Cutaneous Leukocytoclastic vasculitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001101	Hypersensitivity angiitis	Hypersensitivity Vasculitis	synonym			DOID:9809 exact: hypersensitivity vasculitis	
+ARI:0001101	Hypersensitivity angiitis	Leucocytoclastic vasculitis	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	a histological pattern shared by IgA vasculitis, urticarial vasculitis, cryoglobulinaemic vasculitis and others
+ARI:0001101	Hypersensitivity angiitis	LCV	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	a histological pattern shared by IgA vasculitis, urticarial vasculitis, cryoglobulinaemic vasculitis and others
+ARI:0001103	Idiopathic pulmonary fibrosis	Interstitial pulmonary fibrosis	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	any fibrosing interstitial lung disease; IPF is the idiopathic UIP form
+ARI:0001104	IgA nephropathy	Berger's Disease	synonym			MONDO:0005342 exact: Berger's disease	
+ARI:0001107	Immune thrombocytopenia	ATP	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001107	Immune thrombocytopenia	Autoimmune thrombocytopenic purpura	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001107	Immune thrombocytopenia	ITP	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001107	Immune thrombocytopenia	Idiopathic thrombocytopenic purpura	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001107	Immune thrombocytopenia	Immune-mediated thrombotic thrombocytopenic purpura (iTTP)	withdrawn	distinct	2026-09-07	first pass (PR #84)	iTTP is caused by ADAMTS13 autoantibodies and is a thrombotic microangiopathy - a different disease from immune thrombocytopenia (ITP)
+ARI:0001108	Immunoglobulin A vasculitis	Anaphylactoid purpura	synonym			MONDO:0019167 exact: anaphylactoid purpura	
+ARI:0001108	Immunoglobulin A vasculitis	Henoch-Schönlein purpura	synonym			DOID:11123 exact: Henoch Schönlein purpura	
+ARI:0001108	Immunoglobulin A vasculitis	Purpura rheumatica	synonym			MONDO:0019167 exact: purpura rheumatica	
+ARI:0001108	Immunoglobulin A vasculitis	IgA vasculitis	synonym			DOID:11123 exact: IgA vasculitis	
+ARI:0001108	Immunoglobulin A vasculitis	Henoch-Schonlein purpura	synonym			DOID:11123 exact: Henoch Schonlein purpura	
+ARI:0001109	Immunoglobulin G4 related disease	Multifocal fibrosclerosis	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001109	Immunoglobulin G4 related disease	Hyper-IgG4 disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001109	Immunoglobulin G4 related disease	IgG4-related systemic disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001109	Immunoglobulin G4 related disease	IgG4-related diseases	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001109	Immunoglobulin G4 related disease	Idiopathic hypocomplementemic tubulointerstitial nephritis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the renal (tubulointerstitial nephritis) manifestation of IgG4-related disease
+ARI:0001109	Immunoglobulin G4 related disease	Mediastinal fibrosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the fibrosing-mediastinitis manifestation of IgG4-related disease
+ARI:0001109	Immunoglobulin G4 related disease	Periaortitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the IgG4-related periaortitis manifestation
+ARI:0001109	Immunoglobulin G4 related disease	Idiopathic retroperitoneal Fibrosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	= Ormond disease, the retroperitoneal-fibrosis manifestation of IgG4-related disease
+ARI:0001109	Immunoglobulin G4 related disease	Inflammatory pseudotumor	withdrawn	subtype	2026-09-07	first pass (PR #84)	the IgG4-related inflammatory-pseudotumor (mass-forming) manifestation
+ARI:0001109	Immunoglobulin G4 related disease	Ormond's disease	withdrawn	subtype	2026-09-07	first pass (PR #84)	= retroperitoneal fibrosis, an IgG4-related disease manifestation
+ARI:0001109	Immunoglobulin G4 related disease	Eosinophilic angiocentric fibrosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the sinonasal/orbital manifestation of IgG4-related disease
+ARI:0001109	Immunoglobulin G4 related disease	Retroperitoneal fibrosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	an IgG4-related disease manifestation (a proportion of cases)
+ARI:0001109	Immunoglobulin G4 related disease	Riedel's thyroiditis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the thyroid (Riedel/fibrosing thyroiditis) manifestation of IgG4-related disease
+ARI:0001109	Immunoglobulin G4 related disease	Küttner's tumor	withdrawn	subtype	2026-09-07	first pass (PR #84)	= IgG4-related sialadenitis of the submandibular gland
+ARI:0001109	Immunoglobulin G4 related disease	Periarteritis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the IgG4-related periarteritis/periaortitis manifestation
+ARI:0001109	Immunoglobulin G4 related disease	Inflammatory aortic aneurysm	withdrawn	subtype	2026-09-07	first pass (PR #84)	the IgG4-related (inflammatory) aortic-aneurysm manifestation
+ARI:0001109	Immunoglobulin G4 related disease	IgG4-related retroperitoneal fibrosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the retroperitoneal-fibrosis manifestation of IgG4-related disease
+ARI:0001109	Immunoglobulin G4 related disease	Mikulicz's syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	= IgG4-related dacryoadenitis and sialadenitis
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	IgG4-related ophthalmic disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001111	Inclusion body myositis	IBM	synonym			MONDO:0007827 exact: IBM	
+ARI:0001111	Inclusion body myositis	Sporadic Inclusion Body Myositis	synonym			MONDO:0007827 exact: Sporadic Inclusion Body Myositis	
+ARI:0001111	Inclusion body myositis	sIBM	synonym			MONDO:0007827 exact: sIBM	
+ARI:0001113	Insulin autoimmune syndrome	Hirata disease	synonym			DOID:0040100 exact: Hirata disease	
+ARI:0001113	Insulin autoimmune syndrome	Hirata syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001114	Insulin resistance - type B	Type B insulin resistance syndrome	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001115	Intermediate uveitis	Cyclochorioretinitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001115	Intermediate uveitis	Vitritis	withdrawn	non-disease	2026-09-27	MONDO:0006806 descendant: MONDO:0044138 hyalitis	a clinical sign (inflammatory cells in the vitreous) seen in intermediate, posterior and panuveitis
+ARI:0001115	Intermediate uveitis	Chronic cyclitis	synonym			DOID:12732 exact: chronic cyclitis	
+ARI:0001115	Intermediate uveitis	Peripheral uveoretinitis	synonym			DOID:12732 exact: peripheral uveoretinitis	
+ARI:0001115	Intermediate uveitis	Peripheral Uveitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001115	Intermediate uveitis	IU	synonym			MONDO:0006806 exact: IU	
+ARI:0001117	Juvenile Rheumatoid Arthritis	JRA	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001117	Juvenile Rheumatoid Arthritis	Juvenile chronic arthritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001117	Juvenile Rheumatoid Arthritis	Juvenile arthritis	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	any arthritis in childhood, including infectious and reactive arthritis
+ARI:0001117	Juvenile Rheumatoid Arthritis	JIA	synonym (curator note)			no MONDO/DOID match - clinical judgement	JIA (ILAR) also includes enthesitis-related and psoriatic arthritis, which JRA (ACR) excluded. Near-synonym.
+ARI:0001117	Juvenile Rheumatoid Arthritis	Juvenile idiopathic arthritis	synonym			DOID:676 exact: juvenile idiopathic arthritis	
+ARI:0001117	Juvenile Rheumatoid Arthritis	Pediatric rheumatic disease	withdrawn	broader	2026-09-07	first pass (PR #84)	covers paediatric lupus, dermatomyositis, vasculitis, etc., not only juvenile arthritis
+ARI:0001119	Lichen sclerosus	Balanitis xerotica obliterans	withdrawn	subtype	2026-09-07	first pass (PR #84)	the male genital (glans/foreskin) form of lichen sclerosus; a subtype (existing 'Lichen Sclerosus, Genital'), has its own DOID term
+ARI:0001120	Ligneous conjunctivitis	Adult Onset Ligneous conjunctivitis	withdrawn	subtype	2026-09-27	no MONDO/DOID mapping - clinical judgement	age-of-onset form of ligneous conjunctivitis
+ARI:0001120	Ligneous conjunctivitis	Autoimmune ligneous conjunctivitis	synonym (curator note)			no MONDO/DOID mapping - clinical judgement	Ligneous conjunctivitis is usually plasminogen deficiency (PLG), a genetic disease. Its place in an autoimmune registry needs review.
+ARI:0001120	Ligneous conjunctivitis	Conjunctivitis lignose	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001124	Linear IgA dermatosis	Linear IgA bullous disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001124	Linear IgA dermatosis	Linear IgA disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001124	Linear IgA dermatosis	Chronic bullous dermatosis of childhood	withdrawn	subtype	2026-09-07	first pass (PR #84)	the childhood form of linear IgA disease; already an ARI_ClinicalSubtype 'Linear IgA Dermatosis, Childhood (Chronic Bullous Disease of Childhood)'
+ARI:0001125	Lipomatosis dolorosa	Fatty tissue rheumatism	synonym (curator note)			no MONDO/DOID match - clinical judgement	Historic descriptive term.
+ARI:0001125	Lipomatosis dolorosa	Adiposis dolorosa	synonym			DOID:3928 exact: adiposis dolorosa	
+ARI:0001125	Lipomatosis dolorosa	Dercum's disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001125	Lipomatosis dolorosa	Lipomatosis dolorosa morbus dercum's	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001125	Lipomatosis dolorosa	Anders disease	synonym (curator note)			no MONDO/DOID match - clinical judgement	Adiposis tuberosa simplex, usually described as a variant of Dercum's disease.
+ARI:0001125	Lipomatosis dolorosa	Juxta-Articular adiposis dolorosa	withdrawn	subtype	2026-09-07	first pass (PR #84)	the juxta-articular type, one of the classical clinical subtypes of adiposis dolorosa (Dercum disease)
+ARI:0001127	Male infertility associated with antisperm antibodies	Autoimmune orchitis	withdrawn	distinct	2026-09-27	no MONDO/DOID mapping - clinical judgement	one cause of antisperm-antibody infertility and a disease in its own right; most antisperm-antibody infertility follows vasectomy, trauma or infection
+ARI:0001129	Microscopic polyangiitis	Microscopic polyarteritis	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001129	Microscopic polyangiitis	MPA	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001130	Mixed collagen vascular disease	MCTD	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001130	Mixed collagen vascular disease	Mixed connective tissue disease	synonym			DOID:3492 exact: mixed connective tissue disease	
+ARI:0001130	Mixed collagen vascular disease	Sharp Syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001131	Mooren's ulcer	Peripheral Ulcerative Keratitis	withdrawn	broader	2026-09-07	first pass (PR #84)	PUK is a category with many causes (rheumatoid arthritis, GPA, relapsing polychondritis, infection, ...); Mooren's ulcer is the idiopathic form
+ARI:0001131	Mooren's ulcer	Corneal Ulcer	withdrawn	broader	2026-09-07	first pass (PR #84)	any ulcerative keratitis, most often infectious - far broader than Mooren's ulcer
+ARI:0001133	Motor neuropathy with multiple conduction block	Multifocal motor neuropathy	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001134	Moyamoya disease	Cerebrovascular moyamoya disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001134	Moyamoya disease	Progressive intracranial arterial occlusion	synonym			DOID:13099 exact: progressive intracranial arterial occlusion	
+ARI:0001134	Moyamoya disease	Spontaneous occlusion of the Circle of Willis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001134	Moyamoya disease	Progressive intracranial occlusive arteriopathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001134	Moyamoya disease	Moya-moya disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001135	Multiple sclerosis	Disseminated sclerosis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001135	Multiple sclerosis	MS	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001136	Myasthenia gravis	MG	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001136	Myasthenia gravis	Autoimmune myasthenia gravis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001136	Myasthenia gravis	Acquired myasthenia	synonym (curator note)			no MONDO/DOID match - clinical judgement	Distinguishes MG from the congenital myasthenic syndromes. Acceptable.
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	MOG	withdrawn	non-disease	2026-09-27	no MONDO/DOID mapping - clinical judgement	names the antigen (myelin oligodendrocyte glycoprotein), not the disease
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	Anti-MOG disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	Myelin oligodendrocyte glycoprotein disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	MOG antibody disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	Anti-MAG disease	withdrawn	distinct	2026-09-07	first pass (PR #84)	anti-MAG (myelin-associated glycoprotein) neuropathy is a paraproteinaemic demyelinating peripheral neuropathy (IgM MGUS) - a different disease from MOG antibody disease (a CNS demyelinating disease)
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein	withdrawn	distinct	2026-09-07	first pass (PR #84)	the full name of anti-MAG neuropathy, a different disease from MOG antibody-associated disease
+ARI:0001138	Myocarditis due to autoimmune disease	Autoimmune myocarditis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001138	Myocarditis due to autoimmune disease	Autoimmune cardiomyopathy	synonym			DOID:0040095 exact: autoimmune cardiomyopathy	
+ARI:0001138	Myocarditis due to autoimmune disease	Coxsackie myocarditis	withdrawn	distinct	2026-09-07	first pass (PR #84)	coxsackievirus myocarditis is infectious (viral) myocarditis, not autoimmune myocarditis
+ARI:0001139	Myositis	Idiopathic inflammatory myopathies	synonym (curator note)			MONDO:0021167 descendant: MONDO:0020122 acquired idiopathic inflammatory myopathy	MONDO puts acquired IIM under myositis, which also covers infectious and drug-induced myositis. Kept because PR #89 curators restored it and clinical usage equates the two.
+ARI:0001139	Myositis	Juvenile myositis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the paediatric idiopathic inflammatory myopathies (mostly juvenile dermatomyositis), a distinct age-defined group narrower than 'myositis'
+ARI:0001141	Neonatal lupus erythematosus	Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB	withdrawn	subtype	2026-09-07	first pass (PR #84)	the cardiac manifestation of neonatal lupus (~2% of cases); neonatal lupus also presents as rash, cytopenias or hepatitis, often without heart block
+ARI:0001142	Neuralgic amyotrophy	Idiopathic brachial neuritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001142	Neuralgic amyotrophy	Brachial plexitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001142	Neuralgic amyotrophy	Acute brachial neuritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001142	Neuralgic amyotrophy	Brachial plexus neuritis	synonym			DOID:3689 exact: brachial plexus neuritis	
+ARI:0001142	Neuralgic amyotrophy	Brachial plexus disorder	withdrawn	broader	2026-09-27	DOID:3689 ancestor: DOID:3690 brachial plexus neuropathy	any brachial plexus lesion, including traumatic, compressive and neoplastic plexopathy (DOID:3690 is an ancestor)
+ARI:0001142	Neuralgic amyotrophy	Brachial radiculitis	synonym (curator note)			no MONDO/DOID match - clinical judgement	Radiculitis is root-level, not plexus-level. Loose historic synonym.
+ARI:0001142	Neuralgic amyotrophy	Idiopathic brachial plexus neuropathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001142	Neuralgic amyotrophy	Brachial neuropathy	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	any brachial plexus lesion, including traumatic, compressive and neoplastic plexopathy (DOID:3690 is an ancestor)
+ARI:0001142	Neuralgic amyotrophy	Brachial neuritis	synonym			DOID:3689 exact: Brachial neuritis	
+ARI:0001142	Neuralgic amyotrophy	Parsonage-Turner Syndrome	synonym			MONDO:0017362 exact: Parsonage Turner Syndrome	
+ARI:0001143	Neuromyelitis optica	Devic's syndrome	synonym			DOID:8869 exact: Devic's syndrome	
+ARI:0001143	Neuromyelitis optica	Devic's disease	synonym			DOID:8869 exact: Devic's disease	
+ARI:0001143	Neuromyelitis optica	NMO	synonym			MONDO:0019100 related: NMO	
+ARI:0001143	Neuromyelitis optica	NMOSD	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	the spectrum also covers limited forms (isolated optic neuritis or LETM with AQP4-IgG) that do not meet NMO criteria
+ARI:0001143	Neuromyelitis optica	Optic neuromyelitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001143	Neuromyelitis optica	Neuromyelitis optica spectrum Disorder	synonym			MONDO:0019100 exact: Neuromyelitis Optica Spectrum Disorder	
+ARI:0001143	Neuromyelitis optica	Opticospinal MS	synonym (curator note)			no MONDO/DOID match - clinical judgement	Asian opticospinal MS is now largely classed as AQP4-positive NMOSD. Historic.
+ARI:0001143	Neuromyelitis optica	Opticomyelitis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001144	Neuromyotonia	NMT	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001144	Neuromyotonia	Isaacs-Mertens syndrome	synonym			MONDO:0019399 related: Isaac's-Merten's syndrome	
+ARI:0001144	Neuromyotonia	Quantal squander syndrome	synonym			MONDO:0019399 exact: Quantal squander syndrome	
+ARI:0001144	Neuromyotonia	Issacs' syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001144	Neuromyotonia	Isaacs' syndrome	synonym			MONDO:0019399 exact: Isaacs' syndrome	
+ARI:0001144	Neuromyotonia	Continuous muscle fiber activity syndrome	synonym			MONDO:0019399 exact: continuous muscle fiber activity syndrome	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Graves' eye disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Thyroid eye disease	synonym			DOID:0081120 exact: thyroid eye disease	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Thyroid-Associated orbitopathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Graves' ophthalmopathy	synonym			DOID:0081120 exact: Graves ophthalmopathy	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Graves ophthalmopathy	synonym			DOID:0081120 exact: Graves ophthalmopathy	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Graves' orbitopathy	synonym			DOID:0081120 exact: Graves orbitopathy	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Opsoclonus myoclonus syndrome	synonym			MONDO:0015247 exact: opsoclonus myoclonus syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	OMA syndrome	synonym			MONDO:0015247 exact: oma syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	POMA syndrome	synonym			MONDO:0015247 exact: POMA syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Opsoclonus-myoclonus-ataxia syndrome	synonym			MONDO:0015247 exact: Opsoclonus-Myoclonus-Ataxia Syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	OMS	synonym			MONDO:0015247 exact: OMS	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Kinsbourne syndrome	synonym			MONDO:0015247 exact: Kinsbourne syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Dancing eye-dancing feet syndrome	synonym			MONDO:0015247 exact: dancing eye-dancing feet syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Ataxo-opso-myoclonus syndrome	synonym			MONDO:0015247 exact: Ataxo-opso-myoclonus syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Dancing eye syndrome	synonym			MONDO:0015247 exact: dancing eye syndrome	
+ARI:0001147	Opsoclonus-myoclonus syndrome	Paraneoplastic opsoclonus-myoclonus-ataxia syndrome	withdrawn	subtype	2026-09-07	first pass (PR #84)	the cancer-associated form; already an ARI_ClinicalSubtype 'Opsoclonus-Myoclonus, Paraneoplastic'
+ARI:0001147	Opsoclonus-myoclonus syndrome	Paraneoplastic opsoclonus-myoclonus	withdrawn	subtype	2026-09-07	first pass (PR #84)	the cancer-associated (mostly neuroblastoma) form; already an ARI_ClinicalSubtype 'Opsoclonus-Myoclonus, Paraneoplastic'
+ARI:0001148	Palindromic rheumatism	Hench-Rosenberg syndrome	synonym			DOID:1166 exact: Hench-Rosenberg syndrome	
+ARI:0001148	Palindromic rheumatism	Hench's syndrome	synonym			DOID:1166 exact: Hench's syndrome	
+ARI:0001148	Palindromic rheumatism	Palindromic rheumatism syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001149	Paraneoplastic cerebellar degeneration	PCD	synonym			MONDO:0044877 ancestor: MONDO:0018215 paraneoplastic neurologic syndrome	
+ARI:0001149	Paraneoplastic cerebellar degeneration	PCA	synonym (curator note)			no MONDO/DOID match - clinical judgement	Ambiguous abbreviation: also posterior cortical atrophy and Purkinje-cell antibody.
+ARI:0001149	Paraneoplastic cerebellar degeneration	Paraneoplastic cerebellar ataxia	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001149	Paraneoplastic cerebellar degeneration	Paraneoplastic neurological syndrome	withdrawn	broader	2026-09-07	first pass (PR #84)	the whole family of paraneoplastic neurological syndromes (limbic encephalitis, LEMS, sensory neuronopathy, opsoclonus-myoclonus, ...); PCD is one member
+ARI:0001149	Paraneoplastic cerebellar degeneration	Paraneoplastic syndrome	withdrawn	broader	2026-09-07	first pass (PR #84)	the entire paraneoplastic category (endocrine, haematologic, dermatologic, neurologic, ...)
+ARI:0001149	Paraneoplastic cerebellar degeneration	PNS	withdrawn	broader	2026-09-07	first pass (PR #84)	abbreviation for paraneoplastic neurological syndrome, the whole family
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	PANDAS	synonym			MONDO:0019020 exact: PANDAS	
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	PANS	withdrawn	broader	2026-09-07	first pass (PR #84)	Pediatric Acute-onset Neuropsychiatric Syndrome is the umbrella - acute-onset OCD/tics from any trigger; PANDAS is the streptococcus-specific subset
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	Pediatric Acute-onset Neuropsychiatric Syndrome	withdrawn	broader	2026-09-07	first pass (PR #84)	the PANS umbrella; PANDAS is its streptococcus-associated subset
+ARI:0001155	POEMS syndrome	Takatsuki syndrome	synonym			MONDO:0017364 exact: Takatsuki syndrome	
+ARI:0001155	POEMS syndrome	Osteosclerotic myeloma	synonym			MONDO:0017364 exact: osteosclerotic myeloma	
+ARI:0001155	POEMS syndrome	Crow-Fukase syndrome	synonym			MONDO:0017364 exact: Crow-Fukase syndrome	
+ARI:0001155	POEMS syndrome	Polyneuropathy-organomegaly-endocrinopathy-M protein-skin lesions	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001155	POEMS syndrome	PEP syndrome	synonym			MONDO:0017364 exact: PEP syndrome	
+ARI:0001155	POEMS syndrome	Shimpo syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001156	Polyarteritis nodosa	c-PAN	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	cutaneous polyarteritis nodosa, the skin-limited form
+ARI:0001156	Polyarteritis nodosa	Classic polyarteritis nodosa	synonym			MONDO:0019170 exact: classic polyarteritis nodosa	
+ARI:0001156	Polyarteritis nodosa	PAN	synonym			MONDO:0019170 exact: PAN	
+ARI:0001156	Polyarteritis nodosa	Polyarteritis	synonym (curator note)			MONDO:0019170 related: polyarteritis	MONDO related synonym. Also used for microscopic polyarteritis (MPA).
+ARI:0001156	Polyarteritis nodosa	Periarteritis nodosa	synonym			MONDO:0019170 exact: periarteritis nodosa	
+ARI:0001157	Polyglandular autoimmune syndrome type 1	Autoimmune polyglandular syndrome type 1	synonym			MONDO:0009411 exact: Autoimmune Polyglandular Syndrome Type 1	
+ARI:0001157	Polyglandular autoimmune syndrome type 1	Autoimmune polyendocrine syndrome type 1	synonym			DOID:0050167 exact: autoimmune polyendocrine syndrome type 1	
+ARI:0001157	Polyglandular autoimmune syndrome type 1	Whitaker syndrome	synonym			DOID:0050167 exact: Whitaker syndrome	
+ARI:0001157	Polyglandular autoimmune syndrome type 1	APS-1	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001157	Polyglandular autoimmune syndrome type 1	Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy	synonym			DOID:0050167 exact: autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy	
+ARI:0001157	Polyglandular autoimmune syndrome type 1	APECED	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Multiple endocrine deficiency syndrome  type 2	synonym			MONDO:0010012 related: multiple endocrine deficiency syndrome, type 2	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	PGA 2	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Autoimmune polyendocrine syndrome type 2	synonym			DOID:0050168 exact: autoimmune polyendocrine syndrome type 2	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Autoimmune polyglandular syndrome type II	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	PGA-II	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	APS2	synonym			MONDO:0010012 exact: APS2	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Polyglandular deficiency syndrome type 2	synonym			MONDO:0010012 related: polyglandular deficiency syndrome type 2	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Carpenter syndrome	withdrawn	distinct	2026-09-27	no MONDO/DOID match - clinical judgement	the name now denotes acrocephalopolysyndactyly type II (RAB23); the old APS-2 usage collides with it
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Schmidt syndrome	synonym			DOID:0050168 exact: Schmidt syndrome	
+ARI:0001159	Polyglandular autoimmune syndrome type 3	Autoimmune polyglandular syndrome type III	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001159	Polyglandular autoimmune syndrome type 3	PAS III	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001159	Polyglandular autoimmune syndrome type 3	PAS 3	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001159	Polyglandular autoimmune syndrome type 3	Polyglandular deficiency syndrome type 3	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001159	Polyglandular autoimmune syndrome type 3	Autoimmune polyendocrine syndrome type 3	synonym			MONDO:0016422 exact: autoimmune polyendocrine syndrome type 3	
+ARI:0001160	Polyglandular autoimmune syndrome type 4	Multiple autoimmune syndrome	synonym (curator note)			no MONDO/DOID match - clinical judgement	MAS (three or more autoimmune diseases) is a different classification that overlaps APS type 4.
+ARI:0001160	Polyglandular autoimmune syndrome type 4	Autoimmune polyendocrine syndrome type 4	synonym			MONDO:0016423 exact: autoimmune polyendocrine syndrome type 4	
+ARI:0001163	Postmyocardial infarction syndrome	Post-myocardial infarction syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001163	Postmyocardial infarction syndrome	Dressler's syndrome	synonym			DOID:10507 exact: Dressler's syndrome	
+ARI:0001163	Postmyocardial infarction syndrome	Post-cardiac injury syndrome	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	umbrella that also covers post-pericardiotomy syndrome and post-traumatic pericarditis
+ARI:0001166	Primary biliary cholangitis	PBC	synonym			MONDO:0005388 exact: PBC	
+ARI:0001166	Primary biliary cholangitis	Primary biliary cirrhosis	synonym			DOID:12236 exact: primary biliary cirrhosis	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	Idiopathic dilated cardiomyopathy	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	Dilated cardiomyopathy	withdrawn	broader	2026-09-07	first pass (PR #84)	DCM is the whole category (ischaemic, genetic/familial, alcoholic, peripartum, idiopathic, autoimmune, ...); this entity is the primary idiopathic / autoimmune subset
+ARI:0001169	Primary sclerosing cholangitis	PSC	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001169	Primary sclerosing cholangitis	Chronic obliterative cholangitis	synonym (curator note)			no MONDO/DOID match - clinical judgement	Descriptive histological term.
+ARI:0001169	Primary sclerosing cholangitis	Fibrosing cholangitis	withdrawn	broader	2026-09-27	DOID:0060643 ancestor: DOID:14268 sclerosing cholangitis	sclerosing cholangitis in general, including secondary forms (DOID:14268 is an ancestor)
+ARI:0001169	Primary sclerosing cholangitis	Stenosing cholangitis	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	sclerosing cholangitis in general, including secondary forms (DOID:14268 is an ancestor)
+ARI:0001170	Progressive hemifacial atrophy	Idiopathic hemifacial atrophy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001170	Progressive hemifacial atrophy	Parry Romberg syndrome	synonym			DOID:1757 exact: PARRY-ROMBERG SYNDROME	
+ARI:0001170	Progressive hemifacial atrophy	Progressive facial hemiatrophy	synonym			MONDO:0007710 exact: progressive facial hemiatrophy	
+ARI:0001170	Progressive hemifacial atrophy	Romberg's syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001172	Psoriatic arthritis	PsA	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001173	Pure red cell aplasia	Idiopathic pure red cell aplasia	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)
+ARI:0001173	Pure red cell aplasia	Primary acquired PRCA	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)
+ARI:0001173	Pure red cell aplasia	Adult pure red cell aplasia	withdrawn	subtype	2026-09-27	MONDO:0001705 descendant: MONDO:0020338 adult pure red cell aplasia	acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)
+ARI:0001173	Pure red cell aplasia	PRCA	synonym			MONDO:0001705 exact: PRCA	
+ARI:0001173	Pure red cell aplasia	Acquired pure red cell aplasia	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)
+ARI:0001173	Pure red cell aplasia	Primary acquired pure red cell aplasia	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)
+ARI:0001176	Secondary Raynaud's phenomenon	Raynaud's disease	withdrawn	distinct	2026-09-27	DOID:10300 exact: Raynaud's disease	'Raynaud disease' is primary (idiopathic) Raynaud's; this entry is secondary Raynaud's phenomenon
+ARI:0001176	Secondary Raynaud's phenomenon	Secondary Raynaud's	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001176	Secondary Raynaud's phenomenon	Raynaud disease	withdrawn	distinct	2026-09-27	DOID:10300 exact: Raynaud disease	'Raynaud disease' is primary (idiopathic) Raynaud's; this entry is secondary Raynaud's phenomenon
+ARI:0001176	Secondary Raynaud's phenomenon	Raynaud's phenomenon	withdrawn	broader	2026-09-07	first pass (PR #84)	Raynaud's phenomenon is the sign itself (primary or secondary); this entity is the secondary form
+ARI:0001177	Reactive arthritis	ReA	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001177	Reactive arthritis	Reactive arthritis triad	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001177	Reactive arthritis	Fiessinger-Leroy disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001177	Reactive arthritis	Reiter's syndrome	synonym (curator note)			no MONDO/DOID match - clinical judgement	Historic and discouraged. Strictly the triad subset of reactive arthritis.
+ARI:0001178	Relapsing polychondritis	Polychondropathia	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Systemic chondromalocia	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Von Meyenburg disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Relapsing perichondritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Systemic chondromalacia	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Chronic atrophic polychondritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Recurrent polychondritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Atrophic polychondritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Meyenburg-Altherr-Uehlinger syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001178	Relapsing polychondritis	Relapsing polyneuropathy	withdrawn	distinct	2026-09-07	first pass (PR #84)	a peripheral-nerve disease (cf. chronic relapsing polyneuropathy = CIDP); an error for 'relapsing polychondritis'
+ARI:0001179	Restless legs	Willis-Ekbom Disease	synonym			DOID:0050425 exact: Willis-Ekbom disease	
+ARI:0001179	Restless legs	Restless leg syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001180	Retinocochleocerebral vasculopathy	RED-M	synonym			MONDO:0019390 exact: RED-M	
+ARI:0001180	Retinocochleocerebral vasculopathy	SICRET	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001180	Retinocochleocerebral vasculopathy	Retinopathy-encephalopathy-deafness associated microangiopathy	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001180	Retinocochleocerebral vasculopathy	Susac's syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001180	Retinocochleocerebral vasculopathy	Susac syndrome	synonym			MONDO:0019390 exact: Susac syndrome	
+ARI:0001180	Retinocochleocerebral vasculopathy	retinal and encephalic tissue	withdrawn	non-disease	2026-09-07	first pass (PR #84)	a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import
+ARI:0001180	Retinocochleocerebral vasculopathy	Small infarctions of cochlear	withdrawn	non-disease	2026-09-07	first pass (PR #84)	a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import
+ARI:0001181	Rheumatic Chorea	Sydenham chorea	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001181	Rheumatic Chorea	St. Vitus Dance	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001181	Rheumatic Chorea	Syndenham chorea	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001182	Rheumatic fever	Acute rheumatic fever	synonym			DOID:1586 exact: ACUTE RHEUMATIC FEVER	
+ARI:0001182	Rheumatic fever	Rheumatic arthritis	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	the migratory polyarthritis manifestation of rheumatic fever
+ARI:0001182	Rheumatic fever	Inflammatory rheumatism	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	generic term for any inflammatory joint disease
+ARI:0001182	Rheumatic fever	Acute rheumatic myocarditis	withdrawn	subtype	2026-09-07	first pass (PR #84)	names the cardiac manifestation (rheumatic carditis) of rheumatic fever, not the whole disease
+ARI:0001183	Rheumatoid aortitis	non-vasculitic)	withdrawn	non-disease	2026-09-07	first pass (PR #84)	a fragment of 'Autoimmune aortitis (isolated, non-vasculitic)' split on a comma during import
+ARI:0001183	Rheumatoid aortitis	Autoimmune aortitis (isolated	withdrawn	non-disease	2026-09-07	first pass (PR #84)	a fragment of 'Autoimmune aortitis (isolated, non-vasculitic)' split on a comma during import
+ARI:0001185	Rheumatoid vasculitis	RV	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001186	Sarcoidosis	Besnier-Boeck-Schaumann disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001187	Schnitzler syndrome	Chronic urticaria with gammopathy	synonym			MONDO:0018304 exact: chronic urticaria with gammopathy	
+ARI:0001187	Schnitzler syndrome	Chronic urticaria with gammapathy	synonym			MONDO:0018304 related: chronic urticaria with gammapathy	
+ARI:0001187	Schnitzler syndrome	Chronic urticaria with macroglobulinemia	synonym			MONDO:0018304 exact: chronic urticaria with macroglobulinemia	
+ARI:0001187	Schnitzler syndrome	Schnitzler's syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001189	Sjögren's disease	Sjogren's disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001189	Sjögren's disease	Sjögrens disease	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001189	Sjögren's disease	Sjögren's syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001189	Sjögren's disease	Sicca syndrome	withdrawn	broader	2026-09-07	first pass (PR #84)	dry eyes + dry mouth from any cause (drugs, age, radiation, other diseases); the ARI definition itself says it is called Sjögren's disease only when autoimmune
+ARI:0001189	Sjögren's disease	Keratoconjunctivitis sicca	withdrawn	broader	2026-09-07	first pass (PR #84)	dry eye disease from any cause; a component of Sjögren's, not a synonym
+ARI:0001189	Sjögren's disease	SJS	withdrawn	distinct	2026-09-07	first pass (PR #84)	'SJS' overwhelmingly denotes Stevens-Johnson syndrome, a different and dangerous disease; too ambiguous to keep as a Sjögren's synonym
+ARI:0001190	SLE glomerulonephritis syndrome	Lupus nephritis	synonym			DOID:0080162 exact: lupus nephritis	
+ARI:0001192	Steroid-responsive encephalopathy associated with autoimmune thyroiditis	Hashimoto's encephalitis	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001192	Steroid-responsive encephalopathy associated with autoimmune thyroiditis	Hashimoto's encephalopathy	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001192	Steroid-responsive encephalopathy associated with autoimmune thyroiditis	Nonvasculitic autoimmune meningoecephalitis	synonym (curator note)			no MONDO/DOID mapping - clinical judgement	Typo ('meningoecephalitis'). NAIM overlaps Hashimoto encephalopathy. The 2026-09-07 pass withdrew the same entity from ADEM.
+ARI:0001192	Steroid-responsive encephalopathy associated with autoimmune thyroiditis	Encephalopathy associated with autoimmune thyroid disease	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001193	Stiff-person syndrome	Stiff man syndrome	synonym			DOID:13366 exact: Stiff-man syndrome	
+ARI:0001193	Stiff-person syndrome	Moersch-Woltman syndrome	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001193	Stiff-person syndrome	Stiff person syndrome	synonym			DOID:13366 exact: Stiff-Person syndrome	
+ARI:0001194	Subacute bacterial endocarditis	Subacute infective endocarditis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001194	Subacute bacterial endocarditis	Subacute native valve endocarditis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the native-valve form; already an ARI_ClinicalSubtype 'Subacute Bacterial Endocarditis, Native Valve'
+ARI:0001195	Sympathetic uveitis	Sympathizing Eye	withdrawn	non-disease	2026-09-27	no MONDO/DOID match - clinical judgement	labels for the injured and fellow eyes, not names of the disease
+ARI:0001195	Sympathetic uveitis	Exciting Eye	withdrawn	non-disease	2026-09-27	no MONDO/DOID match - clinical judgement	labels for the injured and fellow eyes, not names of the disease
+ARI:0001195	Sympathetic uveitis	Spared Eye Injury	withdrawn	non-disease	2026-09-27	no MONDO/DOID match - clinical judgement	labels for the injured and fellow eyes, not names of the disease
+ARI:0001195	Sympathetic uveitis	Sympathetic ophthalmia	synonym			DOID:12029 exact: sympathetic ophthalmia	
+ARI:0001196	Systemic lupus erythematosus	SLE	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001196	Systemic lupus erythematosus	Lupus	withdrawn	broader	2026-09-27	DOID:9074 ancestor: DOID:8857 lupus erythematosus	bare 'lupus' also covers cutaneous, drug-induced and neonatal lupus (DOID:8857 is an ancestor)
+ARI:0001198	Systemic sclerosis	Scleroderma	synonym			DOID:418 ancestor: DOID:419 scleroderma	
+ARI:0001198	Systemic sclerosis	Systemic scleroderma	synonym			DOID:418 exact: systemic scleroderma	
+ARI:0001198	Systemic sclerosis	Diffuse Systemic sclerosis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the diffuse cutaneous form (dcSSc); MONDO hasNarrowSynonym, and already an ARI_ClinicalSubtype 'Systemic Sclerosis, Diffuse'
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	lcSSc	synonym			MONDO:0016358 descendant: MONDO:0019563 CREST syndrome	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	CREST syndrome	synonym (curator note)			MONDO:0016358 descendant: MONDO:0019563 CREST syndrome	MONDO models CREST as a child of limited cutaneous SSc. The two are commonly equated.
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	dcSSc	withdrawn	distinct	2026-09-07	first pass (PR #84)	diffuse cutaneous systemic sclerosis - the opposite form to this entity (limited cutaneous)
+ARI:0001200	Takayasu's arteritis	Takayasu's disease	synonym			DOID:2508 exact: Takayasu's disease	
+ARI:0001201	Temporal arteritis	GCA	synonym			MONDO:0008538 related: GCA	
+ARI:0001201	Temporal arteritis	Horton's disease	synonym			DOID:13375 exact: Horton's disease	
+ARI:0001201	Temporal arteritis	Cranial arteritis	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001201	Temporal arteritis	Giant cell arteritis	synonym			DOID:13375 exact: giant cell arteritis	
+ARI:0001201	Temporal arteritis	Granulomatous arteritis	withdrawn	broader	2026-09-27	MONDO:0008538 ancestor: MONDO:0002341 granulomatous angiitis	also covers Takayasu arteritis (MONDO:0002341 granulomatous angiitis is an ancestor)
+ARI:0001202	TIF1-gamma positive dermatomyositis	Cancer-associated myositis	withdrawn	broader	2026-09-07	first pass (PR #84)	cancer-associated myositis also covers anti-NXP2 and seronegative cases, and not all anti-TIF1-gamma patients have cancer; a broader category
+ARI:0001203	Tolosa-Hunt syndrome	Painful Ophthalmoplegia	synonym			MONDO:0018983 exact: painful ophthalmoplegia	
+ARI:0001203	Tolosa-Hunt syndrome	THS	synonym			MONDO:0018983 related: THS	
+ARI:0001203	Tolosa-Hunt syndrome	Non-specific inflammation of the superior orbital fissure	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001203	Tolosa-Hunt syndrome	Non-specific inflammation of the cavernous sinus	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001204	Transverse myelitis	Secondary acute transverse myelitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	the acute form secondary to a defined cause (MS, NMO, infection, SLE, ...); narrower than transverse myelitis
+ARI:0001206	Undifferentiated connective tissue disease	Undifferentiated connective tissue syndrome	synonym			MONDO:0019527 exact: undifferentiated connective tissue syndrome	
+ARI:0001206	Undifferentiated connective tissue disease	UCTD	synonym			MONDO:0019527 exact: UCTD	
+ARI:0001208	Uveitis	Idiopathic uveitis	withdrawn	subtype	2026-09-27	no MONDO/DOID match - clinical judgement	the idiopathic form of uveitis
+ARI:0001208	Uveitis	Autoimmune uveitis	synonym			DOID:0040088 exact: autoimmune uveitis	
+ARI:0001208	Uveitis	Idiopathic intermediate uveitis	withdrawn	subtype	2026-09-07	first pass (PR #84)	doubly narrow (idiopathic + intermediate = pars planitis); a subtype - ARI has both an 'Uveitis, Intermediate' subtype and a separate 'Intermediate uveitis' entity (ARI:0001115)
+ARI:0001209	Vitiligo	Leukoderma	withdrawn	broader	2026-09-07	first pass (PR #84)	leukoderma is any white skin (post-inflammatory, chemical, halo nevus, piebaldism, tinea versicolor, ...); vitiligo is one cause. Commonly used loosely for vitiligo but not listed as a synonym by MONDO or DOID
+ARI:0001211	Warm autoimmune hemolytic anemia	Idiopathic autoimmune hemolytic anemia	withdrawn	broader	2026-09-27	no MONDO/DOID match - clinical judgement	primary AIHA also covers the cold types
+ARI:0001211	Warm autoimmune hemolytic anemia	Immune hemolytic anemia	withdrawn	broader	2026-09-07	first pass (PR #84)	includes warm AIHA, cold agglutinin disease, paroxysmal cold haemoglobinuria, drug-induced and alloimmune haemolysis
+ARI:0001211	Warm autoimmune hemolytic anemia	Acquired autoimmune hemolytic anemia	withdrawn	broader	2026-09-07	first pass (PR #84)	acquired AIHA covers warm, cold, mixed and drug-induced types; this entity is the warm type
+ARI:0001211	Warm autoimmune hemolytic anemia	Immunohemolytic anemia	withdrawn	broader	2026-09-07	first pass (PR #84)	= immune haemolytic anaemia, the broad category
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	Latent autoimmune diabetes	synonym			no MONDO/DOID match - clinical judgement	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	LADA	synonym			DOID:0080846 exact: LADA	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	Slowly progressive IDDM	synonym (curator note)			no MONDO/DOID match - clinical judgement	Japanese SPIDDM, which largely overlaps LADA but is defined differently.
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	Type 1.5 diabetes	synonym			DOID:0080846 exact: type 1.5 diabetes	
+ARI:0001215	Fulminant type 1 diabetes	Fulminant diabetes	synonym			no MONDO/DOID mapping - clinical judgement	
+ARI:0001215	Fulminant type 1 diabetes	Acute-onset type 1 diabetes	withdrawn	distinct	2026-09-27	no MONDO/DOID mapping - clinical judgement	the Japan Diabetes Society classifies acute-onset, slowly progressive and fulminant T1D as three separate subtypes

@@ -36,11 +36,11 @@ inactive/duplicate concepts.
 Run order: `parse_doid_local.py` → `ground_doid.py` → `ground_snomed.py` → `make_match_reports.py`.
 Requires `gilda`, `openpyxl` (`pip install gilda openpyxl`).
 
-## Results (all 215 core diseases)
+## Results (all 210 core diseases)
 
-- **DOID**: 133 matched, 82 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
-- **SNOMED**: 193 matched. Of the 201 diseases with an existing master SNOMED code, **188 agree**
-  with the Gilda match (validation), **5 differ** (review candidates), 8 had no lexical match.
+- **DOID**: 130 matched, 80 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
+- **SNOMED**: 189 matched. Of the 196 diseases with an existing master SNOMED code, **184 agree**
+  with the Gilda match (validation), **5 differ** (review candidates), 7 had no lexical match.
   No-code diseases were not found in SNOMED standard Condition concepts.
 
 The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with master, amber = differs.

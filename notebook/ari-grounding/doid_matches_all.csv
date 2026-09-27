@@ -166,7 +166,6 @@ ARI:0001164,Postural orthostatic tachycardia syndrome,DOID:0111154,postural orth
 ARI:0001165,Primary acquired chylomicronemia,,,,,no match,,
 ARI:0001166,Primary biliary cholangitis,DOID:12236,primary biliary cholangitis,0.772,name,(preferred name),"1761006, 31712002",
 ARI:0001167,Primary idiopathic dilated cardiomyopathy,DOID:12930,dilated cardiomyopathy,0.772,name,Dilated cardiomyopathy,74368002,
-ARI:0001168,Primary immune deficiency,,,,,no match,,
 ARI:0001169,Primary sclerosing cholangitis,DOID:0060643,primary sclerosing cholangitis,0.772,name,(preferred name),4032000,
 ARI:0001170,Progressive hemifacial atrophy,,,,,no match,,
 ARI:0001171,Psoriasis,DOID:8893,psoriasis,0.762,name,(preferred name),156369008,

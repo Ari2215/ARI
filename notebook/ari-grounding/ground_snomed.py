@@ -11,8 +11,8 @@ from gilda.process import normalize
 import openpyxl
 
 csv.field_size_limit(sys.maxsize)
-BASE = "/sessions/zen-keen-curie/mnt/ARI"
-SN = f"{BASE}/data/2-databases/snomed"
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+SN = "F:/1Projects/7Projects-Aurint/ARI/data/2-databases/snomed"
 CORE = f"{BASE}/data/4-reports/1_Core_ARI_Diseases.xlsx"
 OUT = f"{BASE}/notebook/ari-grounding"
 
