@@ -15,6 +15,9 @@
   for 93 (disease, database) pairs. Some changes also pick up PR #102's corrected mappings.
 - Against the 713 curated confirmed mappings, the top prediction now reproduces the curated
   term for 649 (was 641). 28 name a different term (was 38) and 36 produce none (was 34).
+- Regenerated again after merging #104 (Sjögren's MeSH/UMLS fix). The top predictions are
+  unchanged, and Sjögren's candidates roughly double in support now that its ids agree. Of 715
+  confirmed mappings, 651 are reproduced.
 - Withdrawn synonyms no longer drive matches. Examples: Sjögren's disease no longer lands
   on keratoconjunctivitis sicca, Lichen sclerosus on balanitis xerotica obliterans, or
   Secondary Raynaud's on primary Raynaud disease. Polyglandular autoimmune syndrome type 2
@@ -24,6 +27,16 @@
   no longer grounded.
 - New false candidate (second in the DOID list, behind the curated-anchor term): ARI:0001069 Cold agglutinin disease → DOID:0111275
   speech-language disorder-1, via the abbreviation "CAS" (Gilda 0.556).
+
+## claude/sjogren-mesh-umls
+
+- **ARI:0001189 Sjögren's disease: MeSH D007638 → D012859 and UMLS C0022575 → C1527336.**
+  The old ids are both keratoconjunctivitis sicca (NLM MeSH; MedGen 9620). This is the same
+  mix-up that PR #102 fixed for DOID 12895. D012859 "Sjogren's Syndrome" and C1527336 "Sjogren
+  syndrome" are the exact equivalents that MONDO:0010030 lists, and DOID:12894 lists D012859. The
+  new predictions review in PR #103 surfaced this. Each old id is flagged
+  (`Not` / `manual-negative`) and each new id is confirmed in both mapping exports, with a dated
+  `ARI_ChangeLog` line per id.
 
 ## claude/fix-wrong-ontology-mappings
 

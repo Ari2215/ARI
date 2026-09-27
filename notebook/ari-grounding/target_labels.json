@@ -4411,6 +4411,10 @@
   "Pemphigoid Gestationis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "mesh:D007638": [
+  "Keratoconjunctivitis Sicca",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "mesh:D008010": [
   "Lichen Planus",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -6770,6 +6774,10 @@
  "umls:C0021390": [
   "inflammatory bowel disease",
   "doid.owl xref (DOID:0050589)"
+ ],
+ "umls:C0022575": [
+  "keratoconjunctivitis sicca",
+  "doid.owl xref (DOID:12895)"
  ],
  "umls:C0022972": [
   "Lambert-Eaton myasthenic syndrome",

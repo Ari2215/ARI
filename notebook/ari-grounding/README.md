@@ -87,7 +87,8 @@ disease and database is never predicted, and predicted SNOMED codes are restrict
 **standard, non-retired** concepts (ontology xrefs still point at codes SNOMED has since
 deprecated — that alone accounted for most early false predictions).
 
-Validation against the 713 curated confirmed mappings (2026-09-27): **649 top predictions
+Validation against the 715 curated confirmed mappings (2026-09-27): **651 top predictions
 reproduce the curated term**, 28 name a different one, 36 produce nothing; for 17 of the 28
 the curated term is still present further down the candidate list. Grounding from the
-ontology's current synonyms instead of the master-list snapshot moved this from 641 / 38 / 34.
+ontology's current synonyms instead of the master-list snapshot moved this from 641 / 38 / 34
+(measured on the 713 mappings before PR #104 added two).

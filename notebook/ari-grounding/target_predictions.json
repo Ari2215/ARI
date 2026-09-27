@@ -13750,7 +13750,7 @@
    "method": "xref via curated anchor",
    "name": "Sjogren's syndrome",
    "routes": 3,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001189|MONDO": [
@@ -13760,7 +13760,7 @@
    "method": "xref via curated anchor",
    "name": "Sjogren syndrome",
    "routes": 1,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001189|OMIM": [
@@ -13770,7 +13770,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 8
+   "support": 16
   }
  ],
  "ARI:0001189|ORPHA": [
@@ -13780,7 +13780,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001189|SNOMEDCT": [
@@ -13790,7 +13790,7 @@
    "method": "xref via curated anchor",
    "name": "Sj\u00f6gren's syndrome",
    "routes": 3,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001189|icd10cm": [
@@ -13800,7 +13800,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 8
+   "support": 16
   }
  ],
  "ARI:0001189|mesh": [
@@ -13810,7 +13810,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 8
+   "support": 16
   }
  ],
  "ARI:0001189|ncit": [
@@ -13820,7 +13820,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 8
+   "support": 16
   },
   {
    "evidence": "DOID:12894 xref, curated DOID:12894",
@@ -13828,7 +13828,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001189|omop": [
@@ -13838,7 +13838,7 @@
    "method": "xref via curated anchor",
    "name": "Sj\u00f6gren's syndrome",
    "routes": 3,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001189|umls": [
@@ -13848,7 +13848,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 8
+   "support": 16
   },
   {
    "evidence": "DOID:12894 xref, curated DOID:12894",
@@ -13856,7 +13856,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 4
+   "support": 8
   }
  ],
  "ARI:0001190|DOID": [
