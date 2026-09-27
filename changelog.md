@@ -8,9 +8,8 @@ and its `ARI_ChangeLog` follow.
 
 - **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
   - `ARI:0001031` Autoimmune gastritis: MeSH `D005757` (broader)
-  - `ARI:0001048` Autoimmune thyroiditis: MONDO `0007699` Hashimoto thyroiditis (subtype). The
-    line comment sat on MONDO `0005623`, which MONDO cross-references to the record's MeSH and
-    UMLS ids and lists "autoimmune thyroiditis" as an exact synonym, so it is kept.
+  - `ARI:0001048` Autoimmune thyroiditis: MONDO `0005623` autoimmune thyroid disease (broader)
+    and MONDO `0007699` Hashimoto thyroiditis (subtype). No MONDO id remains on the record.
   - `ARI:0001119` Lichen sclerosus: DOID `13477`, MONDO `0001725`, NCI `C3523`, MeSH `D052798`,
     UMLS `C0152460` (balanitis xerotica obliterans, the male-only subtype)
 - **Replaced:** Lichen sclerosus NCI `C3523` -> `C26817` and UMLS `C0152460` -> `C0023652`
