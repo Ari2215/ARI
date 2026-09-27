@@ -291,7 +291,7 @@ ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		SN
 ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		omop:3654620	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		SNOMEDCT:193042000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		omop:437854	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
-ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	Superseded by the negative judgment of github:KrishnaTO on 2026-09-27T21:00:00+00:00.
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		icd10cm:G47.411	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		ORPHA:2073	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		umls:C0751362	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03T00:00:00+00:00	
@@ -1062,3 +1062,5 @@ ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		DOID:0050157	DOID	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch	Not	MONDO:0017278	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		MONDO:8000010	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	DOID:12134	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T20:00:00+00:00	
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	MONDO:0016158	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T21:00:00+00:00	
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		MONDO:0021107	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T21:00:00+00:00	

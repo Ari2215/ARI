@@ -1041,3 +1041,5 @@ ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	DOID	0050157	manual
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	0017278	manual-negative	github:KrishnaTO
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	8000010	manual	github:KrishnaTO
 ARI	0001002	Acquired hemophilia	skos:exactMatch	DOID	12134	manual-negative	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	MONDO	0016158	manual-negative	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	MONDO	0021107	manual	github:KrishnaTO

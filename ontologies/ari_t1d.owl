@@ -6543,7 +6543,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +16 synonym(s), +2 clinical subtype(s)</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-20 16:32 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016158</ARI_MONDO>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021107</ARI_MONDO>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C196015</ARI_NCI>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G47.411</ARI_ICD10>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2073</ARI_ORPHANET>
@@ -6578,6 +6578,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome - subtype of Cataplexy and narcolepsy (MONDO:0016158)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 8 strings naming narcolepsy subtypes (NT1 / NT2 / HCRT-locus / narcolepsy 1) that are already listed as ARI_ClinicalSubtypes; kept the umbrella synonyms (narcolepsy, Gelineau syndrome, etc.).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Narcolepsy-cataplexy" (subtype).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T21:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced MONDO 0016158 with MONDO 0021107 - MONDO:0016158 is narcolepsy-cataplexy syndrome (narcolepsy type 1 only), but this entry covers narcolepsy in general and lists types 1 and 2 as subtypes; replaced by MONDO:0021107 narcolepsy.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
