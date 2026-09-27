@@ -23,6 +23,163 @@ and its `ARI_ChangeLog` follow.
 - **ICD-9 codes removed** (rows dropped, values taken off `ARI_ICD10`): `571.42` autoimmune
   hepatitis, `697.0` lichen planus, `607.81` lichen sclerosus, `725` polymyalgia rheumatica.
 
+## claude/mappings-updated-synonyms-0ea6bd
+
+- **Predicted mappings redetermined from the current synonyms.** The DOID and SNOMED
+  grounders read names and synonyms from `1_Core_ARI_Diseases.xlsx`, a master-list snapshot
+  that still carried 148 synonyms the synonym review withdrew (PR #84, #101) and lacked 157
+  added since. They now read `ontologies/ari_t1d.owl` through a new
+  `notebook/ari-grounding/ari_diseases.py`: the 213 non-retired diseases, their live
+  `ARI_Synonym` values and their `ARI_SNOMED` codes. Report 8's Synonyms column uses the same
+  source.
+- Reran the whole pipeline (`ground_doid` → `ground_snomed` → `make_match_reports` →
+  `predict_target_matches` → `resolve_target_labels` → `build_disease_target_matrix`);
+  reports 5–8 and the CSV/JSON intermediates are regenerated. The top prediction changed
+  for 93 (disease, database) pairs. Some changes also pick up PR #102's corrected mappings.
+- Against the 713 curated confirmed mappings, the top prediction now reproduces the curated
+  term for 649 (was 641). 28 name a different term (was 38) and 36 produce none (was 34).
+- Regenerated again after merging #104 (Sjögren's MeSH/UMLS fix). The top predictions are
+  unchanged, and Sjögren's candidates roughly double in support now that its ids agree. Of 715
+  confirmed mappings, 651 are reproduced.
+- Withdrawn synonyms no longer drive matches. Examples: Sjögren's disease no longer lands
+  on keratoconjunctivitis sicca, Lichen sclerosus on balanitis xerotica obliterans, or
+  Secondary Raynaud's on primary Raynaud disease. Polyglandular autoimmune syndrome type 2
+  no longer lands on Carpenter syndrome (acrocephalopolysyndactyly).
+- Disease set: ARI:0001212–0001215 (in the ontology, not in the core report) are now
+  grounded. ARI:0001026 "Autoimmune disease" (report-only umbrella, not in the ontology) is
+  no longer grounded.
+- New false candidate (second in the DOID list, behind the curated-anchor term): ARI:0001069 Cold agglutinin disease → DOID:0111275
+  speech-language disorder-1, via the abbreviation "CAS" (Gilda 0.556).
+## edit/dileryfuentes/mappings-review-1790308227
+
+Applies the line review of ARI#92 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  - `ARI:0001117` Juvenile rheumatoid arthritis: DOID `676` (subtype); NCI `C61279` (different disease)
+  - `ARI:0001138` Myocarditis due to autoimmune disease: SNOMED `37217002`, DOID `0040095`,
+    MONDO `0030701` (different disease)
+  - `ARI:0001189` Sjögren's disease: NCI `C70647`, UMLS `C0022575`, MeSH `D007638` (different disease)
+  - `ARI:0001176` Secondary Raynaud's phenomenon: SNOMED `266261006`, DOID `10300`, MONDO
+    `0008364`, ICD-10 `I73.0`, UMLS `C0034734`, MeSH `D011928` (broader)
+  - `ARI:0001169` Primary sclerosing cholangitis: Orphanet `447771` (broader)
+  - `ARI:0001177` Reactive arthritis: SNOMED `67224007`, OMOP `78357`, NCI `C34975`, ICD-10
+    `M02.3`, UMLS `C0035012` (subtype)
+- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:**
+  Myasthenia gravis OMOP `76685` and UMLS `C1260409`; Reactive arthritis UMLS `C0152085`;
+  Polymyositis OMOP `80800`. Polymyositis already had alexlazcano248's confirmation of
+  `80800`, so its rejection row is dropped and that row's "Superseded" note is cleared.
+- Removed SNOMED ids are also dropped from `ARI_DXCODE`, which mirrors `ARI_SNOMED`.
+- **Merged `main`.** The editor re-serialised this PR's 21 diseases (and 312 symptoms) as
+  `<AutoimmuneDisease>` / `<Symptom>` typed nodes and reordered the file. The ontology is
+  rebuilt from `main`'s copy with this PR's per-disease additions and removals applied, so
+  `main`'s layout and its #102 / #104 corrections are kept. Four of this PR's rejections were
+  already recorded on `main` (Sjögren's DOID `12895`, UMLS `C0022575`, MeSH `D007638`;
+  Secondary Raynaud's DOID `10300`); their duplicate rows are dropped here.
+- **Editor-save repairs.** The save rewrote alexlazcano248's eight Polymyositis confirmations
+  in `ari.sssom.tsv` as dileryfuentes's, so the two exports disagreed (16 `cross-file-drift`);
+  restored to match `ari.equivalencies.tsv`. Rejected SNOMED ids that survived in
+  `ARI_DXCODE` are removed: `239796000` on `ARI:0001117`, `238676008` and `72470008` on
+  `ARI:0001186` (3 `flagged-still-stored`).
+
+## claude/sjogren-mesh-umls
+
+- **ARI:0001189 Sjögren's disease: MeSH D007638 → D012859 and UMLS C0022575 → C1527336.**
+  The old ids are both keratoconjunctivitis sicca (NLM MeSH; MedGen 9620). This is the same
+  mix-up that PR #102 fixed for DOID 12895. D012859 "Sjogren's Syndrome" and C1527336 "Sjogren
+  syndrome" are the exact equivalents that MONDO:0010030 lists, and DOID:12894 lists D012859. The
+  new predictions review in PR #103 surfaced this. Each old id is flagged
+  (`Not` / `manual-negative`) and each new id is confirmed in both mapping exports, with a dated
+  `ARI_ChangeLog` line per id.
+
+## claude/fix-wrong-ontology-mappings
+
+- **Fixed seven wrong MONDO/DOID cross-references** (six below, narcolepsy further down), found during the synonym review (PR #101).
+  Each fix updates the disease record and records the judgment in both mapping exports,
+  with a dated `ARI_ChangeLog` line:
+  - ARI:0001018 Antiphospholipid syndrome: MONDO 0017278 (autoimmune polyendocrinopathy)
+    → 8000010 (antiphospholipid syndrome).
+  - ARI:0001189 Sjögren's disease: DOID 12895 (keratoconjunctivitis sicca) → 12894
+    (Sjogren's syndrome).
+  - ARI:0001208 Uveitis: MONDO 0000554 (endocervical adenocarcinoma) → 0020283 (uveitis).
+  - ARI:0001074 Cryptogenic organizing pneumonia: DOID 2797 (idiopathic interstitial
+    pneumonia, the parent) → 0050157 (cryptogenic organizing pneumonia). The earlier
+    confirmation is kept and annotated as superseded.
+  - ARI:0001002 Acquired hemophilia: removed DOID 12134 (factor VIII deficiency). DOID has
+    no acquired-haemophilia term; this was already recorded as NoTermFound.
+  - ARI:0001176 Secondary Raynaud's phenomenon: removed DOID 10300 (primary Raynaud
+    disease). DOID has no term for the secondary form, so it is now recorded as NoTermFound.
+- Each wrong id is flagged in the mapping exports (`Not` / `manual-negative`) and each new id
+  is confirmed.
+- **Not changed:**
+  - ARI:0001117 JRA → DOID 676. The term's label says "systemic", but its definition and
+    exact synonyms (JRA, JIA) cover the whole disease.
+  - Addison's (0001006) stays on MONDO:0100480 autoimmune primary adrenal insufficiency.
+    MONDO lists "Addison's disease" as an exact synonym of that term and has no separate
+    all-cause Addison's term. The only wider option, MONDO:0015128 primary adrenal
+    insufficiency, also covers CAH and adrenoleukodystrophy.
+- **ARI:0001060 Cataplexy and narcolepsy: MONDO 0016158 → 0021107.** 0016158 is
+  narcolepsy-cataplexy syndrome, which is narcolepsy type 1 only. This entry's definition
+  covers narcolepsy in general, and it lists types 1 and 2 as subtypes, so 0021107
+  (narcolepsy) is the right term. The earlier confirmation of 0016158 is annotated as
+  superseded. The move also makes the entry's synonyms consistent: the type-1 names were
+  withdrawn as subtypes on 2026-09-07, and *narcolepsy*, *paroxysmal sleep* and *narcolepsy
+  with or without cataplexy* are exact synonyms of 0021107.
+
+## claude/ari-disease-synonyms-acd0f7
+
+- **Second pass of the synonym-vs-subtype review. 66 more synonyms withdrawn across 35
+  diseases.** All 557 synonyms kept by the first pass (PR #84) were checked again against
+  their disease's mapped MONDO/DOID terms via EBI OLS4: label, synonym scope
+  (exact/related/narrow/broad), ancestors and descendants. Clinical judgement decided the
+  259 that matched nothing and the 42 on unmapped diseases. Results: 25 `broader`,
+  23 `subtype`, 12 `distinct`, 6 `non-disease`. Each uses the existing
+  `ARI_SynonymWithdrawn` marker plus a dated `ARI_ChangeLog` line. `ARI_ClinicalSubtype` is
+  untouched. No synonyms were added since PR #84, so the first pass had nothing new to cover.
+- Withdrawn, main groups: the CRPS type 1 names (*Reflex sympathetic dystrophy*,
+  *Sudeck's atrophy*, *Algodystrophy*, ...); the seven *inflammatory bowel disease 1* / NOD2
+  strings on Crohn's (MONDO:0009960); cold-type AIHA terms on cold agglutinin disease; the
+  acquired/adult PRCA forms; *Raynaud's disease* on **secondary** Raynaud's (distinct: it
+  names primary Raynaud's); *Carpenter syndrome* on APS-2 (name collision with ACPS2);
+  *Acute-onset type 1 diabetes* on fulminant T1D (a separate Japanese subtype); bare
+  *Lupus*, *NMOSD*, *LCV*, *Juvenile arthritis*, *Atrophic gastritis* and
+  *Interstitial pulmonary fibrosis* (broader); *MOG* and the sympathetic-ophthalmia eye
+  labels (non-disease).
+- **New report `data/4-reports/9_Synonym_Review.tsv`.** It has one row for each of the 708
+  synonym strings ever recorded, with the verdict, reason, OLS evidence and a note. It covers
+  both passes. 36 kept synonyms carry a curator note.
+- **Noted for a curator, not fixed here:** wrong ontology mappings on ARI:0001002
+  (DOID → factor VIII deficiency), 0001018 (MONDO → autoimmune polyendocrinopathy),
+  0001189 (DOID → keratoconjunctivitis sicca), 0001208 (MONDO → endocervical
+  adenocarcinoma), 0001176 (DOID → primary Raynaud disease), 0001117 (DOID → systemic JRA
+  only), 0001074 (DOID → parent idiopathic interstitial pneumonia). There are also
+  mapping-vs-concept conflicts on Addison's (0001006) and narcolepsy (0001060). *Sprue* on
+  celiac disease is broader but can't be withdrawn: `validate_mappings.py` comma-splits
+  values, so *Sprue, Celiac* keeps the token present.
+
+## claude/remove-ari-0001168-term-6422bf
+
+- **Retired Primary immune deficiency (`ARI:0001168`).** Set `ARI_Obsolete` to `true` and
+  added an `ARI_ChangeLog` line. The individual stays in the ontology because
+  `validate_mappings.py` fails on a deleted disease (`disease-deleted`); retirement is by
+  `ARI_Obsolete`. It had no mapping rows, subtypes, or other ontology references.
+- **Dropped it from the reports and regenerated everything downstream.** Its row is removed
+  from `1_Core_ARI_Diseases.xlsx` and `4_Additional_Info_Index.xlsx`, which have no generator
+  here; hyperlinks are shifted with their rows, and every other cell and link is unchanged.
+  The grounding pipeline was then rerun: `doid_matches_all.csv`, `snomed_matches_all.csv` and
+  reports 5-7 now cover 210 diseases. Each CSV loses only the one row.
+- **Reports 6 and 8 also pick up earlier changes that were never regenerated.** Report 6's
+  detail sheet now files ICD-9 xrefs under "Other xrefs", as the script has done since the
+  ICD-9 retirement. Report 8 is rebuilt from the current mapping set, 845 curated mappings
+  where the old snapshot had 501, and replaces the stale `ARI:0003` with `ARI:0001214` and
+  `ARI:0001215`. The README counts are updated to match.
+- **The four older grounding scripts now resolve paths from the repo.** They hardcoded a
+  `/sessions/...` sandbox path. Repo files now resolve relative to the script, and
+  `data/2-databases` follows the fixed path the newer scripts use.
+- The master list (`data/1-master/ARI Master List V 2.1 - 2026-06-04.xlsx`) still lists the
+  disease. It is a dated source release and is left as issued.
+
 ## t1d-registry-ids
 
 - **Gave LADA and Fulminant type 1 diabetes registry ids.** They were the only diseases
