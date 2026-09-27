@@ -796,7 +796,7 @@ ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with strep
 ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		umls:C2931429	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch		mesh:C537163	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001162	Polymyositis	skos:exactMatch		SNOMEDCT:31384009	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001162	Polymyositis	skos:exactMatch		omop:80800	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001162	Polymyositis	skos:exactMatch		omop:80800	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	Superseded by the negative judgment of github:dileryfuentes on 2026-09-25T03:50:23+00:00.
 ARI:0001162	Polymyositis	skos:exactMatch		DOID:0080745	DOID	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001162	Polymyositis	skos:exactMatch		MONDO:0019127	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001162	Polymyositis	skos:exactMatch		ncit:C26925	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -883,11 +883,11 @@ ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		SNOMEDCT:410795001	SN
 ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		omop:4079731	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		omop:4259507	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		omop:4253901	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	Not	DOID:676	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: subtype of disease.
+ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		DOID:676	DOID	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		MONDO:0011429	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		MONDO:0024281	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		ncit:C26979	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	Not	ncit:C61279	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
+ARI:0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch		ncit:C61279	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001086	Eosinophilic esophagitis	skos:exactMatch		umls:C0341106	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001126	Lupus vasculitis	skos:exactMatch		SNOMEDCT:239944008	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001126	Lupus vasculitis	skos:exactMatch		omop:4344495	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -915,7 +915,7 @@ ARI:0001136	Myasthenia gravis	skos:exactMatch		icd10cm:G70.0	icd10cm	semapv:Manu
 ARI:0001136	Myasthenia gravis	skos:exactMatch		ORPHA:589	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001136	Myasthenia gravis	skos:exactMatch		umls:C0026896	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001136	Myasthenia gravis	skos:exactMatch		mesh:D009157	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch	Not	SNOMEDCT:37217002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
+ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		SNOMEDCT:37217002	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		SNOMEDCT:871640001	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001200	Takayasu's arteritis	skos:exactMatch		SNOMEDCT:359789008	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001200	Takayasu's arteritis	skos:exactMatch		omop:440740	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -930,20 +930,20 @@ ARI:0001189	Sjögren's disease	skos:exactMatch		SNOMEDCT:83901003	SNOMEDCT	semap
 ARI:0001189	Sjögren's disease	skos:exactMatch		omop:254443	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001189	Sjögren's disease	skos:exactMatch		MONDO:0010030	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001189	Sjögren's disease	skos:exactMatch		ncit:C26883	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001189	Sjögren's disease	skos:exactMatch	Not	ncit:C70647	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
+ARI:0001189	Sjögren's disease	skos:exactMatch		ncit:C70647	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001189	Sjögren's disease	skos:exactMatch		icd10cm:M35.0	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001189	Sjögren's disease	skos:exactMatch		ORPHA:378	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001189	Sjögren's disease	skos:exactMatch	Not	umls:C0022575	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
-ARI:0001189	Sjögren's disease	skos:exactMatch	Not	mesh:D007638	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
+ARI:0001189	Sjögren's disease	skos:exactMatch		umls:C0022575	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001189	Sjögren's disease	skos:exactMatch		mesh:D007638	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		SNOMEDCT:356198000	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	SNOMEDCT:266261006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		SNOMEDCT:266261006	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		omop:4229162	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	DOID:10300	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
-ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	MONDO:0008364	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		DOID:10300	DOID	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		MONDO:0008364	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		ncit:C116359	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	icd10cm:I73.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
-ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	umls:C0034734	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
-ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	mesh:D011928	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		icd10cm:I73.0	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		umls:C0034734	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch		mesh:D011928	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001140	Necrotizing vasculitis	skos:exactMatch		SNOMEDCT:11791001	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001140	Necrotizing vasculitis	skos:exactMatch		omop:4039691	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001140	Necrotizing vasculitis	skos:exactMatch		MONDO:0800113	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -956,7 +956,7 @@ ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		MONDO:0013433	MONDO	
 ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		ncit:C4828	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		icd10cm:K83.01	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		ORPHA:171	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch	Not	ORPHA:447771	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: broader disease.
+ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		ORPHA:447771	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		umls:C0566602	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001169	Primary sclerosing cholangitis	skos:exactMatch		mesh:D015209	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001172	Psoriatic arthritis	skos:exactMatch		SNOMEDCT:33339001	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -975,21 +975,21 @@ ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		MONDO:0043267	MONDO	semapv:Ma
 ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		umls:C0240903	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		mesh:D056653	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		SNOMEDCT:201736002	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch	Not	SNOMEDCT:67224007	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: subtype of disease.
+ARI:0001177	Reactive arthritis	skos:exactMatch		SNOMEDCT:67224007	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		omop:40399768	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch	Not	omop:78357	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: subtype of disease.
+ARI:0001177	Reactive arthritis	skos:exactMatch		omop:78357	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		DOID:6196	DOID	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		MONDO:0017376	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch	Not	ncit:C34975	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: subtype of disease.
-ARI:0001177	Reactive arthritis	skos:exactMatch	Not	icd10cm:M02.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: subtype of disease.
+ARI:0001177	Reactive arthritis	skos:exactMatch		ncit:C34975	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001177	Reactive arthritis	skos:exactMatch		icd10cm:M02.3	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		ORPHA:29207	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch	Not	umls:C0035012	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: subtype of disease.
+ARI:0001177	Reactive arthritis	skos:exactMatch		umls:C0035012	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		mesh:D016918	mesh	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001023	Autoimmune angioedema	skos:exactMatch		SNOMEDCT:402401003	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001023	Autoimmune angioedema	skos:exactMatch		omop:4224624	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		omop:3656114	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch	Not	DOID:0040095	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
-ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch	Not	MONDO:0030701	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	PR review: different disease.
+ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		DOID:0040095	DOID	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		MONDO:0030701	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		MONDO:0022519	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch		umls:C1608389	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001179	Restless legs	skos:exactMatch		SNOMEDCT:32914008	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -1033,7 +1033,7 @@ ARI:0001129	Microscopic polyangiitis	skos:exactMatch	Not	umls:C2347126	umls	sema
 ARI:0001134	Moyamoya disease	skos:exactMatch	Not	MONDO:0009649	MONDO	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001134	Moyamoya disease	skos:exactMatch	Not	ORPHA:280679	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001134	Moyamoya disease	skos:exactMatch	Not	ORPHA:401945	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001136	Myasthenia gravis	skos:exactMatch		omop:76685	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	Reversed github:dileryfuentes's rejection in PR review.
+ARI:0001136	Myasthenia gravis	skos:exactMatch	Not	omop:76685	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001136	Myasthenia gravis	skos:exactMatch	Not	icd10cm:G70.00	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001200	Takayasu's arteritis	skos:exactMatch	Not	ncit:C34391	ncit	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001200	Takayasu's arteritis	skos:exactMatch	Not	ORPHA:99079	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
@@ -1049,10 +1049,11 @@ ARI:0001189	Sjögren's disease	skos:exactMatch	Not	icd10cm:H04.12	icd10cm	semapv
 ARI:0001189	Sjögren's disease	skos:exactMatch	Not	ORPHA:289390	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001189	Sjögren's disease	skos:exactMatch	Not	ORPHA:800	ORPHA	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001176	Secondary Raynaud's phenomenon	skos:exactMatch	Not	omop:4143972	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001136	Myasthenia gravis	skos:exactMatch		umls:C1260409	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	Reversed github:dileryfuentes's rejection in PR review.
+ARI:0001162	Polymyositis	skos:exactMatch	Not	omop:80800	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
+ARI:0001136	Myasthenia gravis	skos:exactMatch	Not	umls:C1260409	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001172	Psoriatic arthritis	skos:exactMatch	Not	omop:81931	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch	Not	icd10cm:M02.10	icd10cm	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch		umls:C0152085	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-27T22:00:00+00:00	Reversed github:dileryfuentes's rejection in PR review.
+ARI:0001177	Reactive arthritis	skos:exactMatch	Not	umls:C0152085	umls	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001138	Myocarditis due to autoimmune disease	skos:exactMatch	Not	omop:321578	omop	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001186	Sarcoidosis	skos:exactMatch	Not	SNOMEDCT:238676008	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	
 ARI:0001186	Sarcoidosis	skos:exactMatch	Not	SNOMEDCT:72470008	SNOMEDCT	semapv:ManualMappingCuration	github:dileryfuentes	2026-09-25T03:50:23+00:00	

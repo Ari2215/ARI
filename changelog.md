@@ -1,27 +1,5 @@
 # Changelog
 
-## edit/dileryfuentes/mappings-review-1790308227
-
-Applies KrishnaTO's line review of ARI#92 (`mappings/ari.equivalencies.tsv`). Each marked row
-is re-judged in both mapping exports, now authored `github:KrishnaTO`, and the disease record
-and its `ARI_ChangeLog` follow.
-
-- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
-  - `ARI:0001117` Juvenile rheumatoid arthritis: DOID `676` (subtype); NCI `C61279` (different disease)
-  - `ARI:0001138` Myocarditis due to autoimmune disease: SNOMED `37217002`, DOID `0040095`,
-    MONDO `0030701` (different disease)
-  - `ARI:0001189` Sjögren's disease: NCI `C70647`, UMLS `C0022575`, MeSH `D007638` (different disease)
-  - `ARI:0001176` Secondary Raynaud's phenomenon: SNOMED `266261006`, DOID `10300`, MONDO
-    `0008364`, ICD-10 `I73.0`, UMLS `C0034734`, MeSH `D011928` (broader)
-  - `ARI:0001169` Primary sclerosing cholangitis: Orphanet `447771` (broader)
-  - `ARI:0001177` Reactive arthritis: SNOMED `67224007`, OMOP `78357`, NCI `C34975`, ICD-10
-    `M02.3`, UMLS `C0035012` (subtype)
-- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:**
-  Myasthenia gravis OMOP `76685` and UMLS `C1260409`; Reactive arthritis UMLS `C0152085`;
-  Polymyositis OMOP `80800`. Polymyositis already had alexlazcano248's confirmation of
-  `80800`, so its rejection row is dropped and that row's "Superseded" note is cleared.
-- Removed SNOMED ids are also dropped from `ARI_DXCODE`, which mirrors `ARI_SNOMED`.
-
 ## t1d-registry-ids
 
 - **Gave LADA and Fulminant type 1 diabetes registry ids.** They were the only diseases

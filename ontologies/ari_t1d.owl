@@ -21276,6 +21276,7 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Removed flagged cross-reference: SNOMED 239796000; ICD10 M08.4; UMLS C0409667, C0157917, C0157918, C0157916</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0011429, 0024281; MESH D001171</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410795001</ARI_SNOMED>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">676</ARI_DOID>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011429</ARI_MONDO>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0024281</ARI_MONDO>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harrold 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5657479/</ARI_DefSource>
@@ -21283,6 +21284,7 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4079731, 4259507, 4253901</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410795001, 239796000</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D001171</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C61279</ARI_NCI>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26979</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/10370-juvenile-idiopathic-arthritis</ARI_RefLink>
@@ -21296,7 +21298,6 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JIA, Polyarticular - Affects five or more joints.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JIA, Systemic (Still’s Disease) - Causes fever and organ inflammation.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRA</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: removed DOID 676 (a subtype of the disease); removed NCI C61279 (a different disease)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001117_1009">
@@ -21936,7 +21937,6 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91637004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026896</ARI_UMLS>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1260409</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0009688</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G70.0</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 58154/100k; Male 55396/100k; F:M ratio 1.04979</ARI_PrevalenceDesc>
@@ -21966,8 +21966,6 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myasthenia Gravis, Ocular - Limited to eye muscles.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MG</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">589</ARI_ORPHANET>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76685</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: restored OMOP 76685 (rejection reversed); restored UMLS C1260409 (rejection reversed)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001136_1262">
@@ -22081,13 +22079,16 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 37217002, 871640001; confirmed OMOP 3656114; confirmed DOID 0040095; confirmed MONDO 0030701, 0022519; confirmed UMLS C1608389; flagged OMOP 321578</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0030701, 0022519; UMLS C1608389</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Coxsackie myocarditis" - viral (infectious) myocarditis, a different disease from myocarditis due to autoimmune disease.</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37217002</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">871640001</ARI_SNOMED>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0040095</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1608389</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0030701</ARI_MONDO>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0022519</ARI_MONDO>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lancet 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6227754/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3656114</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">871640001</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">871640001, 37217002</ARI_DXCODE>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/heart-disease/myocarditis</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocarditis Foundation | http://www.myocarditisfoundation.org/</ARI_RefLink>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lauren young | https://www.linkedin.com/in/lauren-young-798443210</ARI_Author>
@@ -22095,7 +22096,6 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocarditis, Lupus-Associated - Occurs in systemic lupus erythematosus.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocarditis, Giant Cell - Severe form with rapid progression.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MYC</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: removed SNOMED 37217002 (a different disease); removed DOID 0040095 (a different disease); removed MONDO 0030701 (a different disease)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001138_1289">
@@ -22364,8 +22364,6 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polymyositis, Classic - Symmetric muscle weakness without rash.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PM</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">732</ARI_ORPHANET>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80800</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: restored OMOP 80800 (rejection reversed)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001162_1574">
@@ -22514,7 +22512,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSC, Large Duct - Involves major bile ducts.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSC</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">171</ARI_ORPHANET>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: removed ORPHANET 447771 (broader than the disease)</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">447771</ARI_ORPHANET>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001169_1624">
@@ -22768,11 +22766,17 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 356198000, 266261006; confirmed OMOP 4229162; confirmed DOID 10300; confirmed MONDO 0008364; confirmed NCI C116359; confirmed ICD10 I73.0; confirmed UMLS C0034734; confirmed MESH D011928; flagged OMOP 4143972</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0008364; NCI C116359</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356198000</ARI_SNOMED>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">266261006</ARI_SNOMED>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10300</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034734</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0008364</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I73.0</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 15707/100k; Male 1302/100k; F:M ratio 12.0637</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garner 2015; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368987/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4229162</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356198000</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356198000, 266261006</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D011928</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C116359</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/raynauds-phenomenon</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud’s Association | https://www.raynauds.org/</ARI_RefLink>
@@ -22782,7 +22786,6 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud’s, Primary - No underlying disease.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud’s, Secondary - Linked to autoimmune diseases.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAY</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: removed SNOMED 266261006 (broader than the disease); removed DOID 10300 (broader than the disease); removed MONDO 0008364 (broader than the disease); removed ICD10 I73.0 (broader than the disease); removed UMLS C0034734 (broader than the disease); removed MESH D011928 (broader than the disease)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001176_1699">
@@ -22871,15 +22874,19 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Removed flagged cross-reference: ICD10 M02.10; UMLS C0152085</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201736002</ARI_SNOMED>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67224007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6196</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0035012</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017376</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M02.3</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 9500/100k; Male 11646/100k; F:M ratio 0.815731</ARI_PrevalenceDesc>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/20476864/</ARI_Pubmed>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanova 2010; https://pubmed.ncbi.nlm.nih.gov/20476864/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40399768</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201736002</ARI_DXCODE>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40399768, 78357</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201736002, 67224007</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D016918</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34975</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthritis Foundation | https://www.arthritis.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spondylitis Association of America | https://spondylitis.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creaky Joints | https://creakyjoints.org/</ARI_RefLink>
@@ -22891,8 +22898,6 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactive Arthritis, Post-Infectious - Follows infection.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REA</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29207</ARI_ORPHANET>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152085</ARI_UMLS>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: removed SNOMED 67224007 (a subtype of the disease); removed OMOP 78357 (a subtype of the disease); removed NCI C34975 (a subtype of the disease); removed ICD10 M02.3 (a subtype of the disease); removed UMLS C0035012 (a subtype of the disease); restored UMLS C0152085 (rejection reversed)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001177_1708">
@@ -23641,6 +23646,7 @@ Sarcoidosis often starts with a set of symptoms collectively referred to as Lofg
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 83901003; confirmed OMOP 254443; confirmed MONDO 0010030; confirmed NCI C26883, C70647; confirmed ICD10 M35.0; confirmed ORPHANET 378; confirmed UMLS C0022575; confirmed MESH D007638; flagged DOID 12895; flagged MONDO 0000948, 0006733, 0800120; flagged NCI C34553, C34503; flagged ICD10 H04.12; flagged ORPHANET 289390, 800</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0010030; NCI C26883, C70647; ICD10 M35.0; ORPHANET 378</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83901003</ARI_SNOMED>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022575</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0010030</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M35.0</ARI_ICD10>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/32606345/</ARI_Pubmed>
@@ -23648,7 +23654,9 @@ Sarcoidosis often starts with a set of symptoms collectively referred to as Lofg
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">254443</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83901003</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D007638</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26883</ARI_NCI>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C70647</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/4929-sjogrens-syndrome</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Crunchy Allergist | https://www.crunchyallergist.com/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjogren’s Foundation | https://www.sjogrens.org/</ARI_RefLink>
@@ -23663,7 +23671,6 @@ Sarcoidosis often starts with a set of symptoms collectively referred to as Lofg
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjögren’s Disease, Secondary - Associated with lupus or rheumatoid arthritis.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SJ</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">378</ARI_ORPHANET>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | KrishnaTO | PR #92 review: removed NCI C70647 (a different disease); removed UMLS C0022575 (a different disease); removed MESH D007638 (a different disease)</ARI_ChangeLog>
 </AutoimmuneDisease>
 
 <Symptom rdf:about="#Sym_0001189_1883">
