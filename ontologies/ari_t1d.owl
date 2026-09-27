@@ -1636,13 +1636,14 @@
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rare; predominantly East Asian populations. &lt;1/100k.</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan Diabetes Society criteria; PMID: 22912766</ARI_DefSource>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant diabetes</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute-onset type 1 diabetes</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute-onset type 1 diabetes | distinct | the Japan Diabetes Society classifies acute-onset, slowly progressive and fulminant T1D as three separate subtypes</ARI_SynonymWithdrawn>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2349037</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | Initial subtype entry</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 17:42 | user | Edited: snomed</ARI_ChangeLog>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37163452</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:04 | user | Edited: omop</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed OMOP 37163452; flagged SNOMED 1217068008; flagged DOID null; flagged MONDO MONDO:0014523; flagged ICD10 E10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Acute-onset type 1 diabetes" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_Ful_DKA">
@@ -2101,7 +2102,7 @@
 The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  Patients who do not suffer damage to the coronary arteries (ex. aneurysms) are expected to heal completely.  Patients who do suffer aneurysms are at greater risk of complications and heart failure, but many can be expected to recover within 2 years.  Relapse is uncommon.  Short-term and long-term treatments and procedures that protect the heart and coronary arteries are available.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawasaki syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucocutaneous lymph node syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymph node syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymph node syndrome | broader | truncated fragment of 'mucocutaneous lymph node syndrome'; on its own it names no specific disease</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawasaki's disease</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu 2012; https://pubmed.ncbi.nlm.nih.gov/22589296/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/22589296/</ARI_Pubmed>
@@ -2127,6 +2128,7 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:44 | KrishnaTO | Cross-reference review: flagged ORPHANET 2331; flagged OMIM 611775</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 16:03 | KrishnaTO | Cross-reference review: flagged ORPHANET 2331; flagged OMIM 611775</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed MONDO 0012727; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Lymph node syndrome" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_VascularSystem">
@@ -3833,7 +3835,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4224624</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402401003</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angioedema is swelling of the tissue just beneath the skin, including the face, lips, tongue, limbs, or genitals. People with Autoimmune Angioedema can have edema of the lining of the digestive tract, which can cause abdominal pain and nausea, as well as edema of the upper airway, which can be life-threatening.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired angiodema</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired angiodema | broader | acquired angioedema (acquired C1-inhibitor deficiency) also covers the lymphoproliferative type I form, not only the autoimmune type II form</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swanson 2020; https://www.ncbi.nlm.nih.gov/books/NBK430889/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Suspected</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -3845,6 +3847,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANG</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Acquired angiodema" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001023_200">
@@ -4309,7 +4312,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic gastritis | distinct | separate disease in the eosinophilic gastrointestinal disease spectrum</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy | distinct | separate small-bowel disease with anti-enterocyte antibodies</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune atrophic gastritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrophic gastritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrophic gastritis | broader | also covers H. pylori-associated multifocal atrophic gastritis; autoimmune gastritis is the corpus-restricted autoimmune form</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruemmele 2015; https://www.sciencedirect.com/topics/immunology-and-microbiology/autoimmune-enteropathy; Toh 1997; https://pubmed.ncbi.nlm.nih.gov/9358143/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/9358143/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -4326,6 +4329,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Megaloblastic Anemia" / "Macrocytic Anemia" (B12-deficiency consequences) and "Eosinophilic gastritis" / "Autoimmune enteropathy" (distinct diseases).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Atrophic gastritis" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_DigestiveSystem">
@@ -5074,7 +5078,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune pancreatitis is a rare autoimmune disorder characterized by inflammation of the pancreas that may be acute or chronic. It is thought to be caused by the body's immune system attacking healthy cells of the pancreas. There are two subtypes of AIP, known as type 1 and type 2. Type 1 is the most common and it affects the pancreas, along with other organs, such as the liver, salivary glands, kidneys, lymph nodes, and gallbladder. Type 2 seems to only affect the pancreas but is associated with inflammatory bowel disease. Symptomatic patients often experience yellowing of the eyes (jaundice) and weight loss, but many patients are asymptomatic.  Autoimmune pancreatitis is a non-cancerous condition, but it is often mistaken for pancreatic cancer due to similar signs and symptoms.  There is no cure, but the condition is well-managed with treatment.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphoplasmocytic sclerosing pancreatitis | subtype | histopathological name for type 1 (IgG4-related) AIP; already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonalcoholic destructive pancreatitis | subtype | idiopathic duct-centric pancreatitis = type 2 AIP; already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumefactive pancreatitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumefactive pancreatitis | broader | mass-forming pancreatitis also includes non-autoimmune focal chronic and groove pancreatitis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cai 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5288542/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -5092,6 +5096,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Lymphoplasmocytic sclerosing pancreatitis" (type 1 AIP) and "Nonalcoholic destructive pancreatitis" (type 2 AIP) — subtypes already listed as ARI_ClinicalSubtypes.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Tumefactive pancreatitis" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001043_306">
@@ -6547,7 +6552,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193042000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437854</ARI_OMOP>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy-cataplexy</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy-cataplexy | subtype | narcolepsy type 1; matches the 2026-09-07 withdrawal of 'narcolepsy-cataplexy syndrome' and 'narcolepsy with cataplexy' on this entry</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal sleep</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau disease</ARI_Synonym>
@@ -6571,6 +6576,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's Syndrome</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome - subtype of Cataplexy and narcolepsy (MONDO:0016158)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 8 strings naming narcolepsy subtypes (NT1 / NT2 / HCRT-locus / narcolepsy 1) that are already listed as ARI_ClinicalSubtypes; kept the umbrella synonyms (narcolepsy, Gelineau syndrome, etc.).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Narcolepsy-cataplexy" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
@@ -6993,7 +6999,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-20 16:32 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myalgic encephalomeyelitis/chronic fatigue syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue-Fibromyalgia Syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue-Fibromyalgia Syndrome | distinct | MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Syndrome, Postviral</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious Mononucleosis-Like Syndrome, Chronic</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Syndrome, Chronic</ARI_Synonym>
@@ -7003,16 +7009,16 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postviral Fatigue Syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myalgic encephalitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue-Fibromyalgia Syndrome, Chronic</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue-Fibromyalgia Syndrome, Chronic | distinct | MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Royal Free Disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue and Immune Dysfunction Syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue-Fibromyalgia Syndromes</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue-Fibromyalgia Syndromes | distinct | MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Postviral Fatigue</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic fatigue immune dysfunction syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postviral fatigue syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Disorder, Chronic</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Syndromes, Chronic</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue-Fibromyalgia Syndromes, Chronic</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue-Fibromyalgia Syndromes, Chronic | distinct | MeSH entry term for a combined CFS-fibromyalgia presentation; fibromyalgia is a separate diagnosis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Disorder</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myalgic encephalomyelitis/chronic fatigue syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFS</ARI_Synonym>
@@ -7021,6 +7027,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005404</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 3 "NON RARE IN EUROPE: ..." strings - Orphanet epidemiological-classification labels that leaked in as synonyms.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Chronic Fatigue-Fibromyalgia Syndrome" / "Fatigue-Fibromyalgia Syndrome, Chronic" / "Chronic Fatigue-Fibromyalgia Syndromes" / "Fatigue-Fibromyalgia Syndromes, Chronic" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001062_502">
@@ -7081,7 +7088,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D020277</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84636</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic inflammatory demyelinating polyneuropathy is a rare neurological disease that inflames the nerve roots and peripheral nerves, damaging the myelin sheath. The destruction of the myelin sheath leads to loss of strength or sensation.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination | subtype | the combined central and peripheral demyelination (CCPD) form of CIDP</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic inflammatory demyelinating polyneuropathy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic inflammatory demyelinating polyneuritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic relapsing polyneuropathy</ARI_Synonym>
@@ -7141,6 +7148,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory Polyradiculoneuropathy, Chronic</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyradiculoneuropathy, Chronic Inflammatory</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lewis-Sumner syndrome - subtype of Chronic inflammatory demyelinating polyradiculoneuropathy (MONDO:0018826)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001063_509">
@@ -8016,7 +8024,7 @@ More study is needed.</rdfs:comment>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4233620</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">405810005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cogan syndrome is a rare disease characterized by inflammation of the ears and eyes.  It is characterized as a rheumatic disease because it involves inflamation.  Specifically, when blood vessels are involved, it is characterized as a form of vasculitis. Cogan syndrome can lead to vision difficulty, hearing loss and dizziness.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse interstitial keratitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse interstitial keratitis | non-disease | the ocular finding of Cogan syndrome; the same keratitis is caused by congenital syphilis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmer 2024; https://acrabstracts.org/abstract/global-prevalence-and-clinical-outcomes-of-cogan-syndrome/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -8058,6 +8066,7 @@ More study is needed.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diffuse interstitual keratitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Cogan</ARI_Synonym>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0271270</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Diffuse interstitial keratitis" (non-disease).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001068_592">
@@ -8188,7 +8197,7 @@ More study is needed.</rdfs:comment>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">398937006</ARI_SNOMED>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold agglutinin disease is a type of autoimmune hemolytic anemia in which the body's immune system attacks and destroys its own red blood cells.  Unlike warm autoimmune hemolytic anemia, the autoimmune destruction of cells occurs when a person is exposed to cold, or their body temperature is below normal. Some patients experience heart problems because the heart has to work harder to make sure the body gets enough healthy red blood cells</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAD</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold autoimmune hemolytic anemia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold autoimmune hemolytic anemia | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia | broader | bare 'anemia' is the broad category, not a name for cold agglutinin disease</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia | broader | AIHA is the parent; cold agglutinin disease is its cold-antibody subtype (warm AIHA is the other main type)</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, cold type | broader | cold-type AIHA (MONDO:0016450) also covers paroxysmal cold haemoglobinuria and mixed-type; broader than cold agglutinin disease proper</ARI_SynonymWithdrawn>
@@ -8205,9 +8214,9 @@ More study is needed.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemolytic Anaemia, Autoimmune | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Hemolytic Anemias | broader | permuted/plural AIHA, the parent category</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Haemolytic Anaemias | broader | permuted/plural AIHA, the parent category</ARI_SynonymWithdrawn>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold antibody disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolytic cold antibody</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold antibody hemolytic anemia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold antibody disease | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolytic cold antibody | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold antibody hemolytic anemia | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mullins 2017; https://pubmed.ncbi.nlm.nih.gov/29296728/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29296728/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -8255,10 +8264,10 @@ More study is needed.</rdfs:comment>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">398937006</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4160887</ARI_OMOP>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cAIHA</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cAHA</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cAIHA | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cAHA | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold agglutinin syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold AIHA</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold AIHA | broader | cold-type AIHA (MONDO:0016450, an ancestor of CAD) also covers secondary cold agglutinin syndrome and paroxysmal cold haemoglobinuria</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic cold agglutinin disease</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary Cold Agglutinin Disease - subtype of Cold agglutinin disease (NCIT:C199387)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal cold hemoglobinuria - subtype of Cold agglutinin disease (MONDO:0019533)</ARI_ClinicalSubtype>
@@ -8270,6 +8279,7 @@ More study is needed.</rdfs:comment>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neonatal autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0018358)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, cold type - subtype of Cold agglutinin disease (MONDO:0016450)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 16 strings that name autoimmune haemolytic anaemia in general (AIHA and its permutations), cold-type AIHA (broader than CAD), or bare 'anemia'. Cold agglutinin disease is the chronic cold-agglutinin subtype of AIHA; kept the CAD-specific synonyms (CAD, CAS, cold agglutinin syndrome, chronic cold agglutinin disease, etc.).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "cAIHA" / "cAHA" / "cold AIHA" / "Cold autoimmune hemolytic anemia" / "hemolytic cold antibody" / "Cold antibody disease" / "Cold antibody hemolytic anemia" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001069_610">
@@ -8498,22 +8508,23 @@ More study is needed.</rdfs:comment>
   <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">604335</ARI_OMIM>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128200000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4134577</ARI_OMOP>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reflex sympathetic dystrophy</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reflex sympathetic dystrophy | subtype | historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain Syndromes, Regional Complex</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algoneurodystrophy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex regional pain syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS (Complex Regional Pain Syndromes)</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudeck's atrophy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algodystrophy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex neurovascular dystrophy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex sympathetic dystrophy syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudeck's atrophy | subtype | historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algodystrophy | subtype | historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex neurovascular dystrophy | subtype | historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex sympathetic dystrophy syndrome | subtype | historic names for CRPS type 1 (MONDO:0011441), matching the 2026-09-07 withdrawal of 'CRPS I'</ARI_SynonymWithdrawn>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 2 - subtype of Complex regional pain syndrome (MONDO:0020572)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex Regional Pain Syndrome I - subtype of Complex regional pain syndrome (NCIT:C85042)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex Regional Pain Syndrome II - subtype of Complex regional pain syndrome (NCIT:C121572)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1 - subtype of Complex regional pain syndrome (MONDO:0011441)</ARI_ClinicalSubtype>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M89.0</ARI_ICD10>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Amplified musculoskeletal pain syndrome' (a separate pain construct) and the CRPS-type-1 / CRPS-type-2 names ('Causalgia', 'CRPS I', etc.) that are already ARI_ClinicalSubtypes. Kept the historical whole-disease names (reflex sympathetic dystrophy, Sudeck's atrophy, algodystrophy).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Reflex sympathetic dystrophy" / "Algodystrophy" / "reflex neurovascular dystrophy" / "reflex sympathetic dystrophy syndrome" / "Sudeck's atrophy" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001071_629">
@@ -8666,21 +8677,21 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Crohn disease | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's granulomatous</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulomatous Colitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease caused by mutation in NOD2</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease 1, Crohn disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease caused by mutation in NOD2 | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease 1, Crohn disease | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pediatric Crohn's disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease 1</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease 1 | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional enteritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease (Crohn disease) 1</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD2 inflammatory bowel disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease (Crohn disease) 1 | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD2 inflammatory bowel disease | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease of colon</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease of large bowel</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease type 1</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease type 1 | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paediatric Crohn's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's Enteritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohns Disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory Bowel Disease 1</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory Bowel Disease 1 | subtype | IBD1 (MONDO:0009960), the NOD2 genetic susceptibility form; its synonym 'Crohn disease-associated growth failure' was withdrawn 2026-09-07</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:00 | user | Edited: icd10</ARI_ChangeLog>
@@ -8739,6 +8750,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: UMLS C0156147</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the location-based forms ('Gastroduodenal Crohn's disease', 'Crohn's colitis', 'Ileocolitis', 'Illeitis') which are subtypes/children, 'Crohn disease-associated growth failure' (a complication), and the 'NON RARE IN EUROPE:' Orphanet label. Kept 'regional enteritis', the IBD1 genetic-locus names, and 'pediatric Crohn's disease' (a MONDO exact synonym).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "inflammatory bowel disease caused by mutation in NOD2" / "inflammatory bowel disease 1, Crohn disease" / "inflammatory bowel disease 1" / "inflammatory bowel disease (Crohn disease) 1" / "NOD2 inflammatory bowel disease" / "inflammatory bowel disease type 1" / "Inflammatory Bowel Disease 1" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -9672,8 +9684,8 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4231746</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">359643005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enthesitis-related arthritis is diagnosed when rheumatoid arthritis affects the entheses, the connective tissue between a tendon or ligament and a bone.  Enthesitis affects about 15% of patients with juvenile arthritis.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enthesitis-related juvenile arthritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enthesitis-related arthritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enthesitis-related juvenile arthritis | distinct | an ILAR category of juvenile idiopathic arthritis in which enthesitis is one feature</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enthesitis-related arthritis | distinct | an ILAR category of juvenile idiopathic arthritis in which enthesitis is one feature</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -9691,6 +9703,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENTH</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Enthesitis-related juvenile arthritis" / "Enthesitis-related arthritis" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001085_759">
@@ -10418,7 +10431,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shulman's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic fasciitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shulman syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pansclerotic morphea with deep fascial involvement</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pansclerotic morphea with deep fascial involvement | distinct | pansclerotic morphea is a severe morphea subtype, separate from eosinophilic fasciitis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spielmann 2018; https://pubmed.ncbi.nlm.nih.gov/29526049/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29526049/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
@@ -10449,6 +10462,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C562487</ARI_MESH>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 18:18 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 18:18 | Jennyzeng25 | Cross-reference review: confirmed ICD10 M35.4; confirmed SNOMED 24129002; confirmed OMOP 4083100; confirmed MONDO 0009175; confirmed NCI C112116; confirmed ORPHANET 3165; confirmed OMIM 226350; confirmed UMLS C0264005; confirmed MESH C562487</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Pansclerotic morphea with deep fascial involvement" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001092_844">
@@ -11408,8 +11422,8 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypersensitivity angiitis, also known as leukocytoclastic vasculitis, is an inflammation of the small blood vessels in your skin. This occurs when neutrophils (a type of immune cell) enter the walls of small blood vessels where they disintegrate, leaving behind fragments. It may be triggered by a variety of different factors; however, approximately half of the cases are idiopathic (i.e. have unknown cause). Some triggers include infections, certain drugs, collagen vascular disease, autoimmune disease, or neoplastic disease.  Drugs and infections are the most common triggers. Symptoms of the skin usually develop about a week after the triggering event. Approximately 90% of patients will have spontaneous healing of skin lesions within weeks to months, and about 10% will have chronic or recurrent disease. Henoch-Schonlein purpura is a subtype of leukoclastic vasculitis that affects children and is usually triggered by an upper respiratory infection.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutaneous Leukocytoclastic vasculitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypersensitivity Vasculitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leucocytoclastic vasculitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCV</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leucocytoclastic vasculitis | broader | a histological pattern shared by IgA vasculitis, urticarial vasculitis, cryoglobulinaemic vasculitis and others</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCV | broader | a histological pattern shared by IgA vasculitis, urticarial vasculitis, cryoglobulinaemic vasculitis and others</ARI_SynonymWithdrawn>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
@@ -11421,6 +11435,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Leucocytoclastic vasculitis" / "LCV" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001101_944">
@@ -11507,7 +11522,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45763750</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">700250006</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic pulmonary fibrosis is a scarring of the lungs. It is suspected that the scarring is due to an autoinflammatory or autoimmune response.  However, there are other causes, and only a fraction of patients with IPF suffer from an autoimmune form of the disease.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstitial pulmonary fibrosis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstitial pulmonary fibrosis | broader | any fibrosing interstitial lung disease; IPF is the idiopathic UIP form</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raghu 2014; https://pubmed.ncbi.nlm.nih.gov/24875841/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/24875841/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
@@ -11533,6 +11548,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:38 | AnjaliRH | Cross-reference review: confirmed MESH D054990; confirmed ORPHANET 2032; confirmed ICD10 J84.112; confirmed NCI C35716; confirmed MONDO 0800504; confirmed DOID 0050156; confirmed OMOP 45763750; confirmed SNOMED 700250006; flagged OMIM 178500</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:45 | AnjaliRH | Cross-reference review: confirmed MESH D054990; confirmed ORPHANET 2032; confirmed ICD10 J84.112; confirmed NCI C35716; confirmed MONDO 0800504; confirmed DOID 0050156; confirmed OMOP 45763750; confirmed SNOMED 700250006; flagged OMIM 178500</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed UMLS C1800706</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Interstitial pulmonary fibrosis" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001103_951">
@@ -12357,7 +12373,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
 
 There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclochorioretinitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitritis | non-disease | a clinical sign (inflammatory cells in the vitreous) seen in intermediate, posterior and panuveitis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic cyclitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral uveoretinitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral Uveitis</ARI_Synonym>
@@ -12393,6 +12409,7 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006806</ARI_MONDO>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">314429009</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4197155</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Vitritis" (non-disease).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001115_1001">
@@ -12513,7 +12530,7 @@ There are 7 types of juvenile arthritis:
 Some patients experience full relief from symptoms with medical attention, while others experience relapses throughout life. Treatments are available to control symptoms and improve function.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile chronic arthritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile arthritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile arthritis | broader | any arthritis in childhood, including infectious and reactive arthritis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatric rheumatic disease | broader | covers paediatric lupus, dermatomyositis, vasculitis, etc., not only juvenile arthritis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JIA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile idiopathic arthritis</ARI_Synonym>
@@ -12536,6 +12553,7 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Pediatric rheumatic disease" - a broad category, not a synonym for juvenile idiopathic arthritis.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Juvenile arthritis" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001117_1009">
@@ -12859,7 +12877,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4296491</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">403435005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligneous conjunctivitis is a rare, chronic form of conjunctivitis that starts in adulthood. A genetically caused form of the disease can occur in childhood, but these cases are not autoimmune.  Patients with ligneous conjunctivitis have large, inflamed, woody growths on the inside of the eyelid and potentially whites of the eye.  These growths may also occur in the mouth, ears, respiratory tract, and genitourinary tract. The inflamed growths are likely to come back after they have been removed. If untreated, ligneous conjunctivitis can lead to vision loss and sometimes life-threatening pulmonary complications.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult Onset Ligneous conjunctivitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult Onset Ligneous conjunctivitis | subtype | age-of-onset form of ligneous conjunctivitis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune ligneous conjunctivitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conjunctivitis lignose</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
@@ -12876,6 +12894,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Adult Onset Ligneous conjunctivitis" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001120_1044">
@@ -13677,7 +13696,7 @@ The exact cause of both primary and secondary autoimmune orchitis is still unkno
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001127</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune orchitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune orchitis | distinct | one cause of antisperm-antibody infertility and a disease in its own right; most antisperm-antibody infertility follows vasectomy, trauma or infection</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed SNOMED 414643008; confirmed OMOP 4212192</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -13691,6 +13710,7 @@ The exact cause of both primary and secondary autoimmune orchitis is still unkno
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgM - Reduces sperm motility and fertilization potential</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG - Affects fertilization and sperm transport</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASAM</ARI_SurveyCode>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Autoimmune orchitis" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001127_996">
@@ -14913,7 +14933,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37164973, 37397549</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1237194006, 718213001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelin oligodendrocyte glycoprotein disease (MOG) is a recently recognized condition marked by the presence of antibodies against myelin oligodendrocyte glycoprotein (MOG).  The disease differs from multiple sclerosis (MS),  aquaporin-4 (AQP4) antibody disease, and neuromyelitis optica spectrum disorders (NMOSD).  MOG symptoms can range from those of neuromyelitis optica to acute demyelinating encephalomyelitis and cortical encephalitis. A correct diagnosis requires both  specific and sensitive assays for the antibody.  In brain images MOG overlaps with AQP4 antibody NMOSD but can be usually distinguished from MS.  In particular, the silent lesions typical of MS that progressively increase lesion volume are rare in MOG antibody disease. Medium-term immunosuppression appears to be protective. Permanent disability, particularly severe ambulatory and visual disability, is less frequent than in AQP4 antibody NMOSD and usually results from the onset attack.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG | non-disease | names the antigen (myelin oligodendrocyte glycoprotein), not the disease</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MAG disease | distinct | anti-MAG (myelin-associated glycoprotein) neuropathy is a paraproteinaemic demyelinating peripheral neuropathy (IgM MGUS) - a different disease from MOG antibody disease (a CNS demyelinating disease)</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein | distinct | the full name of anti-MAG neuropathy, a different disease from MOG antibody-associated disease</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MOG disease</ARI_Synonym>
@@ -14934,6 +14954,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Anti-MAG disease" and its full name - anti-MAG neuropathy is a paraproteinaemic peripheral neuropathy, a different disease from MOG antibody-associated disease (MAG vs MOG).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "MOG" (non-disease).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001137_1277">
@@ -15404,10 +15425,10 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial plexitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute brachial neuritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial plexus neuritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial plexus disorder</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial plexus disorder | broader | any brachial plexus lesion, including traumatic, compressive and neoplastic plexopathy (DOID:3690 is an ancestor)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial radiculitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic brachial plexus neuropathy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial neuropathy</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial neuropathy | broader | any brachial plexus lesion, including traumatic, compressive and neoplastic plexopathy (DOID:3690 is an ancestor)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachial neuritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsonage-Turner Syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
@@ -15435,6 +15456,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuralgic Amyotrophy, Hereditary - Genetic form with recurrent episodes.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2901</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Brachial plexus disorder" / "Brachial neuropathy" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001142_1330">
@@ -15505,7 +15527,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devic's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devic's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMO</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMOSD</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMOSD | broader | the spectrum also covers limited forms (isolated optic neuritis or LETM with AQP4-IgG) that do not meet NMO criteria</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optic neuromyelitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuromyelitis optica spectrum Disorder</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opticospinal MS</ARI_Synonym>
@@ -15535,6 +15557,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed SNOMED 25044007; confirmed OMOP 4027727; confirmed DOID 8869; confirmed MONDO 0019100; confirmed NCI C84934; confirmed ICD10 G36.0; confirmed ORPHANET 71211; confirmed MESH D009471; no term in OMIM</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019100</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71211</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "NMOSD" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001143_1338">
@@ -16071,7 +16094,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PGA-II</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS2</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyglandular deficiency syndrome type 2</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpenter syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpenter syndrome | distinct | the name now denotes acrocephalopolysyndactyly type II (RAB23); the old APS-2 usage collides with it</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmidt syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -16100,6 +16123,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS-2, Schmidt Syndrome - Addison’s disease with thyroid autoimmunity.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAS2</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3143</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Carpenter syndrome" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001158_1498">
@@ -17002,8 +17026,8 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSC is a rare progressive disorder of the liver which is characterized by inflammation, thickening, and abnormal formation of fibrous tissue within the passages that carry bile from the liver (bile ducts). Both bile ducts within the liver and outside the liver are affected.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSC</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic obliterative cholangitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrosing cholangitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenosing cholangitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrosing cholangitis | broader | sclerosing cholangitis in general, including secondary forms (DOID:14268 is an ancestor)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenosing cholangitis | broader | sclerosing cholangitis in general, including secondary forms (DOID:14268 is an ancestor)</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liang 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5478316/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCELL</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -17024,6 +17048,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Fibrosing cholangitis" / "Stenosing cholangitis" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001169_1624">
@@ -17332,10 +17357,10 @@ The development of psoriasis involves a complex cycle of immune activation and s
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In secondary Raynaud's phenomenon, blood flow to the fingers and toes is limited, causing cold extremities and sometimes pain. The condition is made worse by cold temperatures. The amount of time that these extremities stay cold can vary.  
 
 Secondary Raynaud's is a symptom experienced (and reported) by patients with autoimmune diseases.  Primary Raynaud's is when the symptoms appear without any other disease.  Therefore, primary Raynaud's is not an autoimmune disease.  However, a person suffering from Raynaud's could have an undiagnosed autoimmune disease.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud's disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud's disease | distinct | 'Raynaud disease' is primary (idiopathic) Raynaud's; this entry is secondary Raynaud's phenomenon</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary Raynaud's</ARI_Synonym>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud's phenomenon | broader | Raynaud's phenomenon is the sign itself (primary or secondary); this entity is the secondary form</ARI_SynonymWithdrawn>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud disease | distinct | 'Raynaud disease' is primary (idiopathic) Raynaud's; this entry is secondary Raynaud's phenomenon</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garner 2015; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368987/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
@@ -17353,6 +17378,7 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAY</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew bare "Raynaud's phenomenon" - the sign itself, broader than secondary Raynaud's phenomenon. NB the entity conflates primary and secondary (it carries a 'Primary' subtype) - for a curator.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Raynaud's disease" / "Raynaud disease" (distinct).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001176_1699">
@@ -18124,8 +18150,8 @@ The disease and its consequences can be prevented with antibiotics if the strep 
 
 Note: scarlet fever is another symptom of a strep infection but is not a separate cause of rheumatic fever.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute rheumatic fever</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatic arthritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory rheumatism</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatic arthritis | subtype | the migratory polyarthritis manifestation of rheumatic fever</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory rheumatism | broader | generic term for any inflammatory joint disease</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute rheumatic myocarditis | subtype | names the cardiac manifestation (rheumatic carditis) of rheumatic fever, not the whole disease</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orphanet; https://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3099</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -18145,6 +18171,7 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Acute rheumatic myocarditis" - the cardiac manifestation of rheumatic fever, not a synonym for the whole disease.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Rheumatic arthritis" (subtype); "Inflammatory rheumatism" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001182_1785">
@@ -19938,9 +19965,9 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">438739</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75315001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sympathetic Ophthalmia (SO) is a rare inflammatory condition that affects both eyes following trauma or surgery to one of the eyes. The immune system is sensitized to proteins from the damaged eye and then attacks those same proteins in the uninjured (or “spared” eye), leading to inflammation of the uninjured eye. Sympathetic ophthalmia is a form of uveitis. The disease can lead to blindness.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sympathizing Eye</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exciting Eye</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spared Eye Injury</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sympathizing Eye | non-disease | labels for the injured and fellow eyes, not names of the disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exciting Eye | non-disease | labels for the injured and fellow eyes, not names of the disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spared Eye Injury | non-disease | labels for the injured and fellow eyes, not names of the disease</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sympathetic ophthalmia</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arevalo 2012; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3277011/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -19954,6 +19981,7 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SU</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Sympathizing Eye" / "Exciting Eye" / "Spared Eye Injury" (non-disease).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001195_1988">
@@ -20060,7 +20088,7 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55464009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLE, the most common type of lupus, is a chronic inflammatory disease that occurs when the body's immune system attacks its own tissues and organs. Inflammation caused by lupus can affect many different body systems — including joints, skin, kidneys, blood cells, brain, heart and lungs.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLE</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupus</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupus | broader | bare 'lupus' also covers cutaneous, drug-induced and neonatal lupus (DOID:8857 is an ancestor)</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izmirly 2021; https://pubmed.ncbi.nlm.nih.gov/33474834/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/33474834/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -20082,6 +20110,7 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Lupus" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001196_2001">
@@ -20858,7 +20887,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horton's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial arteritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giant cell arteritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulomatous arteritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulomatous arteritis | broader | also covers Takayasu arteritis (MONDO:0002341 granulomatous angiitis is an ancestor)</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:11:29+00:00 | user | Edited: icd10</ARI_ChangeLog>
@@ -20890,6 +20919,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal Arteritis, Cranial - Affects the head, causing headache and vision loss.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TA</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Granulomatous arteritis" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001201_2056">
@@ -21842,7 +21872,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uveitis is an inflammation of the uvea - a set of tissues that form a layer of eyeball that sits between the outer layers of the eye and the "vitreous chamber", which forms the main body of the eye. The uvea itself has several kinds of tissue that can be affected by immune processes, all of which are called uveitis. About half of people who receive a diagnosis of uveitis have an autoimmune form of the disease. Uveitis is a term that means "inflammation of the uvea", and not all forms of uveitis are autoimmune, and not all individuals diagnosed with uveitis have an autoimmune form of uveitis. 
 
 The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic uveitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic uveitis | subtype | the idiopathic form of uveitis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic intermediate uveitis | subtype | doubly narrow (idiopathic + intermediate = pars planitis); a subtype - ARI has both an 'Uveitis, Intermediate' subtype and a separate 'Intermediate uveitis' entity (ARI:0001115)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune uveitis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acharya 2013; https://pubmed.ncbi.nlm.nih.gov/24008391/</ARI_DefSource>
@@ -21877,6 +21907,7 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128473001</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4028363</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Idiopathic intermediate uveitis" - the pars planitis subtype, narrower than uveitis. Kept 'Autoimmune uveitis' and 'Idiopathic uveitis'.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Idiopathic uveitis" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001208_2167">
@@ -22140,7 +22171,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">121136.0</prevalencePer100k>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-60 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001211</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic autoimmune hemolytic anemia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic autoimmune hemolytic anemia | broader | primary AIHA also covers the cold types</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune hemolytic anemia", "Acquired autoimmune hemolytic anemia" and "Immunohemolytic anemia" - broader categories; warm AIHA is one type. Kept the warm-specific synonyms (wAIHA, warm AIHA, etc.) and 'Idiopathic autoimmune hemolytic anemia' (noted).</ARI_ChangeLog>
@@ -22167,6 +22198,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune hemolytic anemia | broader | includes warm AIHA, cold agglutinin disease, paroxysmal cold haemoglobinuria, drug-induced and alloimmune haemolysis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired autoimmune hemolytic anemia | broader | acquired AIHA covers warm, cold, mixed and drug-induced types; this entity is the warm type</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohemolytic anemia | broader | = immune haemolytic anaemia, the broad category</ARI_SynonymWithdrawn>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Idiopathic autoimmune hemolytic anemia" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001211_2195">
@@ -23184,7 +23216,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26127.0</prevalencePer100k>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50-70 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001156</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-PAN</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-PAN | subtype | cutaneous polyarteritis nodosa, the skin-limited form</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classic polyarteritis nodosa</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAN</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyarteritis</ARI_Synonym>
@@ -23217,6 +23249,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAN, Hepatitis B-Associated - Linked to HBV infection.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PN</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">767</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "c-PAN" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001156_1468">
@@ -23334,7 +23367,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001163</ARI_ID>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-myocardial infarction syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressler's syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-cardiac injury syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-cardiac injury syndrome | broader | umbrella that also covers post-pericardiotomy syndrome and post-traumatic pericarditis</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T19:00:00+00:00 | KrishnaTO | Cross-reference review correction (PR #89): removed SNOMED 827164008; ARI_DXCODE limited to confirmed SNOMED 66189004</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 58600007, 278536002; OMOP 37311078, 4239311, 4150305</ARI_ChangeLog>
@@ -23357,6 +23390,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressler Syndrome, Classic - Pericarditis after heart attack or surgery.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMIS</ARI_SurveyCode>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Post-cardiac injury syndrome" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001163_1584">
@@ -23753,12 +23787,12 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8887.0</prevalencePer100k>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001173</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic pure red cell aplasia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary acquired PRCA</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult pure red cell aplasia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic pure red cell aplasia | subtype | acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary acquired PRCA | subtype | acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult pure red cell aplasia | subtype | acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRCA</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired pure red cell aplasia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary acquired pure red cell aplasia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired pure red cell aplasia | subtype | acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary acquired pure red cell aplasia | subtype | acquired/adult forms of PRCA, as opposed to congenital Diamond-Blackfan anaemia (MONDO:0020338 'adult pure red cell aplasia' is a descendant)</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 50715003; confirmed OMOP 140065; confirmed DOID 1340; confirmed MONDO 0001705; confirmed NCI C34974; confirmed UMLS C0034902; confirmed MESH D012010; flagged ORPHANET 98421</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -23781,6 +23815,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Cell Aplasia, Autoimmune - Associated with immune-mediated suppression.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRCA</ARI_SurveyCode>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Adult pure red cell aplasia" / "Idiopathic pure red cell aplasia" / "Primary acquired PRCA" / "Acquired pure red cell aplasia" / "Primary acquired pure red cell aplasia" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001173_1678">

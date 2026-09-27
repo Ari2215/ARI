@@ -1,5 +1,36 @@
 # Changelog
 
+## claude/ari-disease-synonyms-acd0f7
+
+- **Second pass of the synonym-vs-subtype review. 66 more synonyms withdrawn across 35
+  diseases.** All 557 synonyms kept by the first pass (PR #84) were checked again against
+  their disease's mapped MONDO/DOID terms via EBI OLS4: label, synonym scope
+  (exact/related/narrow/broad), ancestors and descendants. Clinical judgement decided the
+  259 that matched nothing and the 42 on unmapped diseases. Results: 25 `broader`,
+  23 `subtype`, 12 `distinct`, 6 `non-disease`. Each uses the existing
+  `ARI_SynonymWithdrawn` marker plus a dated `ARI_ChangeLog` line. `ARI_ClinicalSubtype` is
+  untouched. No synonyms were added since PR #84, so the first pass had nothing new to cover.
+- Withdrawn, main groups: the CRPS type 1 names (*Reflex sympathetic dystrophy*,
+  *Sudeck's atrophy*, *Algodystrophy*, ...); the seven *inflammatory bowel disease 1* / NOD2
+  strings on Crohn's (MONDO:0009960); cold-type AIHA terms on cold agglutinin disease; the
+  acquired/adult PRCA forms; *Raynaud's disease* on **secondary** Raynaud's (distinct: it
+  names primary Raynaud's); *Carpenter syndrome* on APS-2 (name collision with ACPS2);
+  *Acute-onset type 1 diabetes* on fulminant T1D (a separate Japanese subtype); bare
+  *Lupus*, *NMOSD*, *LCV*, *Juvenile arthritis*, *Atrophic gastritis* and
+  *Interstitial pulmonary fibrosis* (broader); *MOG* and the sympathetic-ophthalmia eye
+  labels (non-disease).
+- **New report `data/4-reports/9_Synonym_Review.tsv`.** It has one row for each of the 708
+  synonym strings ever recorded, with the verdict, reason, OLS evidence and a note. It covers
+  both passes. 36 kept synonyms carry a curator note.
+- **Noted for a curator, not fixed here:** wrong ontology mappings on ARI:0001002
+  (DOID → factor VIII deficiency), 0001018 (MONDO → autoimmune polyendocrinopathy),
+  0001189 (DOID → keratoconjunctivitis sicca), 0001208 (MONDO → endocervical
+  adenocarcinoma), 0001176 (DOID → primary Raynaud disease), 0001117 (DOID → systemic JRA
+  only), 0001074 (DOID → parent idiopathic interstitial pneumonia). There are also
+  mapping-vs-concept conflicts on Addison's (0001006) and narcolepsy (0001060). *Sprue* on
+  celiac disease is broader but can't be withdrawn: `validate_mappings.py` comma-splits
+  values, so *Sprue, Celiac* keeps the token present.
+
 ## claude/remove-ari-0001168-term-6422bf
 
 - **Retired Primary immune deficiency (`ARI:0001168`).** Set `ARI_Obsolete` to `true` and
