@@ -116,7 +116,7 @@ Only 1 of 11 had a DOID match (COPA syndrome → DOID:0081242).
 
 ## 6. `6_DOID_Matches_All.xlsx` — DOID Matches (All Diseases)
 
-**130/210 matched** to DOID via Gilda grounding. Two sheets:
+**128/213 matched** to DOID via Gilda grounding of the ontology's active diseases and their current synonyms. Two sheets:
 
 ### Sheet 1: "DOID Matches (All)"
 | Column | Description |
@@ -140,7 +140,7 @@ definition, all synonyms, cross-references grouped by source
 
 ## 7. `7_SNOMED_Matches_All.xlsx` — SNOMED Matches (All Diseases)
 
-**189/210 matched** to SNOMED CT via Gilda grounding over **standard Condition** concepts
+**189/213 matched** to SNOMED CT via Gilda grounding over **standard Condition** concepts
 (`standard_concept='S'` filter on OMOP/Athena CONCEPT.csv).
 
 | Column | Description |
@@ -154,16 +154,16 @@ definition, all synonyms, cross-references grouped by source
 | Matched Via | The name that produced the match |
 | OMOP ConceptID | OMOP concept (Athena term hyperlink) |
 | SNOMED Status | Is the SNOMED code still current? |
-| Existing SNOMED (master) | Code from the original master file |
-| Agrees w/ Existing | **QA flag**: Green = agrees with master, Amber = differs from master |
+| Existing SNOMED (ontology) | `ARI_SNOMED` code(s) stored on the disease |
+| Agrees w/ Existing | **QA flag**: Green = agrees with the stored code, Amber = differs |
 
-184 of 189 agree with existing master codes; 5 differ.
+185 of 189 agree with a code the ontology stores.
 
 ---
 
 ## 8. `8_Disease_Target_Mappings.xlsx` — Disease x Target Database Matrix
 
-**2,280 rows** — one row for every (disease, target database) pair: 214 diseases
+**2,338 rows** — one row for every (disease, target database) pair: 214 diseases
 (210 core + 4 mapping subjects not in the core list) x 10 target databases, plus an extra
 row wherever a disease has more than one mapping into the same database. Built from
 `mappings/ari.sssom.tsv`, so it reports **curated** mappings, not lexical matches.
@@ -171,7 +171,8 @@ row wherever a disease has more than one mapping into the same database. Built f
 ### Sheet 1: "Disease-Target Mappings"
 | Column | Description |
 |--------|-------------|
-| ARI ID / Disease Name / Synonyms | From `1_Core_ARI_Diseases.xlsx` |
+| ARI ID / Disease Name | From `1_Core_ARI_Diseases.xlsx` |
+| Synonyms | The disease's current `ARI_Synonym` values in the ontology |
 | In Core List | `No` for a mapping subject absent from the core list |
 | Target Database / Target Database Name | CURIE prefix and display name |
 | Mapping Status | **Colour-coded**: green = Confirmed match, red = Rejected match, amber = No term in database, grey = Not reviewed |
