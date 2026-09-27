@@ -216,6 +216,30 @@ or Mondo term cross-referencing the CUI). See `notebook/ari-grounding/README.md`
 
 ---
 
+## 9. `9_Synonym_Review.tsv` — Synonym vs Subtype Review
+
+**708 rows**, one per `ARI_Synonym` string ever recorded on a disease in `ontologies/ari_t1d.owl`
+(132 diseases carry synonyms). Each string is judged against the disease's own concept: a
+synonym stays; a string naming a narrower form (`subtype`), a parent (`broader`), another
+disease (`distinct`) or a sign, antigen or label (`non-disease`) is withdrawn with an
+`ARI_SynonymWithdrawn` marker. Two passes: 2026-09-07 (PR #84, 151 withdrawn) and 2026-09-27
+(66 withdrawn).
+
+| Column | Description |
+|--------|-------------|
+| ari_id / disease | Registry id and label |
+| synonym | The synonym string |
+| verdict | `synonym`, `synonym (curator note)` or `withdrawn` |
+| reason | For withdrawn rows: `subtype` / `broader` / `distinct` / `non-disease` |
+| review_date | Pass that withdrew it |
+| evidence | MONDO/DOID term and match kind (exact / related / narrow / broad / descendant / ancestor) from EBI OLS4, or clinical judgement where nothing matched |
+| note | Why it was withdrawn, or what a curator should check |
+
+Evidence comes from the EBI OLS4 API (the mapped MONDO/DOID terms, their synonym scopes,
+ancestors and descendants), not from local ontology copies.
+
+---
+
 ## Source data
 
 | Source | Location | License |
