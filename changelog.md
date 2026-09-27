@@ -1,5 +1,38 @@
 # Changelog
 
+## edit/dileryfuentes/mappings-review-1790308227
+
+Applies the line review of ARI#92 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  - `ARI:0001117` Juvenile rheumatoid arthritis: DOID `676` (subtype); NCI `C61279` (different disease)
+  - `ARI:0001138` Myocarditis due to autoimmune disease: SNOMED `37217002`, DOID `0040095`,
+    MONDO `0030701` (different disease)
+  - `ARI:0001189` Sjögren's disease: NCI `C70647`, UMLS `C0022575`, MeSH `D007638` (different disease)
+  - `ARI:0001176` Secondary Raynaud's phenomenon: SNOMED `266261006`, DOID `10300`, MONDO
+    `0008364`, ICD-10 `I73.0`, UMLS `C0034734`, MeSH `D011928` (broader)
+  - `ARI:0001169` Primary sclerosing cholangitis: Orphanet `447771` (broader)
+  - `ARI:0001177` Reactive arthritis: SNOMED `67224007`, OMOP `78357`, NCI `C34975`, ICD-10
+    `M02.3`, UMLS `C0035012` (subtype)
+- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:**
+  Myasthenia gravis OMOP `76685` and UMLS `C1260409`; Reactive arthritis UMLS `C0152085`;
+  Polymyositis OMOP `80800`. Polymyositis already had alexlazcano248's confirmation of
+  `80800`, so its rejection row is dropped and that row's "Superseded" note is cleared.
+- Removed SNOMED ids are also dropped from `ARI_DXCODE`, which mirrors `ARI_SNOMED`.
+- **Merged `main`.** The editor re-serialised this PR's 21 diseases (and 312 symptoms) as
+  `<AutoimmuneDisease>` / `<Symptom>` typed nodes and reordered the file. The ontology is
+  rebuilt from `main`'s copy with this PR's per-disease additions and removals applied, so
+  `main`'s layout and its #102 / #104 corrections are kept. Four of this PR's rejections were
+  already recorded on `main` (Sjögren's DOID `12895`, UMLS `C0022575`, MeSH `D007638`;
+  Secondary Raynaud's DOID `10300`); their duplicate rows are dropped here.
+- **Editor-save repairs.** The save rewrote alexlazcano248's eight Polymyositis confirmations
+  in `ari.sssom.tsv` as dileryfuentes's, so the two exports disagreed (16 `cross-file-drift`);
+  restored to match `ari.equivalencies.tsv`. Rejected SNOMED ids that survived in
+  `ARI_DXCODE` are removed: `239796000` on `ARI:0001117`, `238676008` and `72470008` on
+  `ARI:0001186` (3 `flagged-still-stored`).
+
 ## claude/sjogren-mesh-umls
 
 - **ARI:0001189 Sjögren's disease: MeSH D007638 → D012859 and UMLS C0022575 → C1527336.**
