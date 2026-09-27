@@ -1,5 +1,15 @@
 # Changelog
 
+## claude/sjogren-mesh-umls
+
+- **ARI:0001189 Sjögren's disease: MeSH D007638 → D012859 and UMLS C0022575 → C1527336.**
+  The old ids are both keratoconjunctivitis sicca (NLM MeSH; MedGen 9620). This is the same
+  mix-up that PR #102 fixed for DOID 12895. D012859 "Sjogren's Syndrome" and C1527336 "Sjogren
+  syndrome" are the exact equivalents that MONDO:0010030 lists, and DOID:12894 lists D012859. The
+  new predictions review in PR #103 surfaced this. Each old id is flagged
+  (`Not` / `manual-negative`) and each new id is confirmed in both mapping exports, with a dated
+  `ARI_ChangeLog` line per id.
+
 ## claude/fix-wrong-ontology-mappings
 
 - **Fixed seven wrong MONDO/DOID cross-references** (six below, narcolepsy further down), found during the synonym review (PR #101).
