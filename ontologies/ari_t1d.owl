@@ -4738,9 +4738,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6688</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1328840</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017979</ARI_MONDO>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011158</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D89.82</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">279.41</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 2605/100k; Male 689/100k; F:M ratio 3.78084</ARI_PrevalenceDesc>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25086580/</ARI_Pubmed>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shah 2014; https://pubmed.ncbi.nlm.nih.gov/25086580/</ARI_DefSource>
@@ -4758,6 +4756,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALPS, Type 2 - Involves CASP10 gene mutations.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALS</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3261</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: removed MONDO 0011158 (a subtype of the disease); removed ICD10 279.41 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001039">
@@ -4774,6 +4773,11 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3267047</ARI_UMLS>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37396156</ARI_OMOP>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016098</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206569</ARI_ORPHANET>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C206531</ARI_NCI>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G72.89</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored MONDO 0016098 (rejection reversed); restored ORPHANET 206569 (rejection reversed); added NCI C206531 (recorded as no term; the vocabulary has one); added ICD10 G72.89 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001040">
@@ -4818,6 +4822,9 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AN</ARI_SurveyCode>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune neutropenia of infancy | subtype | the benign primary form of infancy/childhood; covered by ARI_ClinicalSubtype "Autoimmune Neutropenia, Primary"</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary autoimmune neutropenia | subtype | primary/idiopathic form; already an ARI_ClinicalSubtype ("Autoimmune Neutropenia, Primary")</ARI_SynonymWithdrawn>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C176730</ARI_NCI>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0340971</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added NCI C176730 (recorded as no term; the vocabulary has one); added UMLS C0340971 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001041">
@@ -5423,6 +5430,8 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical urticaria | distinct | the inducible/physical urticarias (dermographism, cold, cholinergic, pressure) are a mechanistically separate category, not autoimmune urticaria</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic urticaria | broader | umbrella term (DOID:0080747) with chronic spontaneous and chronic inducible urticaria as children</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic idiopathic urticaria | broader | chronic spontaneous/idiopathic urticaria is the parent category; autoimmune urticaria is a subset with functional autoantibodies</ARI_SynonymWithdrawn>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000080223</ARI_MESH>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added MESH D000080223 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001050">
@@ -5451,6 +5460,8 @@ While they are also diseases on their own, patients will receive a diagnosis of 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Urticaria/Angioedema, Mast Cell-Mediated - Caused by abnormal immune response.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Urticaria/Angioedema, Complement-Mediated - Linked to complement system dysregulation.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NULL</ARI_SurveyCode>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304196</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added UMLS C1304196 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001051">
@@ -6025,6 +6036,9 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bullous Pemphigoid, Generalized - Widespread blistering across the body.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BP</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">703</ARI_ORPHANET>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8506</ARI_DOID>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010391</ARI_MESH>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored DOID 8506 (rejection reversed); restored MESH D010391 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001058">
@@ -8538,6 +8552,9 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0014493</ARI_MONDO>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C126341</ARI_NCI>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1197361002</ARI_SNOMED>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37162742</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 1197361002 (recorded as no term; the vocabulary has one); added OMOP 37162742 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001076">
@@ -8906,6 +8923,10 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEMS, Idiopathic - No associated cancer.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEMS, Paraneoplastic - Linked to small cell lung cancer.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELS</ARI_SurveyCode>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3155</ARI_NCI>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G70.80</ARI_ICD10>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43393</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored NCI C3155 (rejection reversed); restored ICD10 G70.80 (rejection reversed); restored ORPHANET 43393 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001082">
@@ -8932,6 +8953,10 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285 cases reported; NR</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">765751002</ARI_SNOMED>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35623409</ARI_OMOP>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420789</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 765751002 (recorded as no term; the vocabulary has one); added OMOP 35623409 (recorded as no term; the vocabulary has one); added ORPHANET 420789 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001084">
@@ -9937,6 +9962,9 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felty Syndrome, Classic - Triad of rheumatoid arthritis, splenomegaly, and neutropenia.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FS</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47612</ARI_ORPHANET>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0015773</ARI_UMLS>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M05.00</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added UMLS C0015773 (recorded as no term; the vocabulary has one); added ICD10 M05.00 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001094">
@@ -23165,6 +23193,8 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D017675</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C70646</ARI_NCI>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90290</ARI_ORPHANET>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3469412</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored OMOP 3469412 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <Symptom rdf:about="#Sym_0001038_265">

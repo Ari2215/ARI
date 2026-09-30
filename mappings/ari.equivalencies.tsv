@@ -847,10 +847,9 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	00
 ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	SNOMEDCT	702444009	manual	github:JoshuaCorona-Sa
 ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	DOID	6688	manual	github:JoshuaCorona-Sa
 ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	MONDO	0017979	manual	github:JoshuaCorona-Sa
-ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	MONDO	0011158	manual	github:JoshuaCorona-Sa
+ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	MONDO	0011158	manual-negative	github:JoshuaCorona-Sa
 ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	ncit	C37864	manual	github:JoshuaCorona-Sa
 ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	icd10cm	D89.82	manual	github:JoshuaCorona-Sa
-ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	icd10cm	279.41	manual	github:JoshuaCorona-Sa
 ARI	0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch	ORPHA	3261	manual	github:JoshuaCorona-Sa
 ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	SNOMEDCT	715863001	manual	github:JoshuaCorona-Sa
 ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	omop	37396156	manual	github:JoshuaCorona-Sa
@@ -930,8 +929,8 @@ ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	DOID	0050214	manual	github:Jo
 ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	MONDO	0018556	manual	github:JoshuaCorona-Sa
 ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	umls	C0022972	manual	github:JoshuaCorona-Sa
 ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	mesh	D015624	manual	github:JoshuaCorona-Sa
-ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	MONDO	0016098	manual-negative	github:JoshuaCorona-Sa
-ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	ORPHA	206569	manual-negative	github:JoshuaCorona-Sa
+ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	MONDO	0016098	manual	github:JoshuaCorona-Sa
+ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	ORPHA	206569	manual	github:JoshuaCorona-Sa
 ARI	0001041	Autoimmune oophoritis	skos:exactMatch	SNOMEDCT	721198006	manual-negative	github:JoshuaCorona-Sa
 ARI	0001041	Autoimmune oophoritis	skos:exactMatch	omop	36717453	manual-negative	github:JoshuaCorona-Sa
 ARI	0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch	mesh	C567049	manual-negative	github:JoshuaCorona-Sa
@@ -941,24 +940,24 @@ ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	omop	4334133	manual-negat
 ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	DOID	0111079	manual-negative	github:JoshuaCorona-Sa
 ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	ORPHA	179	manual-negative	github:JoshuaCorona-Sa
 ARI	0001057	Bullous pemphigoid	skos:exactMatch	omop	139899	manual-negative	github:JoshuaCorona-Sa
-ARI	0001057	Bullous pemphigoid	skos:exactMatch	DOID	8506	manual-negative	github:JoshuaCorona-Sa
-ARI	0001057	Bullous pemphigoid	skos:exactMatch	mesh	D010391	manual-negative	github:JoshuaCorona-Sa
-ARI	0001212	CREST Syndrome	skos:exactMatch	omop	3469412	manual-negative	github:JoshuaCorona-Sa
+ARI	0001057	Bullous pemphigoid	skos:exactMatch	DOID	8506	manual	github:JoshuaCorona-Sa
+ARI	0001057	Bullous pemphigoid	skos:exactMatch	mesh	D010391	manual	github:JoshuaCorona-Sa
+ARI	0001212	CREST Syndrome	skos:exactMatch	omop	3469412	manual	github:JoshuaCorona-Sa
 ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	ORPHA	436159	manual-negative	github:JoshuaCorona-Sa
 ARI	0001077	Cutaneous mastocytosis	skos:exactMatch	icd10cm	D47.01	manual-negative	github:JoshuaCorona-Sa
-ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	ncit	C3155	manual-negative	github:JoshuaCorona-Sa
-ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	icd10cm	G70.80	manual-negative	github:JoshuaCorona-Sa
-ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	ORPHA	43393	manual-negative	github:JoshuaCorona-Sa
-ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	ncit	C3155	manual	github:JoshuaCorona-Sa
+ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	icd10cm	G70.80	manual	github:JoshuaCorona-Sa
+ARI	0001081	Eaton-Lambert syndrome	skos:exactMatch	ORPHA	43393	manual	github:JoshuaCorona-Sa
+ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	ncit	C206531	manual	github:JoshuaCorona-Sa
 ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001039	Autoimmune necrotizing myopathy	skos:exactMatch	icd10cm	G72.89	manual	github:JoshuaCorona-Sa
 ARI	0001040	Autoimmune neutropenia	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001040	Autoimmune neutropenia	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001040	Autoimmune neutropenia	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001040	Autoimmune neutropenia	skos:exactMatch	ncit	C176730	manual	github:JoshuaCorona-Sa
 ARI	0001040	Autoimmune neutropenia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001040	Autoimmune neutropenia	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001040	Autoimmune neutropenia	skos:exactMatch	umls	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001040	Autoimmune neutropenia	skos:exactMatch	umls	C0340971	manual	github:JoshuaCorona-Sa
 ARI	0001040	Autoimmune neutropenia	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001041	Autoimmune oophoritis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001041	Autoimmune oophoritis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
@@ -979,13 +978,13 @@ ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	mesh	NoTermFound	manua
 ARI	0001049	Autoimmune urticaria	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001049	Autoimmune urticaria	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001049	Autoimmune urticaria	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001049	Autoimmune urticaria	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001049	Autoimmune urticaria	skos:exactMatch	mesh	D000080223	manual	github:JoshuaCorona-Sa
 ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	umls	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	umls	C1304196	manual	github:JoshuaCorona-Sa
 ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
@@ -1004,8 +1003,8 @@ ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	ncit	NoTermFound	manual-a
 ARI	0001072	COPA syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001072	COPA syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001072	COPA syndrome	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	omop	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	SNOMEDCT	1197361002	manual	github:JoshuaCorona-Sa
+ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	omop	37162742	manual	github:JoshuaCorona-Sa
 ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
@@ -1018,15 +1017,15 @@ ARI	0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antib
 ARI	0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	SNOMEDCT	765751002	manual	github:JoshuaCorona-Sa
 ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	umls	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	mesh	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	ncit	NoTermFound	manual-absent	github:JoshuaCorona-Sa
 ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	omop	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	ORPHA	420789	manual	github:JoshuaCorona-Sa
+ARI	0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch	omop	35623409	manual	github:JoshuaCorona-Sa
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	DOID	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001093	Felty syndrome	skos:exactMatch	umls	NoTermFound	manual-absent	github:JoshuaCorona-Sa
-ARI	0001093	Felty syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:JoshuaCorona-Sa
+ARI	0001093	Felty syndrome	skos:exactMatch	umls	C0015773	manual	github:JoshuaCorona-Sa
+ARI	0001093	Felty syndrome	skos:exactMatch	icd10cm	M05.00	manual	github:JoshuaCorona-Sa
