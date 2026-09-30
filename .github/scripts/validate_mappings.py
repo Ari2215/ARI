@@ -803,6 +803,8 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
         prefix, local = object_id.split(":", 1)
         if prefix not in ONTOLOGY_PROPERTIES or local.lower() in PLACEHOLDER_IDS:
             continue
+        if fields["comment"].startswith(SUPERSEDED_MARKER):
+            continue
         stored = stored_ids(disease, prefix)
 
         if fields["predicate_modifier"] == "Not":
@@ -816,7 +818,7 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
                     f"disease ({properties}, {ONTOLOGY_PATH}:{stored[local]}) and is still served "
                     "to users. Remove the id from the ontology in the same change.",
                 )
-        elif local not in stored and not fields["comment"].startswith(SUPERSEDED_MARKER):
+        elif local not in stored:
             report.warning(
                 "confirmed-not-stored",
                 SSSOM_PATH,

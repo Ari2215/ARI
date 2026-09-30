@@ -2,7 +2,8 @@
 
 One row per (disease, target database) pair for every core ARI disease and
 every target database used by the ARI mapping set, plus one extra row wherever
-a disease has more than one mapping into the same database. Mapping state comes
+a disease has more than one mapping into the same database. Synonyms are the
+ontology's current ones (ari_diseases.py), the same names the predictions used. Mapping state comes
 from mappings/ari.sssom.tsv; target labels come from
 notebook/ari-grounding/target_labels.json (see resolve_target_labels.py); the
 predicted match per pair comes from notebook/ari-grounding/target_predictions.json
@@ -16,6 +17,8 @@ from collections import defaultdict
 from pathlib import Path
 
 import openpyxl
+
+import ari_diseases
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
@@ -57,14 +60,12 @@ ws_core = wb_core["Core ARI Diseases"]
 head = [c.value for c in next(ws_core.iter_rows(min_row=1, max_row=1))]
 i_id = head.index("ARI ID")
 i_name = head.index("Preferred Name")
-i_syn = head.index("Synonyms")
+synonyms = {ari_id: "; ".join(syns) for ari_id, _, syns, _ in ari_diseases.load()}
 diseases = []            # (ari_id, name, synonyms, in_core)
 for rec in ws_core.iter_rows(min_row=2, values_only=True):
     if not rec[i_id]:
         continue
-    syn = rec[i_syn]
-    syn = "" if syn in (None, "None") else str(syn)
-    diseases.append((rec[i_id], rec[i_name], syn, True))
+    diseases.append((rec[i_id], rec[i_name], synonyms.get(rec[i_id], ""), True))
 wb_core.close()
 
 lines = [l for l in SSSOM.open(encoding="utf-8") if not l.startswith("#")]
@@ -90,7 +91,7 @@ for m in mappings:
     if m["subject_id"] not in known:
         extra.setdefault(m["subject_id"], m["subject_label"])
 for ari_id, label in sorted(extra.items()):
-    diseases.append((ari_id, label, "", False))
+    diseases.append((ari_id, label, synonyms.get(ari_id, ""), False))
 
 
 def classify(m):
