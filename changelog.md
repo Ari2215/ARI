@@ -1,5 +1,31 @@
 # Changelog
 
+## edit/JoshuaCorona-Sa/mappings-review-1790310013
+
+Applies the line review of ARI#94 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  `ARI:0001038` Autoimmune lymphoproliferative syndrome: MONDO `0011158` (ALPS type 1, a subtype).
+- **ICD-9 code removed:** `279.41` on `ARI:0001038` (row dropped, value taken off `ARI_ICD10`).
+- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:**
+  - `ARI:0001039` Autoimmune necrotizing myopathy: MONDO `0016098`, ORPHA `206569` (synonym match)
+  - `ARI:0001057` Bullous pemphigoid: DOID `8506`, MeSH `D010391`
+  - `ARI:0001081` Eaton-Lambert syndrome: NCI `C3155`, ICD-10 `G70.80`, ORPHA `43393`
+  - `ARI:0001212` CREST Syndrome: OMOP `3469412`
+- **"No term" rows replaced with a confirmed id:**
+  - `ARI:0001039` Autoimmune necrotizing myopathy: NCI `C206531`, ICD-10 `G72.89`
+  - `ARI:0001040` Autoimmune neutropenia: NCI `C176730`, UMLS `C0340971`
+  - `ARI:0001049` Autoimmune urticaria: MeSH `D000080223`
+  - `ARI:0001050` Autoimmune urticaria and/or angioedema: UMLS `C1304196`
+  - `ARI:0001075` CTLA4 haploinsufficiency: SNOMED `1197361002`, OMOP `37162742`
+  - `ARI:0001083` Encephalopathy caused by anti-IgLON5 antibody: SNOMED `765751002`, OMOP
+    `35623409`, ORPHA `420789`, UMLS `C4707562` (the NCIt row stays "no term")
+  - `ARI:0001093` Felty syndrome: UMLS `C0015773`, ICD-10 `M05.00`
+- **Superseded:** the older rejections of MeSH `D000080223` (`ARI:0001049`, KrishnaTO) and UMLS
+  `C0015773` (`ARI:0001093`, Jennyzeng25) are marked superseded by the new confirmations.
+
 ## edit/medinatinajeropablo-dot/mappings-review-1790308984
 
 Applies the line review of ARI#93 (`mappings/ari.equivalencies.tsv`). Each marked row is

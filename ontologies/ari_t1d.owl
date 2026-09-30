@@ -4711,7 +4711,6 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune-Inflammatory Syndrome Induced by Adjuvants</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001036</ARI_ID>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1331726</ARI_OMOP>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASIA syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -4720,6 +4719,8 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000099146</ARI_MESH>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:28 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed OMOP 1331726</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed UMLS C5577685; confirmed MESH D000099146; flagged OMOP 1331726; no term in NCI; no term in ICD10; no term in ORPHANET; no term in DOID; no term in MONDO; no term in SNOMED</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: OMOP 1331726</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001037">
@@ -4770,6 +4771,11 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-05</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0017979, 0011158; ICD10 279.41; ORPHANET 3261</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 702444009; confirmed DOID 6688; confirmed MONDO 0017979, 0011158; confirmed NCI C37864; confirmed ICD10 D89.82, 279.41; confirmed ORPHANET 3261; confirmed OMOP 45765493; confirmed UMLS C1328840; confirmed MESH D056735</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017979</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3261</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: removed MONDO 0011158 (a subtype of the disease); removed ICD10 279.41 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001038_265">
@@ -4807,6 +4813,14 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated necrotizing myopathy (IMNM)</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 715863001; confirmed OMOP 37396156; confirmed UMLS C3267047; flagged MONDO 0016098; flagged ORPHANET 206569; no term in NCI; no term in DOID; no term in MESH; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: UMLS C3267047</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3267047</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016098</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206569</ARI_ORPHANET>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C206531</ARI_NCI>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G72.89</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored MONDO 0016098 (rejection reversed); restored ORPHANET 206569 (rejection reversed); added NCI C206531 (recorded as no term; the vocabulary has one); added ICD10 G72.89 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001040">
@@ -4850,6 +4864,10 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AN</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Autoimmune neutropenia of infancy" and "Primary autoimmune neutropenia" — the primary subtype, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 234425008; confirmed OMOP 4125635; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C176730</ARI_NCI>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0340971</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added NCI C176730 (recorded as no term; the vocabulary has one); added UMLS C0340971 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001040_270">
@@ -4923,9 +4941,6 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune oophoritis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001041</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721198006</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36717453</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721198006</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In autoimmune oophoritis, the immune system mistakenly attacks the ovaries, causing inflammation, atrophy, and fibrosis. These changes keep the ovaries from working normally, and the result can be primary ovarian insufficiency (POI). Autoimmune oophoritis is associated with lupus, pernicious anemia, myasthenia gravis, autoimmune polyendocrine syndrome type I or type II, and other autoimmune conditions. Special blood tests and imaging are used to diagnose this condition.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premature ovarian failure due to autoimmune oophoritis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rudnicka 2018 and Tsigkou 2008; https://pubmed.ncbi.nlm.nih.gov/18211971/</ARI_DefSource>
@@ -4941,6 +4956,12 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-05</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AOO</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: SNOMED 721198006; OMOP 36717453</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0021950; confirmed UMLS C0878654; confirmed MESH C538274; flagged SNOMED 721198006; flagged OMOP 36717453; no term in DOID; no term in NCI; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0021950; UMLS C0878654; MESH C538274</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0878654</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021950</ARI_MONDO>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C538274</ARI_MESH>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001041_279">
@@ -5228,6 +5249,12 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0021952; ORPHANET 728894; UMLS C1260879; MESH C535299</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 838551007; confirmed OMOP 3661498; confirmed MONDO 0021952; confirmed ORPHANET 728894; confirmed UMLS C1260879; confirmed MESH C535299; no term in NCI; no term in ICD10; no term in DOID</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1260879</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021952</ARI_MONDO>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C535299</ARI_MESH>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">728894</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001044_321">
@@ -5288,6 +5315,12 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45768909</ARI_OMOP>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 707443007; confirmed OMOP 45768909; confirmed MONDO 0012579; confirmed NCI C202011; confirmed ORPHANET 747; confirmed UMLS C1970472; flagged MESH C567049; no term in ICD10; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0012579; NCI C202011; ORPHANET 747; UMLS C1970472</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1970472</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0012579</ARI_MONDO>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C202011</ARI_NCI>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">747</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Lungs">
@@ -5305,6 +5338,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_IsGrouping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_IsGrouping>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:30 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, evidence_quality, incidence_rate, is_grouping, name, obsolete, prevalence_desc, prevalence_per_100k, prevalence_value, synonyms</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001047">
@@ -5640,6 +5674,9 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:10 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 402397006; confirmed OMOP 4224623; flagged DOID 0080747; flagged MESH D000080223</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Chronic idiopathic urticaria" and "Chronic urticaria" (broader parent categories) and "Physical urticaria" (the inducible urticarias, a separate category).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0025513; confirmed ICD10 L50.8; confirmed UMLS C1304191; no term in DOID; no term in NCI; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000080223</ARI_MESH>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added MESH D000080223 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001049_377">
@@ -5709,6 +5746,9 @@ While they are also diseases on their own, patients will receive a diagnosis of 
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NULL</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 402402005; confirmed OMOP 4221673</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304196</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added UMLS C1304196 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001050_385">
@@ -5767,6 +5807,7 @@ There are many types of vasculitis, and most of them are rare. Vasculitis might 
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0030703</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:13 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 427213005; confirmed OMOP 4146124; confirmed DOID 0040097; confirmed UMLS C1328843</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0030703; confirmed OMOP 4146124; no term in ORPHANET; no term in ICD10; no term in NCI; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001051_387">
@@ -6339,12 +6380,8 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot chorioretinopathy</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001056</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">231981005</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0111079</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1853959</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000080365</ARI_MESH>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4334133</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">231981005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot retinochoroidopathy is an extremely rare eye disease that is caused by an autoimmune reaction targeting the choroid and retina.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot chorioretinitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot retinopathy</ARI_Synonym>
@@ -6354,7 +6391,10 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-20 16:32 | KrishnaTO | Cross-reference review: confirmed ORPHANET 179</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed OMOP 4334133; confirmed ORPHANET 179</ARI_ChangeLog>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">179</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: SNOMED 231981005; OMOP 4334133; DOID 0111079; ORPHANET 179</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0011599</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0011599; confirmed UMLS C1853959; confirmed MESH D000080365; flagged SNOMED 231981005; flagged OMOP 4334133; flagged DOID 0111079; flagged ORPHANET 179; no term in ICD10; no term in NCI</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011599</ARI_MONDO>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001057">
@@ -6379,7 +6419,6 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L12.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010391</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84389</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4298692, 139899</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77090002</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bullous pemphigoid is a rare, autoimmune, chronic skin disorder characterized by blistering. This disorder occurs most frequently in elderly people. Generalized blistering occurs in and under the upper layers of the skin and usually subsides spontaneously within several months or years. In some rare cases of Bullous pemphigoid, complications such as pneumonia may develop.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kridin 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6109638/</ARI_DefSource>
@@ -6400,6 +6439,13 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0019082; ORPHANET 703</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 77090002; confirmed OMOP 4298692; confirmed MONDO 0019082; confirmed NCI C84389; confirmed ICD10 L12.0; confirmed ORPHANET 703; confirmed UMLS C0030805; flagged OMOP 139899; flagged DOID 8506; flagged MESH D010391</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: OMOP 139899; DOID 8506; MESH D010391</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019082</ARI_MONDO>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4298692</ARI_OMOP>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">703</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored DOID 8506 (rejection reversed); restored MESH D010391 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001057_451">
@@ -8669,6 +8715,7 @@ More study is needed.</rdfs:comment>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoinflammation and autoimmunity with immune dysregulation 1 - subtype of COPA syndrome (MONDO:0700391)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:37 | KrishnaTO | Cross-reference review: confirmed DOID 0081242; flagged OMIM 616414</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:38 | KrishnaTO | Enrichment from confirmed cross-references: +4 synonym(s), +2 clinical subtype(s)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 1222679006; confirmed OMOP 37163922; confirmed MONDO 0014629; confirmed ORPHANET 444092; confirmed UMLS C5243948; no term in ICD10; no term in NCI; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001073">
@@ -8976,6 +9023,14 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic</evidenceQuality>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0014493; confirmed NCI C126341; confirmed UMLS C4015214; flagged ORPHANET 436159; no term in SNOMED; no term in OMOP; no term in DOID; no term in ICD10; no term in MESH</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0014493; NCI C126341; UMLS C4015214</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4015214</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0014493</ARI_MONDO>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C126341</ARI_NCI>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1197361002</ARI_SNOMED>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37162742</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 1197361002 (recorded as no term; the vocabulary has one); added OMOP 37162742 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001076">
@@ -9119,7 +9174,6 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397012002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3663</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1136033</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D47.01</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D034701</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7137</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4246283</ARI_OMOP>
@@ -9142,6 +9196,11 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CM</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0019023; ORPHANET 66646</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 397012002; confirmed OMOP 4246283; confirmed DOID 3663; confirmed MONDO 0019023; confirmed NCI C7137; confirmed ORPHANET 66646; confirmed UMLS C1136033; confirmed MESH D034701; flagged ICD10 D47.01</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: ICD10 D47.01</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019023</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66646</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001077_692">
@@ -9229,6 +9288,10 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DH</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 111196000; confirmed OMOP 140487; confirmed DOID 8505; confirmed MONDO 0015614; confirmed NCI C26742; confirmed ICD10 L13.0; confirmed ORPHANET 1656; confirmed UMLS C0011608; confirmed MESH D003874</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0015614; ORPHANET 1656</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015614</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1656</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001078_699">
@@ -9442,6 +9505,12 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0018556</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 56989000; confirmed OMOP 4237155; confirmed DOID 0050214; confirmed MONDO 0018556; confirmed UMLS C0022972; confirmed MESH D015624; flagged NCI C3155; flagged ICD10 G70.80; flagged ORPHANET 43393</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: NCI C3155; ICD10 G70.80</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018556</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43393</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored NCI C3155 (rejection reversed); restored ICD10 G70.80 (rejection reversed); restored ORPHANET 43393 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001081_731">
@@ -9526,6 +9595,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1; Nervous System; 1</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: no term in SNOMED; no term in UMLS; no term in MESH; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001083">
@@ -9538,6 +9608,12 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">285 cases reported; NR</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: no term in SNOMED; no term in UMLS; no term in MESH; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in OMOP</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">765751002</ARI_SNOMED>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35623409</ARI_OMOP>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420789</ARI_ORPHANET>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4707562</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 765751002 (recorded as no term; the vocabulary has one); added OMOP 35623409 (recorded as no term; the vocabulary has one); added ORPHANET 420789 (recorded as no term; the vocabulary has one); added UMLS C4707562 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001084">
@@ -10508,6 +10584,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 18:18 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 18:18 | Jennyzeng25 | Cross-reference review: confirmed ICD10 M35.4; confirmed SNOMED 24129002; confirmed OMOP 4083100; confirmed MONDO 0009175; confirmed NCI C112116; confirmed ORPHANET 3165; confirmed OMIM 226350; confirmed UMLS C0264005; confirmed MESH C562487</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Pansclerotic morphea with deep fascial involvement" (distinct).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: no term in DOID</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001092_844">
@@ -10674,6 +10751,10 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-27 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 57160007; confirmed OMOP 81097; confirmed DOID 11042; confirmed MONDO 0007603; confirmed NCI C84712; confirmed ORPHANET 47612; confirmed MESH D005258; flagged ICD10 M05.0; flagged OMIM 134750; flagged UMLS C0015773</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-31 15:41 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 57160007; confirmed OMOP 81097; confirmed DOID 11042; confirmed MONDO 0007603; confirmed NCI C84712; confirmed ORPHANET 47612; confirmed MESH D005258; flagged ICD10 M05.0; flagged OMIM 134750; flagged UMLS C0015773</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 57160007; confirmed OMOP 81097; confirmed DOID 11042; confirmed MONDO 0007603; confirmed NCI C84712; confirmed ORPHANET 47612; confirmed MESH D005258; flagged ICD10 M05.0; flagged OMIM 134750; flagged UMLS C0015773</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: no term in UMLS; no term in ICD10</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0015773</ARI_UMLS>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M05.00</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added UMLS C0015773 (recorded as no term; the vocabulary has one); added ICD10 M05.00 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001093_864">
@@ -22495,6 +22576,9 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: flagged SNOMED 62382002</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: flagged SNOMED 62382002</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:37 | KrishnaTO | Cross-reference review: flagged SNOMED 62382002</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 31848007; confirmed DOID 0060218; confirmed MONDO 0019563; confirmed NCI C70646; confirmed ICD10 M34.1; confirmed ORPHANET 90290; confirmed UMLS C0206138; confirmed MESH D017675; flagged OMOP 3469412</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: OMOP 3469412</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: restored OMOP 3469412 (rejection reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001145">
