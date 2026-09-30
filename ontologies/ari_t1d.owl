@@ -4941,7 +4941,6 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune oophoritis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001041</ARI_ID>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">721198006</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In autoimmune oophoritis, the immune system mistakenly attacks the ovaries, causing inflammation, atrophy, and fibrosis. These changes keep the ovaries from working normally, and the result can be primary ovarian insufficiency (POI). Autoimmune oophoritis is associated with lupus, pernicious anemia, myasthenia gravis, autoimmune polyendocrine syndrome type I or type II, and other autoimmune conditions. Special blood tests and imaging are used to diagnose this condition.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premature ovarian failure due to autoimmune oophoritis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rudnicka 2018 and Tsigkou 2008; https://pubmed.ncbi.nlm.nih.gov/18211971/</ARI_DefSource>
@@ -6383,7 +6382,6 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001056</ARI_ID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1853959</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000080365</ARI_MESH>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">231981005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot retinochoroidopathy is an extremely rare eye disease that is caused by an autoimmune reaction targeting the choroid and retina.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot chorioretinitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birdshot retinopathy</ARI_Synonym>

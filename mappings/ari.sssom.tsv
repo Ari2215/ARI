@@ -199,7 +199,7 @@ ARI:0001049	Autoimmune urticaria	skos:exactMatch		omop:4224623	omop	semapv:Manua
 ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		SNOMEDCT:402402005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		omop:4221673	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001051	Autoimmune vasculitis	skos:exactMatch		SNOMEDCT:427213005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001051	Autoimmune vasculitis	skos:exactMatch		omop:4146124	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		omop:4146124	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001051	Autoimmune vasculitis	skos:exactMatch		DOID:0040097	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001051	Autoimmune vasculitis	skos:exactMatch		umls:C1328843	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		omop:1331726	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	Superseded by the negative judgment of github:JoshuaCorona-Sa on 2026-09-25T04:20:09+00:00.
