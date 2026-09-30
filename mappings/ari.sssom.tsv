@@ -1625,7 +1625,7 @@ ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antib
 ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
 ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
 ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		SNOMEDCT:765751002	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	PR review: replaces NoTermFound.
-ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		umls:C4707562	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	PR review: replaces NoTermFound.
 ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
 ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
 ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	

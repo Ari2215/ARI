@@ -9612,7 +9612,8 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">765751002</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35623409</ARI_OMOP>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">420789</ARI_ORPHANET>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 765751002 (recorded as no term; the vocabulary has one); added OMOP 35623409 (recorded as no term; the vocabulary has one); added ORPHANET 420789 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4707562</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 765751002 (recorded as no term; the vocabulary has one); added OMOP 35623409 (recorded as no term; the vocabulary has one); added ORPHANET 420789 (recorded as no term; the vocabulary has one); added UMLS C4707562 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001084">

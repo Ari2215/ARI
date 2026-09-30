@@ -21,8 +21,7 @@ and its `ARI_ChangeLog` follow.
   - `ARI:0001050` Autoimmune urticaria and/or angioedema: UMLS `C1304196`
   - `ARI:0001075` CTLA4 haploinsufficiency: SNOMED `1197361002`, OMOP `37162742`
   - `ARI:0001083` Encephalopathy caused by anti-IgLON5 antibody: SNOMED `765751002`, OMOP
-    `35623409`, ORPHA `420789`. The NCIt comment named `C4707562`, which is not an NCIt code;
-    the NCIt row stays "no term".
+    `35623409`, ORPHA `420789`, UMLS `C4707562` (the NCIt row stays "no term")
   - `ARI:0001093` Felty syndrome: UMLS `C0015773`, ICD-10 `M05.00`
 - **Superseded:** the older rejections of MeSH `D000080223` (`ARI:0001049`, KrishnaTO) and UMLS
   `C0015773` (`ARI:0001093`, Jennyzeng25) are marked superseded by the new confirmations.
