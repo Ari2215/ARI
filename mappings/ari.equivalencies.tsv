@@ -1970,7 +1970,6 @@ ARI	0001121	Limbic encephalitis	skos:exactMatch	umls	C0338430	manual	github:Ari2
 ARI	0001121	Limbic encephalitis	skos:exactMatch	mesh	D020363	manual	github:Ari2215
 ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	98878	manual-negative	github:Ari2215
 ARI	0001003	Acute disseminated encephalomyelitis	skos:exactMatch	SNOMEDCT	72986009	manual-negative	github:Ari2215
-ARI	0001002	Acquired hemophilia	skos:exactMatch	DOID	12134	manual-negative	github:Ari2215
 ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	MONDO	0017617	manual	github:Ari2215
 ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	ORPHA	306431	manual	github:Ari2215
 ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	umls	C5191336	manual	github:Ari2215

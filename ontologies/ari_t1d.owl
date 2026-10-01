@@ -1951,7 +1951,7 @@
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014059</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D004673</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34578</ARI_NCI>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83942000, 72986009</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83942000</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute disseminated encephalomyelitis (ADEM) is caused when inflammation stemming from fever or immunization damages the myelin sheaths of nerves in the brain, spinal cord, and occasionally the optic nerves, leading to abnormal nerve function.  Onset is brief but intense and occurs predominantly in children.  Patients often experience complete recovery within 6 months and do not experience relapses. The risk of developing ADEM depends on several factors, including genetics, exposure to infectious organisms, immunization exposure, and lighter skin pigmentation. ADEM can affect people of all ethnic backgrounds globally. Between 50% to 85% of ADEM cases are linked to a prior infection or vaccination, with many following a viral or bacterial infection. Nonetheless, the specific pathogen causing ADEM is often unknown.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</ARI_Synonym>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonvasculitic autoimmune inflammatory meningoencephalitis | distinct | NAIM/SREAT-spectrum steroid-responsive encephalopathy, a different entity from ADEM</ARI_SynonymWithdrawn>
@@ -3976,7 +3976,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001027</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_SNOMED>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006, 13445001</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune inner ear disease (AIED) is a condition characterized by inflammation of the inner ear. It happens when the immune system mistakenly targets cells in the inner ear as if they were a virus or bacteria. AIED is uncommon, affecting fewer than one percent of the 28 million Americans with hearing loss. The symptoms of AIED are sudden hearing loss in one ear progressing rapidly to the second ear. The hearing loss can progress over weeks or months. It can happen alone or in addition to other systemic autoimmune disorders.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ménière's disease | distinct | separate clinical entity (idiopathic endolymphatic hydrops); autoimmune inner-ear disease is a different diagnosis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vambutas 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5113311/</ARI_DefSource>
