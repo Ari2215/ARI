@@ -1705,6 +1705,9 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 2772003; confirmed OMOP 4100661; confirmed DOID 4313; confirmed MONDO 0018747; confirmed ICD10 L12.3; confirmed ORPHANET 46487; flagged NCI C84690; flagged MESH D016107</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed MONDO 0018747; confirmed ORPHANET 46487</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored NCI C84690 (rejection reversed); restored MESH D016107 (rejection reversed)</ARI_ChangeLog>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84690</ARI_NCI>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D016107</ARI_MESH>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2772003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4313</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0079293</ARI_UMLS>
@@ -1839,6 +1842,7 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:42 | user | Edited: nci</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:29:14+00:00 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed ORPHANET 599480 (acquired hemophilia A, a subtype; ORPHANET has no term for the disease)</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">785308008</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1096116</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019139</ARI_MONDO>
@@ -1862,7 +1866,6 @@
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune-Associated Acquired Hemophilia - Linked to autoimmune diseases (e.g., lupus, rheumatoid arthritis).</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic Acquired Hemophilia - No identifiable cause.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AH</ARI_SurveyCode>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">599480</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Blood">
@@ -2281,6 +2284,7 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 19:11 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:45 | user | Edited: nci</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed MESH D017514 (pityriasis lichenoides, broader; MESH has no term for the disease)</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86487001</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0162852</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0024250</ARI_MONDO>
@@ -2289,7 +2293,6 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4314705</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86487001</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D017514</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C37871</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Battle Against Pleva Or Mucha-Habberman's Disease | https://www.facebook.com/groups/battlepleva/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My journey in fighting PLEVA | http://fightpleva.blogspot.com/</ARI_RefLink>
@@ -2524,6 +2527,12 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:36 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 784393004; OMOP 37205096; MONDO 0017617; UMLS C5191336</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored SNOMED 784393004, OMOP 37205096, MONDO 0017617, ORPHANET 306431, UMLS C5191336 (rejections reversed)</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">784393004</ARI_SNOMED>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37205096</ARI_OMOP>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017617</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">306431</ARI_ORPHANET>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5191336</ARI_UMLS>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR; Systemic</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
@@ -3953,14 +3962,14 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 13445001; OMOP 79833; DOID 9849; NCI C185243</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Ménière's disease" — a distinct clinical entity, not a synonym for autoimmune inner-ear disease.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: replaced ICD10 H81.0 with H83.8X9 and UMLS C0025281 with C0395947 (Meniere disease, a different disease); removed MESH D008575 (Meniere disease; MESH has no term for the disease)</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H83.8X9</ARI_ICD10>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0395947</ARI_UMLS>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_SNOMED>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0025281</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H81.0</ARI_ICD10>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vambutas 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5113311/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006, 13445001</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008575</ARI_MESH>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/15167-menieres-disease</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/menieres-disease</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vestibular Disorders Association | https://vestibular.org/</ARI_RefLink>
@@ -4160,7 +4169,9 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0021081; ORPHANET 217253; UMLS C2986717, C5700343; MESH D060426</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 452281000124106</ARI_ChangeLog>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">716684004</ARI_SNOMED>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed SNOMED 716684004 and OMOP 37399546 (SNOMED 452281000124106 and OMOP 764228 map the disease); restored SNOMED 452281000124106 and NCI C94853 (rejections reversed)</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452281000124106</ARI_SNOMED>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C94853</ARI_NCI>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5700343</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986717</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021081</ARI_MONDO>
@@ -4168,8 +4179,8 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28881446/</ARI_Pubmed>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dalmau 2019; https://pubmed.ncbi.nlm.nih.gov/31326280/; Samanta 2020; https://pubmed.ncbi.nlm.nih.gov/28881446/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">764228, 37399546</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452281000124106, 716684004</ARI_DXCODE>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">764228</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452281000124106</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D060426</ARI_MESH>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Where are my pillows | https://wherearemypillows.com/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maddilyn’s Story | https://maddibeatsae.com/</ARI_RefLink>
@@ -5060,6 +5071,10 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 838324008; confirmed OMOP 3654632; flagged DOID 0060499, 0040087, 1891; flagged MONDO 0044685, 0000774; flagged NCI C118711, C79698; flagged ORPHANET 499047, 519335; flagged UMLS C5681239, C0029132, C2748363; flagged MESH D009901</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored MONDO 0044685, ORPHANET 499047, UMLS C5681239 (rejections reversed)</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0044685</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">499047</ARI_ORPHANET>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5681239</ARI_UMLS>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838324008</ARI_SNOMED>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3654632</ARI_OMOP>
@@ -6321,6 +6336,9 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 427086003; confirmed OMOP 4141686; confirmed ICD10 G04.81; confirmed UMLS C1960543; flagged MONDO 0019208; flagged ORPHANET 79138</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 16:53 | KrishnaTO | Cross-reference review: confirmed SNOMED 427086003; confirmed OMOP 4141686</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored MONDO 0019208, ORPHANET 79138 (rejections reversed)</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019208</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79138</ARI_ORPHANET>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">427086003</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1960543</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G04.81</ARI_ICD10>
@@ -13029,6 +13047,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 230192003; confirmed OMOP 4041673; confirmed DOID 0080741; confirmed MONDO 0015588; confirmed NCI C4350; confirmed ORPHANET 163892; confirmed UMLS C0338430; confirmed MESH D020363</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0015588; NCI C4350; ORPHANET 163892; UMLS C0338430</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed ORPHANET 163892 (obsolete Orphanet entry)</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230192003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080741</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0338430</ARI_UMLS>
@@ -13038,7 +13057,6 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4041673</ARI_OMOP>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D020363</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4350</ARI_NCI>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">163892</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001122">
