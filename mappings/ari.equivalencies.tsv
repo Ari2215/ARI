@@ -858,7 +858,6 @@ ARI	0001084	Endometriosis	skos:exactMatch	DOID	289	manual	github:maffersi
 ARI	0001084	Endometriosis	skos:exactMatch	MONDO	0005133	manual	github:maffersi
 ARI	0001084	Endometriosis	skos:exactMatch	ncit	C3014	manual	github:maffersi
 ARI	0001084	Endometriosis	skos:exactMatch	icd10cm	N80	manual	github:maffersi
-ARI	0001084	Endometriosis	skos:exactMatch	icd10cm	617	manual	github:maffersi
 ARI	0001084	Endometriosis	skos:exactMatch	umls	C0014175	manual	github:maffersi
 ARI	0001084	Endometriosis	skos:exactMatch	mesh	D004715	manual	github:maffersi
 ARI	0001133	Motor neuropathy with multiple conduction block	skos:exactMatch	SNOMEDCT	230591002	manual	github:maffersi
@@ -880,13 +879,13 @@ ARI	0001141	Neonatal lupus erythematosus	skos:exactMatch	ORPHA	398124	manual	git
 ARI	0001141	Neonatal lupus erythematosus	skos:exactMatch	umls	C0409979	manual	github:maffersi
 ARI	0001141	Neonatal lupus erythematosus	skos:exactMatch	mesh	C536397	manual	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	SNOMEDCT	448542008	manual	github:maffersi
-ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	SNOMEDCT	722872000	manual	github:maffersi
+ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	SNOMEDCT	722872000	manual-negative	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	omop	40490446	manual	github:maffersi
-ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	omop	36716715	manual	github:maffersi
+ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	omop	36716715	manual-negative	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	DOID	0040091	manual	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	MONDO	0015175	manual	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	ORPHA	103919	manual	github:maffersi
-ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	ORPHA	280302	manual	github:maffersi
+ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	ORPHA	280302	manual-negative	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	umls	C2609129	manual	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	mesh	D000081012	manual	github:maffersi
 ARI	0001079	Dermatomyositis	skos:exactMatch	SNOMEDCT	396230008	manual	github:maffersi
@@ -901,15 +900,14 @@ ARI	0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exac
 ARI	0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch	omop	36676495	manual	github:maffersi
 ARI	0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch	MONDO	0018003	manual	github:maffersi
 ARI	0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch	umls	C4750833	manual	github:maffersi
-ARI	0001132	Morphea	skos:exactMatch	SNOMEDCT	201049004	manual	github:maffersi
+ARI	0001132	Morphea	skos:exactMatch	SNOMEDCT	201049004	manual-negative	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	SNOMEDCT	201048007	manual	github:maffersi
-ARI	0001132	Morphea	skos:exactMatch	omop	4066845	manual	github:maffersi
+ARI	0001132	Morphea	skos:exactMatch	omop	4066845	manual-negative	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	omop	441928	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	DOID	8472	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	MONDO	0019562	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	ncit	C72069	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	icd10cm	L94.0	manual	github:maffersi
-ARI	0001132	Morphea	skos:exactMatch	icd10cm	701.0	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	ORPHA	90289	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	umls	C0036420	manual	github:maffersi
 ARI	0001132	Morphea	skos:exactMatch	mesh	D012594	manual	github:maffersi
@@ -919,7 +917,6 @@ ARI	0001087	Epilepsy	skos:exactMatch	DOID	1826	manual	github:maffersi
 ARI	0001087	Epilepsy	skos:exactMatch	MONDO	0005027	manual	github:maffersi
 ARI	0001087	Epilepsy	skos:exactMatch	ncit	C3020	manual	github:maffersi
 ARI	0001087	Epilepsy	skos:exactMatch	icd10cm	G40.909	manual	github:maffersi
-ARI	0001087	Epilepsy	skos:exactMatch	icd10cm	345.9	manual	github:maffersi
 ARI	0001087	Epilepsy	skos:exactMatch	umls	C0014544	manual	github:maffersi
 ARI	0001087	Epilepsy	skos:exactMatch	mesh	D004827	manual	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	SNOMEDCT	56727007	manual	github:maffersi
@@ -928,17 +925,15 @@ ARI	0001209	Vitiligo	skos:exactMatch	DOID	12306	manual	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	MONDO	0008661	manual	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	ncit	C26915	manual	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	icd10cm	L80	manual	github:maffersi
-ARI	0001209	Vitiligo	skos:exactMatch	icd10cm	709.01	manual	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	umls	C0042900	manual	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	mesh	D014820	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	SNOMEDCT	55464009	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	omop	257628	manual	github:maffersi
-ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	omop	255891	manual	github:maffersi
+ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	omop	255891	manual-negative	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	DOID	9074	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	MONDO	0007915	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	ncit	C3201	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	icd10cm	M32.9	manual	github:maffersi
-ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	icd10cm	710.0	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	ORPHA	536	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	umls	C0024141	manual	github:maffersi
 ARI	0001196	Systemic lupus erythematosus	skos:exactMatch	mesh	D008180	manual	github:maffersi
@@ -958,7 +953,6 @@ ARI	0001195	Sympathetic uveitis	skos:exactMatch	omop	438739	manual	github:maffer
 ARI	0001195	Sympathetic uveitis	skos:exactMatch	DOID	12029	manual	github:maffersi
 ARI	0001195	Sympathetic uveitis	skos:exactMatch	MONDO	0019198	manual	github:maffersi
 ARI	0001195	Sympathetic uveitis	skos:exactMatch	icd10cm	H44.13	manual	github:maffersi
-ARI	0001195	Sympathetic uveitis	skos:exactMatch	icd10cm	360.11	manual	github:maffersi
 ARI	0001195	Sympathetic uveitis	skos:exactMatch	ORPHA	79098	manual	github:maffersi
 ARI	0001195	Sympathetic uveitis	skos:exactMatch	umls	C0029077	manual	github:maffersi
 ARI	0001195	Sympathetic uveitis	skos:exactMatch	mesh	D009879	manual	github:maffersi
@@ -968,16 +962,15 @@ ARI	0001193	Stiff-person syndrome	skos:exactMatch	MONDO	0008491	manual	github:ma
 ARI	0001193	Stiff-person syndrome	skos:exactMatch	ncit	C85170	manual	github:maffersi
 ARI	0001193	Stiff-person syndrome	skos:exactMatch	mesh	D016750	manual	github:maffersi
 ARI	0001193	Stiff-person syndrome	skos:exactMatch	umls	C0085292	manual	github:maffersi
-ARI	0001193	Stiff-person syndrome	skos:exactMatch	ORPHA	3198	manual	github:maffersi
+ARI	0001193	Stiff-person syndrome	skos:exactMatch	ORPHA	3198	manual-negative	github:maffersi
+ARI	0001193	Stiff-person syndrome	skos:exactMatch	ORPHA	443192	manual	github:maffersi
 ARI	0001193	Stiff-person syndrome	skos:exactMatch	icd10cm	G25.82	manual	github:maffersi
-ARI	0001193	Stiff-person syndrome	skos:exactMatch	icd10cm	333.91	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	SNOMEDCT	78370002	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	omop	434944	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	DOID	13452	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	MONDO	0001718	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	ncit	C119046	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	icd10cm	H15.0	manual	github:maffersi
-ARI	0001188	Scleritis	skos:exactMatch	icd10cm	379.00	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	mesh	D015423	manual	github:maffersi
 ARI	0001188	Scleritis	skos:exactMatch	umls	C0036416	manual	github:maffersi
 ARI	0001183	Rheumatoid aortitis	skos:exactMatch	SNOMEDCT	38877003	manual	github:maffersi
@@ -986,9 +979,8 @@ ARI	0001182	Rheumatic fever	skos:exactMatch	SNOMEDCT	58718002	manual	github:maff
 ARI	0001182	Rheumatic fever	skos:exactMatch	omop	442313	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	DOID	1586	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	MONDO	0017767	manual	github:maffersi
-ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I00	manual	github:maffersi
+ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I00	manual-negative	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I00-I02	manual	github:maffersi
-ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	390	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	ORPHA	3099	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	mesh	D012213	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	ncit	C34984	manual	github:maffersi
@@ -1033,7 +1025,7 @@ ARI	0001035	Autoimmune hypophysitis	skos:exactMatch	umls	C0342410	manual	github:
 ARI	0001035	Autoimmune hypophysitis	skos:exactMatch	mesh	D000069281	manual	github:maffersi
 ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	SNOMEDCT	403435005	manual	github:maffersi
 ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	omop	4296491	manual	github:maffersi
-ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	MONDO	0009009	manual	github:maffersi
+ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	MONDO	0009009	manual-negative	github:maffersi
 ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	MONDO	0100560	manual	github:maffersi
 ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	icd10cm	H10.51	manual	github:maffersi
 ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	ORPHA	97231	manual	github:maffersi
@@ -1068,15 +1060,14 @@ ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	MONDO	0019739	manual	github:maffersi
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	ORPHA	93581	manual	github:maffersi
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	umls	C5680286	manual	github:maffersi
-ARI	0001198	Systemic sclerosis	skos:exactMatch	icd10cm	710.1	manual	github:maffersi
-ARI	0001079	Dermatomyositis	skos:exactMatch	icd10cm	710.3	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	0017278	manual-negative	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	ORPHA	282196	manual-negative	github:maffersi
 ARI	0001079	Dermatomyositis	skos:exactMatch	MONDO	0008054	manual-negative	github:maffersi
 ARI	0001079	Dermatomyositis	skos:exactMatch	icd10cm	M33	manual-negative	github:maffersi
-ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	umls	C1852456	manual-negative	github:maffersi
+ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	umls	C1852456	manual	github:maffersi
 ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	mesh	C565141	manual-negative	github:maffersi
 ARI	0001198	Systemic sclerosis	skos:exactMatch	icd10cm	M34.0	manual-negative	github:maffersi
+ARI	0001198	Systemic sclerosis	skos:exactMatch	icd10cm	M34	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	SNOMEDCT	194709000	manual-negative	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	SNOMEDCT	1197740007	manual-negative	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	omop	37162896	manual-negative	github:maffersi
@@ -1096,11 +1087,10 @@ ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos
 ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	omop	37397549	manual-negative	github:maffersi
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	MONDO	0019738	manual-negative	github:maffersi
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	ORPHA	93579	manual-negative	github:maffersi
-ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	390-392.99	manual-negative	github:maffersi
 ARI	0001209	Vitiligo	skos:exactMatch	ORPHA	247871	manual-negative	github:maffersi
 ARI	0001043	Autoimmune pancreatitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
 ARI	0001084	Endometriosis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
-ARI	0001133	Motor neuropathy with multiple conduction block	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
+ARI	0001133	Motor neuropathy with multiple conduction block	skos:exactMatch	DOID	683	manual	github:maffersi
 ARI	0001133	Motor neuropathy with multiple conduction block	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
 ARI	0001133	Motor neuropathy with multiple conduction block	skos:exactMatch	mesh	NoTermFound	manual-absent	github:maffersi
 ARI	0001058	Bullous systemic lupus erythematosus	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
@@ -1122,7 +1112,7 @@ ARI	0001183	Rheumatoid aortitis	skos:exactMatch	ncit	NoTermFound	manual-absent	g
 ARI	0001183	Rheumatoid aortitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001183	Rheumatoid aortitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
 ARI	0001183	Rheumatoid aortitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
-ARI	0001183	Rheumatoid aortitis	skos:exactMatch	umls	NoTermFound	manual-absent	github:maffersi
+ARI	0001183	Rheumatoid aortitis	skos:exactMatch	umls	C0265017	manual	github:maffersi
 ARI	0001183	Rheumatoid aortitis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:maffersi
 ARI	0001183	Rheumatoid aortitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:maffersi
 ARI	0001181	Rheumatic Chorea	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
@@ -1142,23 +1132,23 @@ ARI	0001035	Autoimmune hypophysitis	skos:exactMatch	icd10cm	NoTermFound	manual-a
 ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
 ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
-ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
+ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	icd10cm	G37.81	manual	github:maffersi
 ARI	0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
 ARI	0001034	Autoimmune hypoparathyroidism	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001034	Autoimmune hypoparathyroidism	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
-ARI	0001034	Autoimmune hypoparathyroidism	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
+ARI	0001034	Autoimmune hypoparathyroidism	skos:exactMatch	icd10cm	E20.812	manual	github:maffersi
 ARI	0001034	Autoimmune hypoparathyroidism	skos:exactMatch	mesh	NoTermFound	manual-absent	github:maffersi
 ARI	0001085	Enthesitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001085	Enthesitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
 ARI	0001085	Enthesitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
-ARI	0001085	Enthesitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:maffersi
+ARI	0001085	Enthesitis	skos:exactMatch	mesh	D001171	manual	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	mesh	NoTermFound	manual-absent	github:maffersi
 ARI	0001124	Linear IgA dermatosis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001124	Linear IgA dermatosis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
-ARI	0001124	Linear IgA dermatosis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
+ARI	0001124	Linear IgA dermatosis	skos:exactMatch	icd10cm	L13.8	manual	github:maffersi
 ARI	0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
 ARI	0001058	Bullous systemic lupus erythematosus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi

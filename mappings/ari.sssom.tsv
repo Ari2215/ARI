@@ -879,7 +879,6 @@ ARI:0001084	Endometriosis	skos:exactMatch		DOID:289	DOID	semapv:ManualMappingCur
 ARI:0001084	Endometriosis	skos:exactMatch		MONDO:0005133	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001084	Endometriosis	skos:exactMatch		ncit:C3014	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001084	Endometriosis	skos:exactMatch		icd10cm:N80	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001084	Endometriosis	skos:exactMatch		icd10cm:617	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001084	Endometriosis	skos:exactMatch		umls:C0014175	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001084	Endometriosis	skos:exactMatch		mesh:D004715	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001133	Motor neuropathy with multiple conduction block	skos:exactMatch		SNOMEDCT:230591002	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -901,13 +900,13 @@ ARI:0001141	Neonatal lupus erythematosus	skos:exactMatch		ORPHA:398124	ORPHA	sem
 ARI:0001141	Neonatal lupus erythematosus	skos:exactMatch		umls:C0409979	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001141	Neonatal lupus erythematosus	skos:exactMatch		mesh:C536397	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		SNOMEDCT:448542008	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		SNOMEDCT:722872000	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001043	Autoimmune pancreatitis	skos:exactMatch	Not	SNOMEDCT:722872000	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: existing SNOMED code 448542008 maps the disease.
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		omop:40490446	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		omop:36716715	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001043	Autoimmune pancreatitis	skos:exactMatch	Not	omop:36716715	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: existing OMOP code 40490446 maps the disease.
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		DOID:0040091	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		MONDO:0015175	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		ORPHA:103919	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		ORPHA:280302	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001043	Autoimmune pancreatitis	skos:exactMatch	Not	ORPHA:280302	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: existing ORPHANET code 103919 maps the disease.
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		umls:C2609129	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		mesh:D000081012	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001079	Dermatomyositis	skos:exactMatch		SNOMEDCT:396230008	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -922,15 +921,14 @@ ARI:0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exac
 ARI:0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch		omop:36676495	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch		MONDO:0018003	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch		umls:C4750833	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001132	Morphea	skos:exactMatch		SNOMEDCT:201049004	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001132	Morphea	skos:exactMatch	Not	SNOMEDCT:201049004	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: duplicate of the "Localized scleroderma" concept, which is kept.
 ARI:0001132	Morphea	skos:exactMatch		SNOMEDCT:201048007	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001132	Morphea	skos:exactMatch		omop:4066845	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001132	Morphea	skos:exactMatch	Not	omop:4066845	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: duplicate of the "Localized scleroderma" concept, which is kept.
 ARI:0001132	Morphea	skos:exactMatch		omop:441928	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		DOID:8472	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		MONDO:0019562	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		ncit:C72069	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		icd10cm:L94.0	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001132	Morphea	skos:exactMatch		icd10cm:701.0	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		ORPHA:90289	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		umls:C0036420	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001132	Morphea	skos:exactMatch		mesh:D012594	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -940,7 +938,6 @@ ARI:0001087	Epilepsy	skos:exactMatch		DOID:1826	DOID	semapv:ManualMappingCuratio
 ARI:0001087	Epilepsy	skos:exactMatch		MONDO:0005027	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001087	Epilepsy	skos:exactMatch		ncit:C3020	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001087	Epilepsy	skos:exactMatch		icd10cm:G40.909	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001087	Epilepsy	skos:exactMatch		icd10cm:345.9	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001087	Epilepsy	skos:exactMatch		umls:C0014544	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001087	Epilepsy	skos:exactMatch		mesh:D004827	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001209	Vitiligo	skos:exactMatch		SNOMEDCT:56727007	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -949,17 +946,15 @@ ARI:0001209	Vitiligo	skos:exactMatch		DOID:12306	DOID	semapv:ManualMappingCurati
 ARI:0001209	Vitiligo	skos:exactMatch		MONDO:0008661	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001209	Vitiligo	skos:exactMatch		ncit:C26915	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001209	Vitiligo	skos:exactMatch		icd10cm:L80	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001209	Vitiligo	skos:exactMatch		icd10cm:709.01	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001209	Vitiligo	skos:exactMatch		umls:C0042900	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001209	Vitiligo	skos:exactMatch		mesh:D014820	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		SNOMEDCT:55464009	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		omop:257628	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		omop:255891	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001196	Systemic lupus erythematosus	skos:exactMatch	Not	omop:255891	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: broader mapping.
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		DOID:9074	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		MONDO:0007915	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		ncit:C3201	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		icd10cm:M32.9	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		icd10cm:710.0	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		ORPHA:536	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		umls:C0024141	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001196	Systemic lupus erythematosus	skos:exactMatch		mesh:D008180	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -979,7 +974,6 @@ ARI:0001195	Sympathetic uveitis	skos:exactMatch		omop:438739	omop	semapv:ManualM
 ARI:0001195	Sympathetic uveitis	skos:exactMatch		DOID:12029	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001195	Sympathetic uveitis	skos:exactMatch		MONDO:0019198	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001195	Sympathetic uveitis	skos:exactMatch		icd10cm:H44.13	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001195	Sympathetic uveitis	skos:exactMatch		icd10cm:360.11	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001195	Sympathetic uveitis	skos:exactMatch		ORPHA:79098	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001195	Sympathetic uveitis	skos:exactMatch		umls:C0029077	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001195	Sympathetic uveitis	skos:exactMatch		mesh:D009879	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -989,16 +983,15 @@ ARI:0001193	Stiff-person syndrome	skos:exactMatch		MONDO:0008491	MONDO	semapv:Ma
 ARI:0001193	Stiff-person syndrome	skos:exactMatch		ncit:C85170	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001193	Stiff-person syndrome	skos:exactMatch		mesh:D016750	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001193	Stiff-person syndrome	skos:exactMatch		umls:C0085292	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001193	Stiff-person syndrome	skos:exactMatch		ORPHA:3198	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001193	Stiff-person syndrome	skos:exactMatch	Not	ORPHA:3198	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: incorrect mapping; ORPHANET 443192 maps the disease.
+ARI:0001193	Stiff-person syndrome	skos:exactMatch		ORPHA:443192	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces ORPHANET 3198.
 ARI:0001193	Stiff-person syndrome	skos:exactMatch		icd10cm:G25.82	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001193	Stiff-person syndrome	skos:exactMatch		icd10cm:333.91	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		SNOMEDCT:78370002	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		omop:434944	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		DOID:13452	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		MONDO:0001718	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		ncit:C119046	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		icd10cm:H15.0	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001188	Scleritis	skos:exactMatch		icd10cm:379.00	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		mesh:D015423	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001188	Scleritis	skos:exactMatch		umls:C0036416	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001183	Rheumatoid aortitis	skos:exactMatch		SNOMEDCT:38877003	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1007,9 +1000,8 @@ ARI:0001182	Rheumatic fever	skos:exactMatch		SNOMEDCT:58718002	SNOMEDCT	semapv:M
 ARI:0001182	Rheumatic fever	skos:exactMatch		omop:442313	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		DOID:1586	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		MONDO:0017767	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001182	Rheumatic fever	skos:exactMatch		icd10cm:I00	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001182	Rheumatic fever	skos:exactMatch	Not	icd10cm:I00	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: one id per target; I00-I02 covers the range better.
 ARI:0001182	Rheumatic fever	skos:exactMatch		icd10cm:I00-I02	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001182	Rheumatic fever	skos:exactMatch		icd10cm:390	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		ORPHA:3099	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		mesh:D012213	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		ncit:C34984	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1054,7 +1046,7 @@ ARI:0001035	Autoimmune hypophysitis	skos:exactMatch		umls:C0342410	umls	semapv:M
 ARI:0001035	Autoimmune hypophysitis	skos:exactMatch		mesh:D000069281	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		SNOMEDCT:403435005	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		omop:4296491	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		MONDO:0009009	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001120	Ligneous conjunctivitis	skos:exactMatch	Not	MONDO:0009009	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: incorrect mapping (hypoplasminogenemia).
 ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		MONDO:0100560	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		icd10cm:H10.51	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		ORPHA:97231	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1089,15 +1081,14 @@ ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch		MONDO:0019739	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch		ORPHA:93581	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch		umls:C5680286	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001198	Systemic sclerosis	skos:exactMatch		icd10cm:710.1	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001079	Dermatomyositis	skos:exactMatch		icd10cm:710.3	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch	Not	MONDO:0017278	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch	Not	ORPHA:282196	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001079	Dermatomyositis	skos:exactMatch	Not	MONDO:0008054	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001079	Dermatomyositis	skos:exactMatch	Not	icd10cm:M33	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch	Not	umls:C1852456	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		umls:C1852456	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	Rejection reversed in PR review.
 ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch	Not	mesh:C565141	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001198	Systemic sclerosis	skos:exactMatch	Not	icd10cm:M34.0	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001198	Systemic sclerosis	skos:exactMatch		icd10cm:M34	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: correct code for the rejected M34.0.
 ARI:0001182	Rheumatic fever	skos:exactMatch	Not	SNOMEDCT:194709000	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch	Not	SNOMEDCT:1197740007	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch	Not	omop:37162896	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1117,11 +1108,10 @@ ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos
 ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch	Not	omop:37397549	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	Not	MONDO:0019738	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	Not	ORPHA:93579	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001182	Rheumatic fever	skos:exactMatch	Not	icd10cm:390-392.99	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001209	Vitiligo	skos:exactMatch	Not	ORPHA:247871	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001043	Autoimmune pancreatitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001084	Endometriosis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001133	Motor neuropathy with multiple conduction block	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001133	Motor neuropathy with multiple conduction block	skos:exactMatch		DOID:683	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
 ARI:0001133	Motor neuropathy with multiple conduction block	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001133	Motor neuropathy with multiple conduction block	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001058	Bullous systemic lupus erythematosus	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1143,7 +1133,7 @@ ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:M
 ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001183	Rheumatoid aortitis	skos:exactMatch		umls:C0265017	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
 ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001183	Rheumatoid aortitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001181	Rheumatic Chorea	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1163,23 +1153,23 @@ ARI:0001035	Autoimmune hypophysitis	skos:exactMatch		sssom:NoTermFound	icd10cm	s
 ARI:0001120	Ligneous conjunctivitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch		icd10cm:G37.81	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
 ARI:0001137	Myelin oligodendrocyte glycoprotein antibody-associated disease	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001034	Autoimmune hypoparathyroidism	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001034	Autoimmune hypoparathyroidism	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001034	Autoimmune hypoparathyroidism	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001034	Autoimmune hypoparathyroidism	skos:exactMatch		icd10cm:E20.812	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
 ARI:0001034	Autoimmune hypoparathyroidism	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001085	Enthesitis	skos:exactMatch		mesh:D001171	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001124	Linear IgA dermatosis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001124	Linear IgA dermatosis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001124	Linear IgA dermatosis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001124	Linear IgA dermatosis	skos:exactMatch		icd10cm:L13.8	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
 ARI:0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001058	Bullous systemic lupus erythematosus	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
