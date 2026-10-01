@@ -1616,7 +1616,6 @@ ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	DOID	NoTermFoun
 ARI	0001093	Felty syndrome	skos:exactMatch	umls	C0015773	manual	github:JoshuaCorona-Sa
 ARI	0001093	Felty syndrome	skos:exactMatch	icd10cm	M05.00	manual	github:JoshuaCorona-Sa
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	ORPHA	80	manual	github:maffersi
-ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	8000010	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	SNOMEDCT	26843008	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	omop	4098292	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	DOID	2988	manual	github:maffersi
@@ -1831,7 +1830,6 @@ ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	MONDO	0019739	manual	github:maffersi
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	ORPHA	93581	manual	github:maffersi
 ARI	0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch	umls	C5680286	manual	github:maffersi
-ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	0017278	manual-negative	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	ORPHA	282196	manual-negative	github:maffersi
 ARI	0001079	Dermatomyositis	skos:exactMatch	MONDO	0008054	manual-negative	github:maffersi
 ARI	0001079	Dermatomyositis	skos:exactMatch	icd10cm	M33	manual-negative	github:maffersi

@@ -5133,7 +5133,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune pancreatitis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40490446</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">448542008, 1197740007</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">448542008</ARI_DXCODE>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001043</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">448542008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0040091</ARI_DOID>
@@ -9428,7 +9428,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016367</ARI_MONDO>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003882</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26744</ARI_NCI>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">396230008, 1212005</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">396230008</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dermatomyositis is an autoimmune disease that causes symptoms in the skin and muscles.  The symptoms are variable from patient to patient.   Affected populations can be grouped into juvenile and adult dermatomyositis.  The juvenile group tends to have gastrointestinal issues as well.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reeder 2010; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2886726/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -15208,7 +15208,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1237194006</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5554054</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1040024</ARI_MONDO>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1237194006, 718213001</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1237194006</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000098542</ARI_MESH>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelin oligodendrocyte glycoprotein disease (MOG) is a recently recognized condition marked by the presence of antibodies against myelin oligodendrocyte glycoprotein (MOG).  The disease differs from multiple sclerosis (MS),  aquaporin-4 (AQP4) antibody disease, and neuromyelitis optica spectrum disorders (NMOSD).  MOG symptoms can range from those of neuromyelitis optica to acute demyelinating encephalomyelitis and cortical encephalitis. A correct diagnosis requires both  specific and sensitive assays for the antibody.  In brain images MOG overlaps with AQP4 antibody NMOSD but can be usually distinguished from MS.  In particular, the silent lesions typical of MS that progressively increase lesion volume are rare in MOG antibody disease. Medium-term immunosuppression appears to be protective. Permanent disability, particularly severe ambulatory and visual disability, is less frequent than in AQP4 antibody NMOSD and usually results from the onset attack.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG | non-disease | names the antigen (myelin oligodendrocyte glycoprotein), not the disease</ARI_SynonymWithdrawn>
@@ -17460,7 +17460,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L40</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D011565</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3346</ARI_NCI>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37042000, 9014002</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9014002</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psoriasis is a chronic autoimmune disease that causes raised, red, scaly patches to appear on the skin. It affects 1% to 3% of people in Western countries. Psoriasis can appear anywhere on the body, with some cases being mild and others severe enough to significantly impact quality of life. The condition can develop at any age, with earlier onset associated with more severe disease than later onset. Various triggers, including trauma, infections, dry skin, and certain medications, can worsen the condition. Some people with psoriasis may also develop psoriatic arthritis, which causes joint pain and stiffness.
 
 The disease is caused by an overactive immune system, where T cells mistakenly attack the skin, leading to inflammation and rapid skin cell turnover. This process is driven by immune system proteins called cytokines, such as IL-23 and TNF-α, which promote inflammation. Treatments targeting these immune responses, such as biologic medications and immunosuppressants, have been effective in managing symptoms. Despite its autoimmune features, researchers have yet to identify the exact self-antigen that triggers the immune response in psoriasis.
@@ -18479,7 +18479,7 @@ Since antibiotics have reduced the incidence of rheumatic fever, the incidence o
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012213</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34984</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">442313</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58718002, 194709000</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58718002</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatic fever is an inflammatory disease that sometimes develops as a complication of inadequately treated strep throat (group A streptococcal infection). Rheumatic fever can cause permanent damage to the heart including damaged heart valves and heart failure.  The disease is mostly diagnosed in children.
 
 Rheumatic fever is not a chronic condition, but the consequences of the heart damage it may cause, rheumatic heart disease, can be chronic. 

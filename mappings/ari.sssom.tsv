@@ -159,7 +159,7 @@ ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		omop:3731
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	Superseded by the negative judgment of github:alexlazcano248 on 2026-09-24T12:40:43+00:00.
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		DOID:9808	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		ncit:C84566	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
-ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		icd10cm:D68.61	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		icd10cm:D68.61	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		umls:C0403529	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		mesh:D019867	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	SNOMEDCT:236506009	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
@@ -543,8 +543,8 @@ ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4027727	omop	semapv:Manu
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001098	Hemophilia B Leyden	skos:exactMatch		MONDO:0850054	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001098	Hemophilia B Leyden	skos:exactMatch		ORPHA:617930	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
-ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		MONDO:0007407	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		ORPHA:91138	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		MONDO:0007407	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		ORPHA:91138	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		MONDO:0019344	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20T00:00:00+00:00	Superseded by the negative judgment of github:JoshuaCorona-Sa on 2026-09-25T04:20:09+00:00.
@@ -1637,7 +1637,6 @@ ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		sssom:NoTermFo
 ARI:0001093	Felty syndrome	skos:exactMatch		umls:C0015773	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	PR review: replaces NoTermFound.
 ARI:0001093	Felty syndrome	skos:exactMatch		icd10cm:M05.00	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	PR review: replaces NoTermFound.
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		ORPHA:80	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		MONDO:8000010	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		SNOMEDCT:26843008	SNOMEDCT	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		omop:4098292	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		DOID:2988	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1852,7 +1851,6 @@ ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch		MONDO:0019739	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch		ORPHA:93581	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001022	Atypical hemolytic uremic syndrome with anti-factor H autoantibodies	skos:exactMatch		umls:C5680286	umls	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001018	Antiphospholipid syndrome	skos:exactMatch	Not	MONDO:0017278	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch	Not	ORPHA:282196	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001079	Dermatomyositis	skos:exactMatch	Not	MONDO:0008054	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001079	Dermatomyositis	skos:exactMatch	Not	icd10cm:M33	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
