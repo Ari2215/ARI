@@ -116,7 +116,7 @@ Only 1 of 11 had a DOID match (COPA syndrome → DOID:0081242).
 
 ## 6. `6_DOID_Matches_All.xlsx` — DOID Matches (All Diseases)
 
-**130/210 matched** to DOID via Gilda grounding. Two sheets:
+**128/213 matched** to DOID via Gilda grounding of the ontology's active diseases and their current synonyms. Two sheets:
 
 ### Sheet 1: "DOID Matches (All)"
 | Column | Description |
@@ -140,7 +140,7 @@ definition, all synonyms, cross-references grouped by source
 
 ## 7. `7_SNOMED_Matches_All.xlsx` — SNOMED Matches (All Diseases)
 
-**188/210 matched** to SNOMED CT via Gilda grounding over **standard Condition** concepts
+**189/213 matched** to SNOMED CT via Gilda grounding over **standard Condition** concepts
 (`standard_concept='S'` filter on OMOP/Athena CONCEPT.csv).
 
 | Column | Description |
@@ -154,24 +154,25 @@ definition, all synonyms, cross-references grouped by source
 | Matched Via | The name that produced the match |
 | OMOP ConceptID | OMOP concept (Athena term hyperlink) |
 | SNOMED Status | Is the SNOMED code still current? |
-| Existing SNOMED (master) | Code from the original master file |
-| Agrees w/ Existing | **QA flag**: Green = agrees with master, Amber = differs from master |
+| Existing SNOMED (ontology) | `ARI_SNOMED` code(s) stored on the disease |
+| Agrees w/ Existing | **QA flag**: Green = agrees with the stored code, Amber = differs |
 
-184 of 188 agree with existing master codes; 4 differ.
+185 of 189 agree with a code the ontology stores.
 
 ---
 
 ## 8. `8_Disease_Target_Mappings.xlsx` — Disease x Target Database Matrix
 
-**2,216 rows** — one row for every (disease, target database) pair: 213 diseases
-(211 core + 2 mapping subjects not in the core list) x 10 target databases, plus an extra
+**2,338 rows** — one row for every (disease, target database) pair: 214 diseases
+(210 core + 4 mapping subjects not in the core list) x 10 target databases, plus an extra
 row wherever a disease has more than one mapping into the same database. Built from
 `mappings/ari.sssom.tsv`, so it reports **curated** mappings, not lexical matches.
 
 ### Sheet 1: "Disease-Target Mappings"
 | Column | Description |
 |--------|-------------|
-| ARI ID / Disease Name / Synonyms | From `1_Core_ARI_Diseases.xlsx` |
+| ARI ID / Disease Name | From `1_Core_ARI_Diseases.xlsx` |
+| Synonyms | The disease's current `ARI_Synonym` values in the ontology |
 | In Core List | `No` for a mapping subject absent from the core list |
 | Target Database / Target Database Name | CURIE prefix and display name |
 | Mapping Status | **Colour-coded**: green = Confirmed match, red = Rejected match, amber = No term in database, grey = Not reviewed |
@@ -199,20 +200,44 @@ Meaning of each Mapping Status and the SSSOM state behind it, each prediction me
 verdict, plus the label sources.
 
 ### Predicted matches
-1,467 of the 2,216 rows carry a predicted match — **1,022 of them on pairs no curator has
+1,535 of the 2,280 rows carry a predicted match — **833 of them on pairs no curator has
 reviewed yet**. Predictions come from Gilda lexical grounding plus cross-reference expansion
 through Mondo and DOID hub terms; a term the curators already rejected for that pair is never
 predicted, and predicted SNOMED codes are restricted to standard, non-retired concepts.
-Against the 367 curated mappings, 330 top predictions reproduce the curated term and 22
+Against the 589 curated mappings, 532 top predictions reproduce the curated term and 29
 differ. Method detail in `notebook/ari-grounding/README.md`.
 
-Coverage of the 501 curated mappings: 367 confirmed, 113 rejected, 21 recorded as having no
-term in the database. 1,715 of the 2,130 disease x database pairs are still unreviewed, and
-1,022 of those now arrive with a predicted candidate.
+Coverage of the 845 curated mappings: 589 confirmed, 182 rejected, 74 recorded as having no
+term in the database. 1,435 of the 2,140 disease x database pairs are still unreviewed, and
+833 of those now arrive with a predicted candidate.
 
 Labels come from the local vocabulary copies in `data/2-databases`, except **Orphanet** and
 **NCI Thesaurus** (EBI OLS4 API — no usable local copy) and **UMLS** (labelled from the DOID
 or Mondo term cross-referencing the CUI). See `notebook/ari-grounding/README.md`.
+
+---
+
+## 9. `9_Synonym_Review.tsv` — Synonym vs Subtype Review
+
+**708 rows**, one per `ARI_Synonym` string ever recorded on a disease in `ontologies/ari_t1d.owl`
+(132 diseases carry synonyms). Each string is judged against the disease's own concept: a
+synonym stays; a string naming a narrower form (`subtype`), a parent (`broader`), another
+disease (`distinct`) or a sign, antigen or label (`non-disease`) is withdrawn with an
+`ARI_SynonymWithdrawn` marker. Two passes: 2026-09-07 (PR #84, 151 withdrawn) and 2026-09-27
+(66 withdrawn).
+
+| Column | Description |
+|--------|-------------|
+| ari_id / disease | Registry id and label |
+| synonym | The synonym string |
+| verdict | `synonym`, `synonym (curator note)` or `withdrawn` |
+| reason | For withdrawn rows: `subtype` / `broader` / `distinct` / `non-disease` |
+| review_date | Pass that withdrew it |
+| evidence | MONDO/DOID term and match kind (exact / related / narrow / broad / descendant / ancestor) from EBI OLS4, or clinical judgement where nothing matched |
+| note | Why it was withdrawn, or what a curator should check |
+
+Evidence comes from the EBI OLS4 API (the mapped MONDO/DOID terms, their synonym scopes,
+ancestors and descendants), not from local ontology copies.
 
 ---
 

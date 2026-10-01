@@ -13,6 +13,11 @@ online sources in reports:
 
 ## Method
 
+Diseases, preferred names and synonyms are read from `ontologies/ari_t1d.owl`
+(`ari_diseases.py`): the curated, non-retired diseases and their current `ARI_Synonym`
+values, so a synonym withdrawn by the synonym review no longer produces matches. The
+existing SNOMED codes the SNOMED match is checked against are the ontology's `ARI_SNOMED`.
+
 For each disease the grounder is queried with the preferred name first, then each synonym;
 the highest-scoring Gilda match is kept (`Matched Via` records which string matched). The
 grounder terms are built from each ontology's label + synonyms.
@@ -25,6 +30,7 @@ inactive/duplicate concepts.
 
 | Script | Purpose |
 | --- | --- |
+| `ari_diseases.py` | Diseases, names, synonyms and SNOMED codes from the ontology, shared by the grounders and the matrix |
 | `parse_doid_local.py` | Parse `doid.owl` (proper XML parsing, handles nested classes) -> `doid_records.json` |
 | `ground_doid.py` | Build DOID Gilda grounder, ground all diseases -> `doid_matches_all.csv` |
 | `ground_snomed.py` | Build SNOMED Gilda grounder (standard Condition concepts), ground all -> `snomed_matches_all.csv` |
@@ -36,14 +42,12 @@ inactive/duplicate concepts.
 Run order: `parse_doid_local.py` → `ground_doid.py` → `ground_snomed.py` → `make_match_reports.py`.
 Requires `gilda`, `openpyxl` (`pip install gilda openpyxl`).
 
-## Results (all 215 core diseases)
+## Results (all 213 active ontology diseases)
 
-- **DOID**: 133 matched, 82 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
-- **SNOMED**: 193 matched. Of the 201 diseases with an existing master SNOMED code, **188 agree**
-  with the Gilda match (validation), **5 differ** (review candidates), 8 had no lexical match.
-  No-code diseases were not found in SNOMED standard Condition concepts.
+- **DOID**: 128 matched, 85 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
+- **SNOMED**: 189 matched; 185 agree with a SNOMED code the ontology already stores.
 
-The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with master, amber = differs.
+The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with the ontology's code, amber = differs.
 
 ## Disease x target database matrix
 
@@ -83,6 +87,8 @@ disease and database is never predicted, and predicted SNOMED codes are restrict
 **standard, non-retired** concepts (ontology xrefs still point at codes SNOMED has since
 deprecated — that alone accounted for most early false predictions).
 
-Validation against the 367 curated mappings: **330 top predictions reproduce the curated
-term**, 22 name a different one, 15 produce nothing; for 18 of the 22 the curated term is
-still present further down the candidate list.
+Validation against the 715 curated confirmed mappings (2026-09-27): **651 top predictions
+reproduce the curated term**, 28 name a different one, 36 produce nothing; for 17 of the 28
+the curated term is still present further down the candidate list. Grounding from the
+ontology's current synonyms instead of the master-list snapshot moved this from 641 / 38 / 34
+(measured on the 713 mappings before PR #104 added two).
