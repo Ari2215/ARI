@@ -18,14 +18,16 @@ and its `ARI_ChangeLog` follow.
     scleroderma" concept, which is kept)
   - `ARI:0001196` Systemic lupus erythematosus: OMOP `255891` (broader)
   - `ARI:0001193` Stiff-person syndrome: ORPHA `3198` (the spectrum disorder)
-  - `ARI:0001182` Rheumatic fever: ICD-10 `I00` (one id per target; `I00-I02` kept)
   - `ARI:0001120` Ligneous conjunctivitis: MONDO `0009009` (hypoplasminogenemia; MONDO
     `0100560` stays confirmed)
 - **Rejection reversed, id stored:** `ARI:0001090` Essential mixed cryoglobulinemia: UMLS
   `C1852456` (target label matches a synonym).
 - **"No term" rows replaced with a confirmed id:** `ARI:0001133` DOID `683`, `ARI:0001183`
   UMLS `C0265017`, `ARI:0001137` ICD-10 `G37.81`, `ARI:0001034` ICD-10 `E20.812`,
-  `ARI:0001085` MeSH `D001171`, `ARI:0001124` ICD-10 `L13.8`.
+  `ARI:0001124` ICD-10 `L13.8`. The Enthesitis MeSH comment named `D001171`, which is
+  "Arthritis, Juvenile"; that row stays "no term".
+- **ICD-10 range replaced:** `ARI:0001182` Rheumatic fever: `I00-I02` -> `I01`, since ICD-10
+  ranges are not used. `I00` stays confirmed alongside it.
 - **Confirmations added:** `ARI:0001193` ORPHA `443192` (replaces `3198`); `ARI:0001198`
   ICD-10 `M34` (the rejected `M34.0` stays rejected).
 

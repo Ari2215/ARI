@@ -1770,8 +1770,8 @@ ARI:0001182	Rheumatic fever	skos:exactMatch		SNOMEDCT:58718002	SNOMEDCT	semapv:M
 ARI:0001182	Rheumatic fever	skos:exactMatch		omop:442313	omop	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		DOID:1586	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		MONDO:0017767	MONDO	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001182	Rheumatic fever	skos:exactMatch	Not	icd10cm:I00	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: one id per target; I00-I02 covers the range better.
-ARI:0001182	Rheumatic fever	skos:exactMatch		icd10cm:I00-I02	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001182	Rheumatic fever	skos:exactMatch		icd10cm:I00	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001182	Rheumatic fever	skos:exactMatch		icd10cm:I01	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces the range I00-I02; ICD-10 ranges are not used.
 ARI:0001182	Rheumatic fever	skos:exactMatch		ORPHA:3099	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		mesh:D012213	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001182	Rheumatic fever	skos:exactMatch		ncit:C34984	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
@@ -1931,7 +1931,7 @@ ARI:0001034	Autoimmune hypoparathyroidism	skos:exactMatch		sssom:NoTermFound	mes
 ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
-ARI:0001085	Enthesitis	skos:exactMatch		mesh:D001171	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	PR review: replaces NoTermFound.
+ARI:0001085	Enthesitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	

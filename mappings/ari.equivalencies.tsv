@@ -1749,8 +1749,8 @@ ARI	0001182	Rheumatic fever	skos:exactMatch	SNOMEDCT	58718002	manual	github:maff
 ARI	0001182	Rheumatic fever	skos:exactMatch	omop	442313	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	DOID	1586	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	MONDO	0017767	manual	github:maffersi
-ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I00	manual-negative	github:maffersi
-ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I00-I02	manual	github:maffersi
+ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I00	manual	github:maffersi
+ARI	0001182	Rheumatic fever	skos:exactMatch	icd10cm	I01	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	ORPHA	3099	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	mesh	D012213	manual	github:maffersi
 ARI	0001182	Rheumatic fever	skos:exactMatch	ncit	C34984	manual	github:maffersi
@@ -1910,7 +1910,7 @@ ARI	0001034	Autoimmune hypoparathyroidism	skos:exactMatch	mesh	NoTermFound	manua
 ARI	0001085	Enthesitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001085	Enthesitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
 ARI	0001085	Enthesitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:maffersi
-ARI	0001085	Enthesitis	skos:exactMatch	mesh	D001171	manual	github:maffersi
+ARI	0001085	Enthesitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	DOID	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	ncit	NoTermFound	manual-absent	github:maffersi
 ARI	0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:maffersi
