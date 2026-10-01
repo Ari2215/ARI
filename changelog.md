@@ -1,5 +1,36 @@
 # Changelog
 
+## edit/maffersi/mappings-review-1790310362
+
+Applies the line review of ARI#95 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **ICD-9 codes removed** (rows dropped, values taken off `ARI_ICD10`): `617` Endometriosis,
+  `710.3` Dermatomyositis, `701.0` Morphea, `345.9` Epilepsy, `709.01` Vitiligo, `710.0`
+  Systemic lupus erythematosus, `360.11` Sympathetic uveitis, `333.91` Stiff-person syndrome,
+  `379.00` Scleritis, `390` and the rejected `390-392.99` Rheumatic fever, `710.1` Systemic
+  sclerosis.
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  - `ARI:0001043` Autoimmune pancreatitis: SNOMED `722872000`, OMOP `36716715`, ORPHA `280302`
+    (the existing codes `448542008`, `40490446` and `103919` map the disease)
+  - `ARI:0001132` Morphea: SNOMED `201049004`, OMOP `4066845` (duplicates of the "Localized
+    scleroderma" concept, which is kept)
+  - `ARI:0001196` Systemic lupus erythematosus: OMOP `255891` (broader)
+  - `ARI:0001193` Stiff-person syndrome: ORPHA `3198` (the spectrum disorder)
+  - `ARI:0001120` Ligneous conjunctivitis: MONDO `0009009` (hypoplasminogenemia; MONDO
+    `0100560` stays confirmed)
+- **Rejection reversed, id stored:** `ARI:0001090` Essential mixed cryoglobulinemia: UMLS
+  `C1852456` (target label matches a synonym).
+- **"No term" rows replaced with a confirmed id:** `ARI:0001133` DOID `683`, `ARI:0001183`
+  UMLS `C0265017`, `ARI:0001137` ICD-10 `G37.81`, `ARI:0001034` ICD-10 `E20.812`,
+  `ARI:0001124` ICD-10 `L13.8`. The Enthesitis MeSH comment named `D001171`, which is
+  "Arthritis, Juvenile"; that row stays "no term".
+- **ICD-10 range replaced:** `ARI:0001182` Rheumatic fever: `I00-I02` -> `I01`, since ICD-10
+  ranges are not used. `I00` stays confirmed alongside it.
+- **Confirmations added:** `ARI:0001193` ORPHA `443192` (replaces `3198`); `ARI:0001198`
+  ICD-10 `M34` (the rejected `M34.0` stays rejected).
+
 ## edit/JoshuaCorona-Sa/mappings-review-1790310013
 
 Applies the line review of ARI#94 (`mappings/ari.equivalencies.tsv`). Each marked row is
